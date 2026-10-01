@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rules-text {
+  display: none;
+  text-align: center;
+  margin: 0.5rem 1rem;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #2c3e50;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Common Button Styling */
+button {
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.ShowRules {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.ShowRules:hover {
+  background-color: #c0392b;
+}
+
+.RollDice {
+  background-color: #27ae60;
+  color: white;
+}
+
+.RollDice:hover {
+  background-color: #219150;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin: 2rem 1rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+/* Category Rules Cards */
+.rules {
+  display: none;
+  width: 90%;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.category-card {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Subject Specific Colors */
+.geography {
+  color: #2980b9;
+}
+
+.entertainment {
+  color: #e84393;
+}
+
+.history {
+  color: #d4ac0d;
+}
+
+.art-lit {
+  color: #8e44ad;
+}
+
+.science {
+  color: #27ae60;
+}
+
+.sports-leisure {
+  color: #e67e22;
+}
+
+.showAnswersButton {
+  background-color: lightblue;
+  color: white;
+  margin-top: 1rem;
+}
+
+.showAnswersButton:hover {
+  background-color: #3498db;    
+}
+
+.question-block {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 1500px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.answer{
+    font-size: 64px;
+    color: #34495e;
+}
+
+.question{
+    font-size: 64px;
+}
