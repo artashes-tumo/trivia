@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href = "index.html">Trivia Game</a>
+        <div class="nav-buttons">
+            <button class="ShowRules">Show the rules</button>
+            <button class="RollDice">Roll Dice!</button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome To Trivia!</h1>
+    </div>
+
+    <div class="rules-text">
+        <p>There are 6 categories: Geography, Entertainment, History, Art & Literature, Science, and Sports & Leisure.</p>
+        <p>Each category has its own set of questions.</p>
+        <p>Roll the dice to select a category and get a question!</p>
+    </div>
+
+    <div class="rules">
+        <div class="category-card geography">Geography</div>
+        <div class="category-card entertainment">Entertainment</div>
+        <div class="category-card history">History</div>
+        <div class="category-card art-lit">Art & Literature</div>
+        <div class="category-card science">Science</div>
+        <div class="category-card sports-leisure">Sports & Leisure</div>
+    </div>
+
+    <div class="question-block">
+        <div class="question">
+        </div>
+        <button class="showAnswersButton">Show correct answer</button>
+        <div class="answer"></div>
+    </div>
+
+    <script src="easyquestions.js"></script>
+
+</body>
+
+</html>

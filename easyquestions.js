@@ -31,10 +31,10 @@ let questions = [];
 let current = null;
 
 //question load
-fetch('questions.json')
+fetch('easyquestions.json')
     .then((response) => response.json())
     .then((data) => { questions = data; })
-    .catch((err) => console.error('Could not load questions.json:', err));
+    .catch((err) => console.error('Could not load easyquestions.json:', err));
 
 // dice roll
 function rollDice() {
