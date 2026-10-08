@@ -1,0 +1,10 @@
+{
+  "name": "trivia-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node --test tests/game.test.mjs",
+    "test:browser": "node tests/browser.test.cjs"
+  }
+}

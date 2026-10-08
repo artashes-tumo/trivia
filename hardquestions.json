@@ -1,55 +1,5402 @@
 [
-  { "category": "Geography", "question": "What is the capital of Kazakhstan?", "answer": "Astana" },
-  { "category": "Geography", "question": "What is the deepest lake in the world?", "answer": "Lake Baikal" },
-  { "category": "Geography", "question": "Which country has the longest coastline in the world?", "answer": "Canada" },
-  { "category": "Geography", "question": "The city of Timbuktu is in which modern-day country?", "answer": "Mali" },
-  { "category": "Geography", "question": "Which strait separates the Japanese islands of Honshu and Hokkaido?", "answer": "The Tsugaru Strait" },
-  { "category": "Geography", "question": "What is the smallest sovereign country in South America by area?", "answer": "Suriname" },
-  { "category": "Geography", "question": "Which lake is generally regarded as the source of the White Nile?", "answer": "Lake Victoria" },
-  { "category": "Geography", "question": "What is the highest capital city in the world by elevation?", "answer": "La Paz, Bolivia" },
-
-  { "category": "Entertainment", "question": "What was Disney's first feature-length animated film?", "answer": "Snow White and the Seven Dwarfs" },
-  { "category": "Entertainment", "question": "Who directed the 1927 silent science-fiction film Metropolis?", "answer": "Fritz Lang" },
-  { "category": "Entertainment", "question": "Which composer wrote the opera The Marriage of Figaro?", "answer": "Wolfgang Amadeus Mozart" },
-  { "category": "Entertainment", "question": "Who has won the most competitive acting Oscars, with four?", "answer": "Katharine Hepburn" },
-  { "category": "Entertainment", "question": "In Breaking Bad, which fast-food chain serves as a front?", "answer": "Los Pollos Hermanos" },
-  { "category": "Entertainment", "question": "Who played the title detective in the TV series Columbo?", "answer": "Peter Falk" },
-  { "category": "Entertainment", "question": "Which 1941 Orson Welles film is often called the greatest ever made?", "answer": "Citizen Kane" },
-  { "category": "Entertainment", "question": "Who composed the ballet The Rite of Spring?", "answer": "Igor Stravinsky" },
-
-  { "category": "History", "question": "The Peace of Westphalia (1648) ended which war?", "answer": "The Thirty Years' War" },
-  { "category": "History", "question": "Who was crowned the first Holy Roman Emperor in 800 AD?", "answer": "Charlemagne" },
-  { "category": "History", "question": "Which US president served the shortest term, about 31 days?", "answer": "William Henry Harrison" },
-  { "category": "History", "question": "In what year did the Ottomans conquer Constantinople?", "answer": "1453" },
-  { "category": "History", "question": "Hannibal famously crossed the Alps during which war?", "answer": "The Second Punic War" },
-  { "category": "History", "question": "Who was the last Tsar of Russia?", "answer": "Nicholas II" },
-  { "category": "History", "question": "The Meiji Restoration transformed which country?", "answer": "Japan" },
-  { "category": "History", "question": "Which 1494 treaty divided the New World between Spain and Portugal?", "answer": "The Treaty of Tordesillas" },
-
-  { "category": "Art & Literature", "question": "Who wrote the modernist poem The Waste Land (1922)?", "answer": "T. S. Eliot" },
-  { "category": "Art & Literature", "question": "Which painter created the triptych The Garden of Earthly Delights?", "answer": "Hieronymus Bosch" },
-  { "category": "Art & Literature", "question": "Who wrote In Search of Lost Time (A la recherche du temps perdu)?", "answer": "Marcel Proust" },
-  { "category": "Art & Literature", "question": "Which Renaissance master painted The School of Athens?", "answer": "Raphael" },
-  { "category": "Art & Literature", "question": "Who wrote the epic poem Paradise Lost?", "answer": "John Milton" },
-  { "category": "Art & Literature", "question": "Which Japanese noblewoman wrote The Tale of Genji?", "answer": "Murasaki Shikibu" },
-  { "category": "Art & Literature", "question": "Who wrote the novel Ulysses?", "answer": "James Joyce" },
-  { "category": "Art & Literature", "question": "Who sculpted the Pieta in St. Peter's Basilica?", "answer": "Michelangelo" },
-
-  { "category": "Science", "question": "What is the second most abundant element in the Earth's crust?", "answer": "Silicon" },
-  { "category": "Science", "question": "Who formulated the uncertainty principle?", "answer": "Werner Heisenberg" },
-  { "category": "Science", "question": "What is the SI unit of electrical resistance?", "answer": "The ohm" },
-  { "category": "Science", "question": "What is the boundary of a black hole beyond which nothing escapes?", "answer": "The event horizon" },
-  { "category": "Science", "question": "What is the most electronegative chemical element?", "answer": "Fluorine" },
-  { "category": "Science", "question": "How many pairs of chromosomes are in a human cell?", "answer": "23" },
-  { "category": "Science", "question": "Which particle was confirmed at CERN in 2012?", "answer": "The Higgs boson" },
-  { "category": "Science", "question": "Who discovered penicillin?", "answer": "Alexander Fleming" },
-
-  { "category": "Sports & Leisure", "question": "Which country won the first FIFA World Cup in 1930?", "answer": "Uruguay" },
-  { "category": "Sports & Leisure", "question": "In golf, what is a score of three under par on a single hole called?", "answer": "An albatross" },
-  { "category": "Sports & Leisure", "question": "Who holds the record for the most Olympic gold medals?", "answer": "Michael Phelps" },
-  { "category": "Sports & Leisure", "question": "Which gymnast scored the first perfect 10 at the Olympics in 1976?", "answer": "Nadia Comaneci" },
-  { "category": "Sports & Leisure", "question": "Which nation has won the most men's Rugby World Cups?", "answer": "South Africa" },
-  { "category": "Sports & Leisure", "question": "In cricket, what is taking three wickets on three consecutive balls called?", "answer": "A hat-trick" },
-  { "category": "Sports & Leisure", "question": "Which two drivers share the record of seven Formula 1 World Championships?", "answer": "Michael Schumacher and Lewis Hamilton" },
-  { "category": "Sports & Leisure", "question": "In chess, forcing a draw through endless checks is called what?", "answer": "Perpetual check" }
+  {
+    "category": "Geography",
+    "question": "What is the capital of Kazakhstan?",
+    "answer": "Astana",
+    "hints": [
+      "This city was known as Nur-Sultan from 2019 to 2022.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the deepest lake in the world?",
+    "answer": "Lake Baikal",
+    "hints": [
+      "It is located in Siberia.",
+      "The answer has 2 words; the initial letters are L B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country has the longest coastline in the world?",
+    "answer": "Canada",
+    "hints": [
+      "Its many Arctic islands contribute greatly to the total.",
+      "The answer has 1 word; the initial letter is C."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "The city of Timbuktu is in which modern-day country?",
+    "answer": "Mali",
+    "hints": [
+      "It is a landlocked West African country.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which strait separates the Japanese islands of Honshu and Hokkaido?",
+    "answer": "The Tsugaru Strait",
+    "hints": [
+      "It lies at the northern end of Japan's largest island.",
+      "The answer has 3 words; the initial letters are T T S."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the smallest sovereign country in South America by area?",
+    "answer": "Suriname",
+    "hints": [
+      "Its official language is Dutch.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which lake is generally regarded as the source of the White Nile?",
+    "answer": "Lake Victoria",
+    "hints": [
+      "It is shared by Tanzania, Uganda and Kenya.",
+      "The answer has 2 words; the initial letters are L V."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which Bolivian seat of government lies more than 3,600 metres above sea level?",
+    "answer": "La Paz, Bolivia",
+    "hints": [
+      "The city lies high in the Andes.",
+      "The answer has 3 words; the initial letters are L P B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "In which city is the Big Nickel located in Canada?",
+    "answer": "Sudbury, Ontario",
+    "hints": [
+      "Narrow it down to these possibilities: Sudbury, Ontario; Victoria, British Columbia; Calgary, Alberta.",
+      "Narrow it further to: Sudbury, Ontario; Calgary, Alberta."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the Finnish word for \"Finland\"?",
+    "answer": "Suomi",
+    "hints": [
+      "Narrow it down to these possibilities: Eesti; Suomi; Sverige.",
+      "Narrow it further to: Eesti; Suomi."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What city is known as the Rose Capital of the World?",
+    "answer": "Tyler, Texas",
+    "hints": [
+      "Narrow it down to these possibilities: San Diego, California; Miami, Florida; Tyler, Texas.",
+      "Narrow it further to: San Diego, California; Tyler, Texas."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+    "answer": "Egypt and Sudan",
+    "hints": [
+      "Narrow it down to these possibilities: Israel and Jordan; Chad and Libya; Egypt and Sudan.",
+      "Narrow it further to: Israel and Jordan; Egypt and Sudan."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Into which basin does the Jordan River flow into?",
+    "answer": "Dead Sea",
+    "hints": [
+      "Narrow it down to these possibilities: Aral Sea; Caspian Sea; Dead Sea.",
+      "Narrow it further to: Aral Sea; Dead Sea."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the official German name of the Swiss Federal Railways?",
+    "answer": "Schweizerische Bundesbahnen",
+    "hints": [
+      "Narrow it down to these possibilities: Schweizerische Staatsbahnen; Bundesbahnen der Schweiz; Schweizerische Bundesbahnen.",
+      "Narrow it further to: Schweizerische Staatsbahnen; Schweizerische Bundesbahnen."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+    "answer": "Chinese",
+    "hints": [
+      "Narrow it down to these possibilities: Russian; Chinese; Indian.",
+      "Narrow it further to: Russian; Chinese."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest freshwater lake by volume?",
+    "answer": "Lake Baikal",
+    "hints": [
+      "Narrow it down to these possibilities: Lake Baikal; Lake Huron; Lake Superior.",
+      "Narrow it further to: Lake Baikal; Lake Superior."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Where is the fast food chain \"Panda Express\" headquartered?",
+    "answer": "Rosemead, California",
+    "hints": [
+      "Narrow it down to these possibilities: Sacramento, California; Rosemead, California; Fresno, California.",
+      "Narrow it further to: Sacramento, California; Rosemead, California."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the land connecting North America and South America?",
+    "answer": "Isthmus of Panama",
+    "hints": [
+      "Narrow it down to these possibilities: Isthmus of Suez; Australasia; Isthmus of Panama.",
+      "Narrow it further to: Isthmus of Suez; Isthmus of Panama."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the second-largest city in Lithuania?",
+    "answer": "Kaunas",
+    "hints": [
+      "Narrow it down to these possibilities: Panevėžys; Kaunas; Klaipėda.",
+      "Narrow it further to: Panevėžys; Kaunas."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is the Taedong River in?",
+    "answer": "North Korea",
+    "hints": [
+      "Narrow it down to these possibilities: China; North Korea; South Korea.",
+      "Narrow it further to: North Korea; South Korea."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the tallest mountain in Canada?",
+    "answer": "Mount Logan",
+    "hints": [
+      "Narrow it down to these possibilities: Mount Logan; Blue Mountain; Whistler Mountain.",
+      "Narrow it further to: Mount Logan; Blue Mountain."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the most common climbing route for the second highest mountain in the world, K2?",
+    "answer": "Abruzzi Spur",
+    "hints": [
+      "Narrow it down to these possibilities: Cesen Route; Magic Line; Abruzzi Spur.",
+      "Narrow it further to: Magic Line; Abruzzi Spur."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which freshwater lake has the largest surface area when Michigan and Huron are counted separately?",
+    "answer": "Lake Superior",
+    "hints": [
+      "Narrow it down to these possibilities: Lake Superior; Lake Michigan; Lake Huron.",
+      "Narrow it further to: Lake Superior; Lake Michigan."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "The Hunua Ranges is located in...",
+    "answer": "New Zealand",
+    "hints": [
+      "Narrow it down to these possibilities: Nepal; New Zealand; Mexico.",
+      "Narrow it further to: Nepal; New Zealand."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+    "answer": "India",
+    "hints": [
+      "Narrow it down to these possibilities: Vietnam; India; Indonesia.",
+      "Narrow it further to: Vietnam; India."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What North American tourist attraction is served by the \"Maid of the Mist\" tour company?",
+    "answer": "Niagara Falls",
+    "hints": [
+      "Narrow it down to these possibilities: Yosemite National Park; Niagara Falls; Disney World.",
+      "Narrow it further to: Yosemite National Park; Niagara Falls."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What national museum will you find in Cooperstown, New York?",
+    "answer": "National Baseball Hall of Fame",
+    "hints": [
+      "Narrow it down to these possibilities: National Baseball Hall of Fame; Museum of Modern Art; National Toy Hall of Fame.",
+      "Narrow it further to: National Baseball Hall of Fame; Museum of Modern Art."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Wisconsin, USA?",
+    "answer": "Madison",
+    "hints": [
+      "Narrow it down to these possibilities: Wisconsin Dells; Madison; Green Bay.",
+      "Narrow it further to: Wisconsin Dells; Madison."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is Canada's largest island?",
+    "answer": "Baffin Island",
+    "hints": [
+      "Narrow it down to these possibilities: Vancouver Island; Prince Edward Island; Baffin Island.",
+      "Narrow it further to: Prince Edward Island; Baffin Island."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the name of rocky region that spans most of eastern Canada?",
+    "answer": "Canadian Shield",
+    "hints": [
+      "Narrow it down to these possibilities: Appalachian Mountains; Himalayas; Canadian Shield.",
+      "Narrow it further to: Appalachian Mountains; Canadian Shield."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+    "answer": "Indonesia",
+    "hints": [
+      "Narrow it down to these possibilities: Indonesia; Fiji; Chile.",
+      "Narrow it further to: Indonesia; Chile."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch is located on which Welsh island?",
+    "answer": "Anglesey",
+    "hints": [
+      "Narrow it down to these possibilities: Bardsey; Caldey; Anglesey.",
+      "Narrow it further to: Bardsey; Anglesey."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "When does Finland celebrate their independence day?",
+    "answer": "December 6th",
+    "hints": [
+      "Narrow it down to these possibilities: January 2nd; February 8th; December 6th.",
+      "Narrow it further to: January 2nd; December 6th."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What year is on the flag of the US state Wisconsin?",
+    "answer": "1848",
+    "hints": [
+      "Narrow it down to these possibilities: 1901; 1634; 1848.",
+      "Narrow it further to: 1634; 1848."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the county seat of King County, Washington?",
+    "answer": "Seattle",
+    "hints": [
+      "Narrow it down to these possibilities: Enumclaw; Seattle; Bellevue.",
+      "Narrow it further to: Seattle; Bellevue."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    "answer": "Grand Banks",
+    "hints": [
+      "Narrow it down to these possibilities: Mariana Trench; Great Barrier Reef; Grand Banks.",
+      "Narrow it further to: Great Barrier Reef; Grand Banks."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Mauritius?",
+    "answer": "Port Louis",
+    "hints": [
+      "Narrow it down to these possibilities: Port-au-Prince; Port Louis; Port Vila.",
+      "Narrow it further to: Port-au-Prince; Port Louis."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital city of Bermuda?",
+    "answer": "Hamilton",
+    "hints": [
+      "Narrow it down to these possibilities: Santo Dominigo; Hamilton; Havana.",
+      "Narrow it further to: Santo Dominigo; Hamilton."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through the city of Tbilisi?",
+    "answer": "Kura",
+    "hints": [
+      "It flows eastward toward the Caspian Sea.",
+      "The answer has 1 word; the initial letter is K."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Bhutan?",
+    "answer": "Thimphu",
+    "hints": [
+      "It is a Himalayan capital.",
+      "The answer has 1 word; the initial letter is T."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which African country has Lilongwe as its capital?",
+    "answer": "Malawi",
+    "hints": [
+      "It shares a large rift lake with Mozambique and Tanzania.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which strait separates mainland Australia from Tasmania?",
+    "answer": "Bass Strait",
+    "hints": [
+      "It is named for a British explorer and surgeon.",
+      "The answer has 2 words; the initial letters are B S."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which strait separates mainland South America from Tierra del Fuego?",
+    "answer": "Strait of Magellan",
+    "hints": [
+      "Its namesake led an early circumnavigation expedition.",
+      "The answer has 3 words; the initial letters are S O M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Vientiane?",
+    "answer": "Mekong",
+    "hints": [
+      "It also passes Cambodia and southern Vietnam.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Kyrgyzstan?",
+    "answer": "Bishkek",
+    "hints": [
+      "The city was once called Frunze.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Tajikistan?",
+    "answer": "Dushanbe",
+    "hints": [
+      "Its name comes from the Persian word for Monday.",
+      "The answer has 1 word; the initial letter is D."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Eritrea?",
+    "answer": "Asmara",
+    "hints": [
+      "It is known for its modernist architecture.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Burkina Faso?",
+    "answer": "Ouagadougou",
+    "hints": [
+      "The city is in the Sahel region of West Africa.",
+      "The answer has 1 word; the initial letter is O."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Dresden?",
+    "answer": "Elbe",
+    "hints": [
+      "It reaches the North Sea downstream of Hamburg.",
+      "The answer has 1 word; the initial letter is E."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Suriname?",
+    "answer": "Paramaribo",
+    "hints": [
+      "The city has a historic centre with Dutch colonial buildings.",
+      "The answer has 1 word; the initial letter is P."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the Danakil Depression's Dallol area?",
+    "answer": "Ethiopia",
+    "hints": [
+      "It lies in the Horn of Africa.",
+      "The answer has 1 word; the initial letter is E."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which mountain range contains Aconcagua?",
+    "answer": "Andes",
+    "hints": [
+      "It extends along the western edge of South America.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which South American country contains the salt flat Salar de Uyuni?",
+    "answer": "Bolivia",
+    "hints": [
+      "It is one of South America's two landlocked countries.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the historic city of Bukhara?",
+    "answer": "Uzbekistan",
+    "hints": [
+      "It also contains Samarkand.",
+      "The answer has 1 word; the initial letter is U."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river forms much of the border between Romania and Bulgaria?",
+    "answer": "Danube",
+    "hints": [
+      "It empties into the Black Sea.",
+      "The answer has 1 word; the initial letter is D."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which lake borders Jordan to the east and Israel and the West Bank to the west?",
+    "answer": "Dead Sea",
+    "hints": [
+      "Its water is unusually saline.",
+      "The answer has 2 words; the initial letters are D S."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which sea lies between the Korean Peninsula and western Japan?",
+    "answer": "Sea of Japan",
+    "hints": [
+      "It is also called the East Sea.",
+      "The answer has 3 words; the initial letters are S O J."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Laos?",
+    "answer": "Vientiane",
+    "hints": [
+      "It stands on the Mekong River.",
+      "The answer has 1 word; the initial letter is V."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the island of Socotra?",
+    "answer": "Yemen",
+    "hints": [
+      "Its mainland territory occupies the southwest of the Arabian Peninsula.",
+      "The answer has 1 word; the initial letter is Y."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which archipelago includes the islands of Santa Cruz and Isabela in Ecuador?",
+    "answer": "Galapagos Islands",
+    "hints": [
+      "Their wildlife helped inspire Darwin.",
+      "The answer has 2 words; the initial letters are G I."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Namibia?",
+    "answer": "Windhoek",
+    "hints": [
+      "It is an inland city in southwestern Africa.",
+      "The answer has 1 word; the initial letter is W."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through the Portuguese city of Porto?",
+    "answer": "Douro",
+    "hints": [
+      "It is associated with vineyards producing port wine.",
+      "The answer has 1 word; the initial letter is D."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the ancient rock-hewn churches of Lalibela?",
+    "answer": "Ethiopia",
+    "hints": [
+      "Its highlands also contain the city of Gondar.",
+      "The answer has 1 word; the initial letter is E."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Belize?",
+    "answer": "Belmopan",
+    "hints": [
+      "It replaced a coastal city as capital after hurricane damage.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains Lake Bled?",
+    "answer": "Slovenia",
+    "hints": [
+      "Its capital is Ljubljana.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which mountain range contains the Matterhorn?",
+    "answer": "Alps",
+    "hints": [
+      "The peak stands on the Swiss-Italian border.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which strait separates Sumatra from the Malay Peninsula?",
+    "answer": "Strait of Malacca",
+    "hints": [
+      "It is an important shipping route near Singapore.",
+      "The answer has 3 words; the initial letters are S O M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Brunei?",
+    "answer": "Bandar Seri Begawan",
+    "hints": [
+      "The country occupies part of Borneo.",
+      "The answer has 3 words; the initial letters are B S B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Lyon before continuing south toward the Mediterranean?",
+    "answer": "Rhone",
+    "hints": [
+      "It begins in the Swiss Alps.",
+      "The answer has 1 word; the initial letter is R."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which African country has Gaborone as its capital?",
+    "answer": "Botswana",
+    "hints": [
+      "It contains much of the Kalahari Desert.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the port city of Batumi?",
+    "answer": "Georgia",
+    "hints": [
+      "Its coastline lies on the Black Sea.",
+      "The answer has 1 word; the initial letter is G."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which Caribbean country's capital is Roseau?",
+    "answer": "Dominica",
+    "hints": [
+      "Do not confuse it with the country that shares Hispaniola with Haiti.",
+      "The answer has 1 word; the initial letter is D."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Saint Lucia?",
+    "answer": "Castries",
+    "hints": [
+      "It is a port in the eastern Caribbean.",
+      "The answer has 1 word; the initial letter is C."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Bern?",
+    "answer": "Aare",
+    "hints": [
+      "It is a tributary of the Rhine.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Mostar?",
+    "answer": "Bosnia and Herzegovina",
+    "hints": [
+      "The city's famous reconstructed bridge crosses the Neretva.",
+      "The answer has 3 words; the initial letters are B A H."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of the Solomon Islands?",
+    "answer": "Honiara",
+    "hints": [
+      "It is situated on Guadalcanal.",
+      "The answer has 1 word; the initial letter is H."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the island of Jeju?",
+    "answer": "South Korea",
+    "hints": [
+      "The island lies south of the Korean Peninsula.",
+      "The answer has 2 words; the initial letters are S K."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which peninsula contains the Mexican states of Yucatan, Campeche and Quintana Roo?",
+    "answer": "Yucatan Peninsula",
+    "hints": [
+      "It separates the Gulf of Mexico from the Caribbean Sea.",
+      "The answer has 2 words; the initial letters are Y P."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Fez?",
+    "answer": "Morocco",
+    "hints": [
+      "It lies in northwestern Africa.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Florence?",
+    "answer": "Arno",
+    "hints": [
+      "It passes beneath the Ponte Vecchio.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the Okavango Delta?",
+    "answer": "Botswana",
+    "hints": [
+      "Its waters spread inland rather than reaching the sea.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Vanuatu?",
+    "answer": "Port Vila",
+    "hints": [
+      "It is located on the island of Efate.",
+      "The answer has 2 words; the initial letters are P V."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which mountain range contains Mount Toubkal?",
+    "answer": "Atlas Mountains",
+    "hints": [
+      "It stretches across northwestern Africa.",
+      "The answer has 2 words; the initial letters are A M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of the Marshall Islands?",
+    "answer": "Majuro",
+    "hints": [
+      "The capital occupies an atoll in the Pacific.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which island is shared by Haiti and the Dominican Republic?",
+    "answer": "Hispaniola",
+    "hints": [
+      "It lies between Cuba and Puerto Rico.",
+      "The answer has 1 word; the initial letter is H."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Lviv?",
+    "answer": "Ukraine",
+    "hints": [
+      "It lies near the country's western border with Poland.",
+      "The answer has 1 word; the initial letter is U."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Bergen?",
+    "answer": "Norway",
+    "hints": [
+      "The city is associated with fjords and a historic Hanseatic wharf.",
+      "The answer has 1 word; the initial letter is N."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Samoa?",
+    "answer": "Apia",
+    "hints": [
+      "It lies on the island of Upolu.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through the city of Riga?",
+    "answer": "Daugava",
+    "hints": [
+      "It empties into the Gulf of Riga.",
+      "The answer has 1 word; the initial letter is D."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Madagascar?",
+    "answer": "Antananarivo",
+    "hints": [
+      "It lies in the island's central highlands.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Isfahan?",
+    "answer": "Iran",
+    "hints": [
+      "It is famed for Persian architecture and bridges.",
+      "The answer has 1 word; the initial letter is I."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which sea lies north of Turkey and south of Ukraine?",
+    "answer": "Black Sea",
+    "hints": [
+      "Its name includes a colour.",
+      "The answer has 2 words; the initial letters are B S."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Guyana?",
+    "answer": "Georgetown",
+    "hints": [
+      "It lies on South America's Atlantic coast.",
+      "The answer has 1 word; the initial letter is G."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Luang Prabang?",
+    "answer": "Laos",
+    "hints": [
+      "The city lies at the meeting of the Mekong and Nam Khan rivers.",
+      "The answer has 1 word; the initial letter is L."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Warsaw?",
+    "answer": "Vistula",
+    "hints": [
+      "It also passes Krakow.",
+      "The answer has 1 word; the initial letter is V."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the island of Sardinia?",
+    "answer": "Italy",
+    "hints": [
+      "The island lies south of Corsica.",
+      "The answer has 1 word; the initial letter is I."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Cabo Verde?",
+    "answer": "Praia",
+    "hints": [
+      "It is located on Santiago island.",
+      "The answer has 1 word; the initial letter is P."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Kotor?",
+    "answer": "Montenegro",
+    "hints": [
+      "It lies on a bay on the Adriatic coast.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Seville?",
+    "answer": "Guadalquivir",
+    "hints": [
+      "It crosses the Spanish region of Andalusia.",
+      "The answer has 1 word; the initial letter is G."
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the ruins of Great Zimbabwe?",
+    "answer": "Zimbabwe",
+    "hints": [
+      "Its capital is Harare.",
+      "The answer has 1 word; the initial letter is Z."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was Disney's first feature-length animated film?",
+    "answer": "Snow White and the Seven Dwarfs",
+    "hints": [
+      "It was released in 1937 and features a poisoned apple.",
+      "The answer has 6 words; the initial letters are S W A T S D."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who directed the 1927 silent science-fiction film Metropolis?",
+    "answer": "Fritz Lang",
+    "hints": [
+      "He also directed the film M.",
+      "The answer has 2 words; the initial letters are F L."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which composer wrote the opera The Marriage of Figaro?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "hints": [
+      "He was born in Salzburg.",
+      "The answer has 3 words; the initial letters are W A M."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which actress won four Best Actress Oscars between 1934 and 1982?",
+    "answer": "Katharine Hepburn",
+    "hints": [
+      "She starred in The African Queen.",
+      "The answer has 2 words; the initial letters are K H."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In Breaking Bad, which fast-food chain serves as a front?",
+    "answer": "Los Pollos Hermanos",
+    "hints": [
+      "Its name is Spanish and refers to chickens and brothers.",
+      "The answer has 3 words; the initial letters are L P H."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played the title detective in the TV series Columbo?",
+    "answer": "Peter Falk",
+    "hints": [
+      "The detective he played was known for a rumpled raincoat.",
+      "The answer has 2 words; the initial letters are P F."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which 1941 Orson Welles film follows the life of newspaper tycoon Charles Foster Kane?",
+    "answer": "Citizen Kane",
+    "hints": [
+      "The film's mystery centres on the word Rosebud.",
+      "The answer has 2 words; the initial letters are C K."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who composed the ballet The Rite of Spring?",
+    "answer": "Igor Stravinsky",
+    "hints": [
+      "He also composed The Firebird.",
+      "The answer has 2 words; the initial letters are I S."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the species of the \"Predator\" in the 1987 movie \"Predator\"?",
+    "answer": "Yautja",
+    "hints": [
+      "Narrow it down to these possibilities: Phocrex; Xenomorph; Yautja.",
+      "Narrow it further to: Xenomorph; Yautja."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Panic! At the Disco's sixth album \"Pray For The Wicked\" was released on which date?",
+    "answer": "June 22, 2018",
+    "hints": [
+      "Narrow it down to these possibilities: February 21, 2018; June 22, 2018; March 13, 2018.",
+      "Narrow it further to: February 21, 2018; June 22, 2018."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
+    "answer": "Husker",
+    "hints": [
+      "Narrow it down to these possibilities: Husker; Crashdown; Apollo.",
+      "Narrow it further to: Husker; Crashdown."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Need for Speed III: Hot Pursuit\", what is the name of the fictional car?",
+    "answer": "El Niño",
+    "hints": [
+      "Narrow it down to these possibilities: La Niña; El Niño; Ágil.",
+      "Narrow it further to: La Niña; El Niño."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Gravity Falls\", what does Quentin Trembley do when he is driven out from the White House?",
+    "answer": "Eat a salamander and jump out the window.",
+    "hints": [
+      "Narrow it down to these possibilities: Release 1,000 captive salamanders into the white house.; Leave in peace.; Eat a salamander and jump out the window..",
+      "Narrow it further to: Leave in peace.; Eat a salamander and jump out the window.."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
+    "answer": "Brendon Urie",
+    "hints": [
+      "Narrow it down to these possibilities: Tom Cruise; Ed Sheeren; Brendon Urie.",
+      "Narrow it further to: Ed Sheeren; Brendon Urie."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which animation studio animated \"Psycho Pass\"?",
+    "answer": "Production I.G",
+    "hints": [
+      "Narrow it down to these possibilities: Kyoto Animation; Shaft; Production I.G.",
+      "Narrow it further to: Kyoto Animation; Production I.G."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the last Marx Brothers film to feature Zeppo?",
+    "answer": "Duck Soup",
+    "hints": [
+      "Narrow it down to these possibilities: A Day at the Races; Monkey Business; Duck Soup.",
+      "Narrow it further to: A Day at the Races; Duck Soup."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is a pioneer of \"Minimal Music\" in 1960s?",
+    "answer": "Steve Reich",
+    "hints": [
+      "Narrow it down to these possibilities: Sigur Rós; Wolfgang Amadeus Mozart; Steve Reich.",
+      "Narrow it further to: Wolfgang Amadeus Mozart; Steve Reich."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Prior to working at Wizards of the Coast, \"Mark Rosewater\" was a writer for which show?",
+    "answer": "Roseanne",
+    "hints": [
+      "Narrow it down to these possibilities: Roseanne; The X-Files; NYPD Blue.",
+      "Narrow it further to: Roseanne; The X-Files."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "The creeper in Minecraft was the result of a bug while implementing which creature?",
+    "answer": "Pig",
+    "hints": [
+      "Narrow it down to these possibilities: Cow; Pig; Chicken.",
+      "Narrow it further to: Cow; Pig."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the web-comic Homestuck, what is the name of the game the 4 kids play?",
+    "answer": "Sburb",
+    "hints": [
+      "Narrow it down to these possibilities: Sburb; Hiveswap; Homesick.",
+      "Narrow it further to: Sburb; Homesick."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In Les Misérables, who is Prison Code 24601?",
+    "answer": "Jean Valjean",
+    "hints": [
+      "Narrow it down to these possibilities: Jean Valjean; Marius Pontmercy; Jean Claude Van Damme.",
+      "Narrow it further to: Jean Valjean; Marius Pontmercy."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Medaka Kurokami from \"Medaka Box\" has what abnormality?",
+    "answer": "The End",
+    "hints": [
+      "Narrow it down to these possibilities: Fairness; The End; Perfection.",
+      "Narrow it further to: The End; Perfection."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the \"Jurassic Park\" universe, what was the first dinosaur cloned by InGen in 1986?",
+    "answer": "Velociraptor",
+    "hints": [
+      "Narrow it down to these possibilities: Velociraptor; Brachiosaurus; Triceratops.",
+      "Narrow it further to: Velociraptor; Triceratops."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Elton John hit starts with the line \"When are you gonna come down\"?",
+    "answer": "Goodbye Yellow Brick Road",
+    "hints": [
+      "Narrow it down to these possibilities: Rocket Man; Goodbye Yellow Brick Road; Bennie and the Jets.",
+      "Narrow it further to: Rocket Man; Goodbye Yellow Brick Road."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?",
+    "answer": "Rik Mayall",
+    "hints": [
+      "Narrow it down to these possibilities: Adrian Edmondson; Nigel Planer; Rik Mayall.",
+      "Narrow it further to: Adrian Edmondson; Rik Mayall."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "How many people can you recruit in the game Suikoden in a single playthrough?",
+    "answer": "107",
+    "hints": [
+      "Narrow it down to these possibilities: 108; 96; 107.",
+      "Narrow it further to: 108; 107."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Gravity Falls\", how much does Waddles weigh when Mable wins him in \"The Time Traveler's Pig\"?",
+    "answer": "15 pounds",
+    "hints": [
+      "Narrow it down to these possibilities: 10 pounds; 30 pounds; 15 pounds.",
+      "Narrow it further to: 10 pounds; 15 pounds."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"One Piece\", who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
+    "answer": "Koala",
+    "hints": [
+      "Narrow it down to these possibilities: Nico Robin; Koala; Emporio Ivankov.",
+      "Narrow it further to: Nico Robin; Koala."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In what year did Clint Eastwood star as Inspector Harry Callahan in the film \"Dirty Harry\"?",
+    "answer": "1971",
+    "hints": [
+      "Narrow it down to these possibilities: 1983; 1971; 1969.",
+      "Narrow it further to: 1983; 1971."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?",
+    "answer": "Tragedy",
+    "hints": [
+      "Narrow it down to these possibilities: You Should Be Dancing; Night Fever; Tragedy.",
+      "Narrow it further to: Night Fever; Tragedy."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Star Trek\", what sauce is commonly used by Klingons on bregit lung?",
+    "answer": "Grapok sauce",
+    "hints": [
+      "Narrow it down to these possibilities: Gazorpazorp pudding; Sweet chili sauce; Grapok sauce.",
+      "Narrow it further to: Gazorpazorp pudding; Grapok sauce."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the main island in PLAYERUNKNOWN'S BATTLEGROUNDS?",
+    "answer": "Erangel",
+    "hints": [
+      "Narrow it down to these possibilities: Lastovo; Marmara; Erangel.",
+      "Narrow it further to: Marmara; Erangel."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the release date of the first episode of \"The Powerpuff Girls\"?",
+    "answer": "November 18, 1998",
+    "hints": [
+      "Narrow it down to these possibilities: April 14, 2001; July 28, 2000; November 18, 1998.",
+      "Narrow it further to: April 14, 2001; November 18, 1998."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
+    "answer": "Newts",
+    "hints": [
+      "Narrow it down to these possibilities: Newts; Squids; Sharks.",
+      "Narrow it further to: Newts; Squids."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the Naruto manga, what is the last name of Tsunade?",
+    "answer": "Senju",
+    "hints": [
+      "Narrow it down to these possibilities: Haruno; Uzumaki; Senju.",
+      "Narrow it further to: Haruno; Senju."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the assassin in the first \"Hellboy\" movie?",
+    "answer": "Karl Ruprecht Kroenen",
+    "hints": [
+      "Narrow it down to these possibilities: Ilsa Haupstein; Grigori Efimovich Rasputin; Karl Ruprecht Kroenen.",
+      "Narrow it further to: Ilsa Haupstein; Karl Ruprecht Kroenen."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who was the first Jazz Musician to win the Pulitzer Prize for Music",
+    "answer": "Wynton Marsalis",
+    "hints": [
+      "Narrow it down to these possibilities: Joe Henderson; Wynton Marsalis; Michael Brecker.",
+      "Narrow it further to: Wynton Marsalis; Michael Brecker."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the date of original airing of the pilot episode of My Little Pony: Friendship is Magic?",
+    "answer": "October 10th, 2010",
+    "hints": [
+      "Narrow it down to these possibilities: November 6th, 2010; May 18th, 2015; October 10th, 2010.",
+      "Narrow it further to: November 6th, 2010; October 10th, 2010."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Meryl Silverburgh, a video game character from the Metal Gear series, was originally a character in which game?",
+    "answer": "Policenauts",
+    "hints": [
+      "Narrow it down to these possibilities: Gradius; Policenauts; Contra.",
+      "Narrow it further to: Gradius; Policenauts."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the \"Star Wars\" universe, what species is Grand Admiral Thrawn?",
+    "answer": "Chiss",
+    "hints": [
+      "Narrow it down to these possibilities: Pantorans; Gungans; Chiss.",
+      "Narrow it further to: Gungans; Chiss."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
+    "answer": "Stephen Sondheim",
+    "hints": [
+      "Narrow it down to these possibilities: Richard Rodgers; Stephen Sondheim; Oscar Hammerstein.",
+      "Narrow it further to: Richard Rodgers; Stephen Sondheim."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is One Punch Man voiced by in the Japanese version.",
+    "answer": "Makoto Furukawa",
+    "hints": [
+      "Narrow it down to these possibilities: Kaito Ishikawa; Max Mittelman; Makoto Furukawa.",
+      "Narrow it further to: Kaito Ishikawa; Makoto Furukawa."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In Big Hero 6, what were Baymax's motions modeled after?",
+    "answer": "Baby penguins",
+    "hints": [
+      "Narrow it down to these possibilities: Baby penguins; Baby monkeys; Baby bears.",
+      "Narrow it further to: Baby penguins; Baby monkeys."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which iconic album cover features the pulsar waves of CP 1919 placed in the center of the cover?",
+    "answer": "Unknown Pleasures",
+    "hints": [
+      "Narrow it down to these possibilities: The Dark Side of the Moon; Unknown Pleasures; London Calling.",
+      "Narrow it further to: The Dark Side of the Moon; Unknown Pleasures."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "The theme for the popular science fiction series \"Doctor Who\" was composed by who?",
+    "answer": "Ron Grainer",
+    "hints": [
+      "Narrow it down to these possibilities: Peter Howell; Delia Derbyshire; Ron Grainer.",
+      "Narrow it further to: Peter Howell; Ron Grainer."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Sonic the Hedgehog 2\" for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
+    "answer": "The Lead Programmer's birthday",
+    "hints": [
+      "Narrow it down to these possibilities: The date Sonic Team was founded; The Lead Programmer's birthday; The first release date of \"Sonic the Hedgehog\".",
+      "Narrow it further to: The Lead Programmer's birthday; The first release date of \"Sonic the Hedgehog\"."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What town was \"Springfield\" from \"The Simpsons\" originally named after?",
+    "answer": "Springfield, Oregon",
+    "hints": [
+      "Narrow it down to these possibilities: Springfield, Massachusetts; Springfield, Missouri; Springfield, Oregon.",
+      "Narrow it further to: Springfield, Missouri; Springfield, Oregon."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+    "answer": "Chorus",
+    "hints": [
+      "Narrow it down to these possibilities: Chorus; Refrain; Capulet.",
+      "Narrow it further to: Chorus; Refrain."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In 2012, which movie won every category in the 32nd \"Golden Raspberry Awards\"?",
+    "answer": "Jack and Jill",
+    "hints": [
+      "Narrow it down to these possibilities: Jack and Jill; The Girl with the Dragon Tattoo; The King's Speech.",
+      "Narrow it further to: Jack and Jill; The Girl with the Dragon Tattoo."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which song in rapper Kanye West's album \"The Life of Pablo\" features Rihanna?",
+    "answer": "Famous",
+    "hints": [
+      "Narrow it down to these possibilities: Ultralight Beam; Famous; Highlights.",
+      "Narrow it further to: Ultralight Beam; Famous."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played the sun baby in the original run of Teletubbies?",
+    "answer": "Jessica Smith",
+    "hints": [
+      "Narrow it down to these possibilities: Sue Monroe; Pui Fan Lee; Jessica Smith.",
+      "Narrow it further to: Pui Fan Lee; Jessica Smith."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "\"Gimmick!\" is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
+    "answer": "FME-7",
+    "hints": [
+      "Narrow it down to these possibilities: MMC5; FME-7; VRC6.",
+      "Narrow it further to: MMC5; FME-7."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played Stan's dog in the South Park episode \"Big Gay Al's Big Gay Boat Ride\"?",
+    "answer": "George Clooney",
+    "hints": [
+      "Narrow it down to these possibilities: George Clooney; Matt Stone; Robert Smith.",
+      "Narrow it further to: George Clooney; Matt Stone."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
+    "answer": "Titus Andronicus",
+    "hints": [
+      "Narrow it down to these possibilities: Othello; Titus Andronicus; Macbeth.",
+      "Narrow it further to: Othello; Titus Andronicus."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Highschool of the Dead\", where did Komuro and Saeko establish to meet after the bus explosion?",
+    "answer": "Eastern Police Station",
+    "hints": [
+      "Narrow it down to these possibilities: Eastern Police Station; Komuro's House; The Center Mall.",
+      "Narrow it further to: Eastern Police Station; The Center Mall."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which sci-fi cult films plot concerns aliens attempting to prevent humans from creating a doomsday weapon?",
+    "answer": "Plan 9 from Outer Space",
+    "hints": [
+      "Narrow it down to these possibilities: Plan 9 from Outer Space; The Day The Earth Stood Still; It Came from Outer Space.",
+      "Narrow it further to: Plan 9 from Outer Space; The Day The Earth Stood Still."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who had a 1981 hit with the song \"Japanese Boy\"?",
+    "answer": "Aneka",
+    "hints": [
+      "Narrow it down to these possibilities: Toyah; Aneka; Madonna.",
+      "Narrow it further to: Toyah; Aneka."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the TV Show \"Donkey Kong Country\", which episode did the song \"Eddie, Let Me Go Back To My Home\" play in?",
+    "answer": "It's a Wonderful Life",
+    "hints": [
+      "Narrow it down to these possibilities: Ape-Nesia; Message In A Bottle Show; It's a Wonderful Life.",
+      "Narrow it further to: Message In A Bottle Show; It's a Wonderful Life."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Gravity Falls\", the character Bill Cipher remarks that \"the universe is what?\"",
+    "answer": "A hologram",
+    "hints": [
+      "Narrow it down to these possibilities: A hologram; An illusion; Corrupting.",
+      "Narrow it further to: A hologram; An illusion."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
+    "answer": "Italy",
+    "hints": [
+      "Narrow it down to these possibilities: France; United States; Italy.",
+      "Narrow it further to: United States; Italy."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which studio animated the first season of Log Horizon?",
+    "answer": "Satelight",
+    "hints": [
+      "Narrow it down to these possibilities: Production I.G; Satelight; Xebec.",
+      "Narrow it further to: Production I.G; Satelight."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the 1964 film \"Zulu\", what song does the British Army company sing before the final battle?",
+    "answer": "Men of Harlech",
+    "hints": [
+      "Narrow it down to these possibilities: The British Grenadiers; Scotland the Brave; Men of Harlech.",
+      "Narrow it further to: Scotland the Brave; Men of Harlech."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the metal band Slipknot, there are 9 members, which member labelled themselves number 6?",
+    "answer": "Shawn Crahan (Clown)",
+    "hints": [
+      "Narrow it down to these possibilities: Shawn Crahan (Clown); Cory Taylor; Sid Wilson.",
+      "Narrow it further to: Shawn Crahan (Clown); Sid Wilson."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In Star Trek, what is the name of Spock's father?",
+    "answer": "Sarek",
+    "hints": [
+      "Narrow it down to these possibilities: Tuvok; Sarek; T'Pal.",
+      "Narrow it further to: Tuvok; Sarek."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What programming language does the Source Engine use?",
+    "answer": "C++",
+    "hints": [
+      "Narrow it down to these possibilities: Lua; C++; Java.",
+      "Narrow it further to: Lua; C++."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the 1968 Cartoon Show \"Wacky Races\" what was the name of cavemen duo who rode in The Boulder Mobile?",
+    "answer": "The Slag Brothers",
+    "hints": [
+      "Narrow it down to these possibilities: The Rock Brothers; The Slate Brothers; The Slag Brothers.",
+      "Narrow it further to: The Slate Brothers; The Slag Brothers."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which studio animated Afro Samurai?",
+    "answer": "Gonzo",
+    "hints": [
+      "Narrow it down to these possibilities: Gonzo; Production I.G; xebec.",
+      "Narrow it further to: Gonzo; Production I.G."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What three movies, in order from release date, make up the \"Dollars Trilogy\"?",
+    "answer": "\"A Fistful of Dollars\", \"For a Few Dollars More\", \"The Good, the Bad, and the Ugly\"",
+    "hints": [
+      "Narrow it down to these possibilities: \"A Fistful of Dollars\", \"For a Few Dollars More\", \"The Good, the Bad, and the Ugly\"; \"For a Few Dollars More\", \"A Fistful of Dollars\", \"The Good, the Bad, and the Ugly\"; \"For a Few Dollars More\", \"The Good, the Bad, and the Ugly\", \"A Fistful of Dollars\".",
+      "Narrow it further to: \"A Fistful of Dollars\", \"For a Few Dollars More\", \"The Good, the Bad, and the Ugly\"; \"For a Few Dollars More\", \"A Fistful of Dollars\", \"The Good, the Bad, and the Ugly\"."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the English title of the vaporwave track \"リサフランク420 / 現代のコンピュー\" by Macintosh Plus (Vektroid)?",
+    "answer": "Lisa Frank 420 / Modern Computing",
+    "hints": [
+      "Narrow it down to these possibilities: Make Your Move 420 / My Mind; Lisa Frank 420 / Modern Computing; Smoke Weed 420 / Everyday.",
+      "Narrow it further to: Lisa Frank 420 / Modern Computing; Smoke Weed 420 / Everyday."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the UK \"Who Wants to be a Millionaire?\" cheating scandal known as?",
+    "answer": "Major Fraud",
+    "hints": [
+      "Narrow it down to these possibilities: Ingram Cheater; Major Fraud; Coughing Major.",
+      "Narrow it further to: Ingram Cheater; Major Fraud."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Including downloadable characters, how many playable fighters are in Super Smash Bros. for Nintendo 3DS and Wii U?",
+    "answer": "58",
+    "hints": [
+      "Narrow it down to these possibilities: 48; 55; 58.",
+      "Narrow it further to: 48; 58."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the school in the anime and manga \"Gosick\"?",
+    "answer": "St. Marguerite",
+    "hints": [
+      "Narrow it down to these possibilities: St. Marguerite; St. Mary; St. Augustine.",
+      "Narrow it further to: St. Marguerite; St. Augustine."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the song by Beyoncé and Alejandro Fernández released in 2007?",
+    "answer": "Amor Gitano",
+    "hints": [
+      "Narrow it down to these possibilities: Rocket; Amor Gitano; La ultima vez.",
+      "Narrow it further to: Amor Gitano; La ultima vez."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"It's Always Sunny in Philadelphia\" what was the name of Frank's wrestling persona?",
+    "answer": "The Trash Man",
+    "hints": [
+      "Narrow it down to these possibilities: The Maniac; The Trash Man; Bird of War.",
+      "Narrow it further to: The Trash Man; Bird of War."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the real name of \"Warhead\" in the Sega Genesis game \"Vectorman\"?",
+    "answer": "Raster",
+    "hints": [
+      "Narrow it down to these possibilities: Vectorkid; Peacehead; Raster.",
+      "Narrow it further to: Peacehead; Raster."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Townsend Coleman provided the voice for which turtle in the original 1987 series of \"Teenage Mutant Ninja Turtles\"?",
+    "answer": "Michelangelo",
+    "hints": [
+      "Narrow it down to these possibilities: Leonardo; Raphael; Michelangelo.",
+      "Narrow it further to: Leonardo; Michelangelo."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "The \"To Love-Ru\" Manga was started in what year?",
+    "answer": "2006",
+    "hints": [
+      "Narrow it down to these possibilities: 2005; 2004; 2006.",
+      "Narrow it further to: 2005; 2006."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In what year does Jurassic World open in the \"Jurassic Park\" universe?",
+    "answer": "2005",
+    "hints": [
+      "Narrow it down to these possibilities: 2020; 2007; 2005.",
+      "Narrow it further to: 2007; 2005."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Where was Nicki Minaj born?",
+    "answer": "Trinidad and Tobago",
+    "hints": [
+      "Narrow it down to these possibilities: Haiti; Saint Lucia; Trinidad and Tobago.",
+      "Narrow it further to: Haiti; Trinidad and Tobago."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Star Trek\", who was the founder of the Klingon Empire and its philosophy?",
+    "answer": "Kahless the Unforgettable",
+    "hints": [
+      "Narrow it down to these possibilities: Kahless the Unforgettable; Lady Lukara of the Great Hall; Dahar Master Kor.",
+      "Narrow it further to: Kahless the Unforgettable; Lady Lukara of the Great Hall."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Benny, Brain, Fancy-Fancy, Spook and Choo-Choo were known associates of what Hanna Barbera cartoon character?",
+    "answer": "Top Cat",
+    "hints": [
+      "Narrow it down to these possibilities: Snagglepuss; Scooby-Doo; Top Cat.",
+      "Narrow it further to: Snagglepuss; Top Cat."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "\"Silhouette\", a song performed by the group 'KANA-BOON' is featured as the sixteenth opening of which anime?",
+    "answer": "Naruto: Shippūden",
+    "hints": [
+      "Narrow it down to these possibilities: Gurren Lagann; Naruto: Shippūden; Naruto.",
+      "Narrow it further to: Gurren Lagann; Naruto: Shippūden."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In what Disney movie can you spot the character \"Pac-Man\" in if you look closely enough in some scenes?",
+    "answer": "Tron",
+    "hints": [
+      "Narrow it down to these possibilities: Monsters, Inc.; Big Hero 6; Tron.",
+      "Narrow it further to: Big Hero 6; Tron."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What album is the song 'New Slang' by The Shins found on?",
+    "answer": "Oh, Inverted World",
+    "hints": [
+      "Narrow it down to these possibilities: Oh, Inverted World; Chutes Too Narrow; Port Of Morrow.",
+      "Narrow it further to: Oh, Inverted World; Chutes Too Narrow."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the show 'Doctor Who', what is the name of the time-capsule model stolen by 'the Doctor'?",
+    "answer": "TT Type 40, Mark 3 (TARDIS)",
+    "hints": [
+      "Narrow it down to these possibilities: TT Type 40, Mark 5 (TARDIS); TT Type 40, Mark 3 (TARDIS); TT Type 1, Mark 3 (TARDIS).",
+      "Narrow it further to: TT Type 40, Mark 3 (TARDIS); TT Type 1, Mark 3 (TARDIS)."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the 2014 Pokemon VGC Finals, which Pokemon was famous for bringing the winner to victory?",
+    "answer": "Pachirisu",
+    "hints": [
+      "Narrow it down to these possibilities: Primal Groudon; Lapras; Pachirisu.",
+      "Narrow it further to: Primal Groudon; Pachirisu."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which cartoon family lives in 31 Spooner Street, Quahog, Rhode Island USA?",
+    "answer": "The Griffins",
+    "hints": [
+      "Narrow it down to these possibilities: The Simpsons; The Jetsons; The Griffins.",
+      "Narrow it further to: The Simpsons; The Griffins."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which animation studio produced the anime adaptation of \"xxxHolic\"?",
+    "answer": "Production I.G",
+    "hints": [
+      "Narrow it down to these possibilities: Xebec; Production I.G; Sunrise.",
+      "Narrow it further to: Production I.G; Sunrise."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was Humphrey Bogart's middle name?",
+    "answer": "DeForest",
+    "hints": [
+      "Narrow it down to these possibilities: DeForest; Steven; Bryce.",
+      "Narrow it further to: DeForest; Steven."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which artists' version of the song \"The Tide is High\" came first?",
+    "answer": "The Paragons",
+    "hints": [
+      "Narrow it down to these possibilities: The Paragons; Atomic Kitten; Kardinal Offishall.",
+      "Narrow it further to: The Paragons; Atomic Kitten."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the pirate that sings the intro to \"Spongebob Squarepants\"?",
+    "answer": "Painty",
+    "hints": [
+      "Narrow it down to these possibilities: Larry; Patchy; Painty.",
+      "Narrow it further to: Patchy; Painty."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina's ultimate ability is what?",
+    "answer": "Ultimate Swimmer",
+    "hints": [
+      "Narrow it down to these possibilities: Ultimate Dancer; Ultimate Swimmer; Ultimate Gambler.",
+      "Narrow it further to: Ultimate Dancer; Ultimate Swimmer."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the TV show \"Rick and Morty\", Rick uses the catchphrase \"Wubba Lubba Dub Dub\", which means what in Birdperson?",
+    "answer": "I am in great pain, please help me.",
+    "hints": [
+      "Narrow it down to these possibilities: I am in great pain, please help me.; Lets get this party started!; I pray that my life ends soon..",
+      "Narrow it further to: I am in great pain, please help me.; I pray that my life ends soon.."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which animation studio animated \"To Love-Ru\"?",
+    "answer": "Xebec",
+    "hints": [
+      "Narrow it down to these possibilities: Trigger; Kyoto Animation; Xebec.",
+      "Narrow it further to: Trigger; Xebec."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Japanese director made Seven Samurai (1954)?",
+    "answer": "Akira Kurosawa",
+    "hints": [
+      "He also directed Rashomon.",
+      "The answer has 2 words; the initial letters are A K."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who composed the music for the film The Good, the Bad and the Ugly?",
+    "answer": "Ennio Morricone",
+    "hints": [
+      "He was an Italian film composer.",
+      "The answer has 2 words; the initial letters are E M."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which cinematographer directed the film Don't Look Now (1973)?",
+    "answer": "Nicolas Roeg",
+    "hints": [
+      "He also directed The Man Who Fell to Earth.",
+      "The answer has 2 words; the initial letters are N R."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who directed the French film Cleo from 5 to 7?",
+    "answer": "Agnes Varda",
+    "hints": [
+      "She was a major figure in the French New Wave.",
+      "The answer has 2 words; the initial letters are A V."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who composed the opera Wozzeck?",
+    "answer": "Alban Berg",
+    "hints": [
+      "He belonged to the Second Viennese School.",
+      "The answer has 2 words; the initial letters are A B."
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which jazz saxophonist recorded A Love Supreme?",
+    "answer": "John Coltrane",
+    "hints": [
+      "He played tenor saxophone on Miles Davis's Kind of Blue.",
+      "The answer has 2 words; the initial letters are J C."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The Peace of Westphalia (1648) ended which war?",
+    "answer": "The Thirty Years' War",
+    "hints": [
+      "It began in 1618 in the Holy Roman Empire.",
+      "The answer has 4 words; the initial letters are T T Y W."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Frankish king was crowned emperor in Rome on Christmas Day in 800?",
+    "answer": "Charlemagne",
+    "hints": [
+      "He was a king of the Franks.",
+      "The answer has 1 word; the initial letter is C."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which US president served the shortest term, about 31 days?",
+    "answer": "William Henry Harrison",
+    "hints": [
+      "He died in office in 1841.",
+      "The answer has 3 words; the initial letters are W H H."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Ottomans conquer Constantinople?",
+    "answer": "1453",
+    "hints": [
+      "The conquest happened in the middle of the fifteenth century.",
+      "The numerical part of the answer contains 4 digits."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Hannibal famously crossed the Alps during which war?",
+    "answer": "The Second Punic War",
+    "hints": [
+      "Rome and Carthage were the opponents.",
+      "The answer has 4 words; the initial letters are T S P W."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the last Tsar of Russia?",
+    "answer": "Nicholas II",
+    "hints": [
+      "He belonged to the Romanov dynasty.",
+      "The answer has 2 words; the initial letters are N I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The Meiji Restoration transformed which country?",
+    "answer": "Japan",
+    "hints": [
+      "The changes began in 1868.",
+      "The answer has 1 word; the initial letter is J."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1494 treaty divided the New World between Spain and Portugal?",
+    "answer": "The Treaty of Tordesillas",
+    "hints": [
+      "Its name comes from a Spanish town.",
+      "The answer has 4 words; the initial letters are T T O T."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "When did Spanish Peninsular War start?",
+    "answer": "1808",
+    "hints": [
+      "Narrow it down to these possibilities: 1810; 1809; 1808.",
+      "Narrow it further to: 1810; 1808."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which countries participated in the Lobster War?",
+    "answer": "France and Brazil",
+    "hints": [
+      "Narrow it down to these possibilities: Canada and Norway; United States and England; France and Brazil.",
+      "Narrow it further to: Canada and Norway; France and Brazil."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "When did Lithuania declare independence from the Soviet Union?",
+    "answer": "March 11th, 1990",
+    "hints": [
+      "Narrow it down to these possibilities: March 11th, 1990; December 5th, 1991; December 25th, 1991.",
+      "Narrow it further to: March 11th, 1990; December 25th, 1991."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which English king was married to Eleanor of Aquitaine?",
+    "answer": "Henry II",
+    "hints": [
+      "Narrow it down to these possibilities: Henry V; Henry II; Henry I.",
+      "Narrow it further to: Henry V; Henry II."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What did the abbreviation \"RMS\" stand for in the RMS Titanic in 1912?",
+    "answer": "Royal Mail Ship",
+    "hints": [
+      "Narrow it down to these possibilities: Regular Maritime Schedule; Royal Mail Ship; Royal Majesty Service.",
+      "Narrow it further to: Royal Mail Ship; Royal Majesty Service."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "When was Finland's 100th year of being independent?",
+    "answer": "2017",
+    "hints": [
+      "Narrow it down to these possibilities: 2016; 2018; 2017.",
+      "Narrow it further to: 2016; 2017."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What Southeast Asian country was formerly known as 'Lan Xang'?",
+    "answer": "Laos",
+    "hints": [
+      "Narrow it down to these possibilities: Laos; Vietnam; Thailand.",
+      "Narrow it further to: Laos; Vietnam."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+    "answer": "Brazzaville",
+    "hints": [
+      "Narrow it down to these possibilities: Algiers; Tunis; Brazzaville.",
+      "Narrow it further to: Algiers; Brazzaville."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+    "answer": "DD-445",
+    "hints": [
+      "Narrow it down to these possibilities: DD-445; DD-446; DD-992.",
+      "Narrow it further to: DD-445; DD-992."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What age was King Henry V when he died?",
+    "answer": "35",
+    "hints": [
+      "Narrow it down to these possibilities: 87; 35; 62.",
+      "Narrow it further to: 35; 62."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In which present-day country did the Eureka Rebellion take place in 1854?",
+    "answer": "Australia",
+    "hints": [
+      "Narrow it down to these possibilities: Australia; Canada; Brazil.",
+      "Narrow it further to: Australia; Canada."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "How many numbered piano sonatas did Ludwig van Beethoven compose?",
+    "answer": "32",
+    "hints": [
+      "Narrow it down to these possibilities: 50; 31; 32.",
+      "Narrow it further to: 50; 32."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+    "answer": "Threw them out of a window",
+    "hints": [
+      "Narrow it down to these possibilities: Hung them.; Threw them out of a window; Locked them in stockades.",
+      "Narrow it further to: Hung them.; Threw them out of a window."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What year was Canada founded in?",
+    "answer": "1867",
+    "hints": [
+      "Narrow it down to these possibilities: 1867; 1668; 1798.",
+      "Narrow it further to: 1867; 1798."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who is the creator of the soft drink, Dr. Pepper?",
+    "answer": "Charles Alderton",
+    "hints": [
+      "Narrow it down to these possibilities: Charles Alderton; James Wellington; Johnson Hinsin.",
+      "Narrow it further to: Charles Alderton; James Wellington."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?",
+    "answer": "Enola Gay",
+    "hints": [
+      "Narrow it down to these possibilities: Necessary Evil; Enola Gay; The Great Artiste.",
+      "Narrow it further to: Necessary Evil; Enola Gay."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who assassinated President James A. Garfield?",
+    "answer": "Charles Guiteau",
+    "hints": [
+      "Narrow it down to these possibilities: Sirhan Sirhan; Charles Guiteau; John Wilkes Booth.",
+      "Narrow it further to: Sirhan Sirhan; Charles Guiteau."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?",
+    "answer": "Richard Neville",
+    "hints": [
+      "Narrow it down to these possibilities: Richard III; Thomas Warwick; Richard Neville.",
+      "Narrow it further to: Richard III; Richard Neville."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+    "answer": "March 25th",
+    "hints": [
+      "Narrow it down to these possibilities: December 1st; June 1st; March 25th.",
+      "Narrow it further to: June 1st; March 25th."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "During the Spanish Civil War (1936), Francisco Franco fought for which political faction?",
+    "answer": "Nationalist Spain",
+    "hints": [
+      "Narrow it down to these possibilities: Popular Front; Papal State; Nationalist Spain.",
+      "Narrow it further to: Popular Front; Nationalist Spain."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The Second Boer War in 1899 was fought where?",
+    "answer": "South Africa",
+    "hints": [
+      "Narrow it down to these possibilities: Argentina; South Africa; Bulgaria.",
+      "Narrow it further to: Argentina; South Africa."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+    "answer": "1995",
+    "hints": [
+      "Narrow it down to these possibilities: 2001; 1995; 1991.",
+      "Narrow it further to: 2001; 1995."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Toussaint Louverture led a successful slave revolt in which country?",
+    "answer": "Haiti",
+    "hints": [
+      "Narrow it down to these possibilities: United States; France; Haiti.",
+      "Narrow it further to: France; Haiti."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "How many women joined the United States Armed Services during World War II?",
+    "answer": "350,000",
+    "hints": [
+      "Narrow it down to these possibilities: 350,000; 100,000; 225,000.",
+      "Narrow it further to: 350,000; 225,000."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+    "answer": "Operation Typhoon",
+    "hints": [
+      "Narrow it down to these possibilities: Case Blue; Operation Typhoon; Operation Barbarossa.",
+      "Narrow it further to: Case Blue; Operation Typhoon."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+    "answer": "George Washington",
+    "hints": [
+      "Narrow it down to these possibilities: James Monroe; George Washington; Abraham Lincoln.",
+      "Narrow it further to: George Washington; Abraham Lincoln."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The ancient city of Chichén Itzá was built by which civilization?",
+    "answer": "Mayans",
+    "hints": [
+      "Narrow it down to these possibilities: Mayans; Toltecs; Incas.",
+      "Narrow it further to: Mayans; Toltecs."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What micro-state is considered to have the oldest constitution still in effect?",
+    "answer": "San Marino",
+    "hints": [
+      "Narrow it down to these possibilities: Monaco; San Marino; Andorra.",
+      "Narrow it further to: San Marino; Andorra."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "When was the \"Siege of Leningrad\" lifted during World War II?",
+    "answer": "January 1944",
+    "hints": [
+      "Narrow it down to these possibilities: November 1943; January 1944; September 1943.",
+      "Narrow it further to: January 1944; September 1943."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the last emperor of Mexico?",
+    "answer": "Ferdinand Maximilian",
+    "hints": [
+      "Narrow it down to these possibilities: Andrés Manuel López Obrador; Ferdinand Maximilian; Napoleon III.",
+      "Narrow it further to: Andrés Manuel López Obrador; Ferdinand Maximilian."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who patented the flying shuttle in 1733?",
+    "answer": "John Kay",
+    "hints": [
+      "Narrow it down to these possibilities: John Kay; Richard Arkwright; James Hargreaves.",
+      "Narrow it further to: John Kay; James Hargreaves."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+    "answer": "Making jams and jellies",
+    "hints": [
+      "Narrow it down to these possibilities: Teaching parrots to talk; Digging graves; Making jams and jellies.",
+      "Narrow it further to: Teaching parrots to talk; Making jams and jellies."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which King of England was faced with the Peasants' Revolt in 1381?",
+    "answer": "Richard II",
+    "hints": [
+      "Narrow it down to these possibilities: Henry IV; Edward III; Richard II.",
+      "Narrow it further to: Edward III; Richard II."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In 1547 who became the 1st Tsar of Russia",
+    "answer": "Ivan the Terrible",
+    "hints": [
+      "Narrow it down to these possibilities: Mikhail Romanov; Ivan the Terrible; Peter the Great.",
+      "Narrow it further to: Mikhail Romanov; Ivan the Terrible."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The Battle of Hastings was fought in which year?",
+    "answer": "1066",
+    "hints": [
+      "Narrow it down to these possibilities: 1204; 1420; 1066.",
+      "Narrow it further to: 1204; 1066."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the aim of the \"Umbrella Revolution\" in Hong Kong in 2014?",
+    "answer": "Genuine universal suffrage",
+    "hints": [
+      "Narrow it down to these possibilities: Gaining Independence; Lower taxes; Genuine universal suffrage.",
+      "Narrow it further to: Gaining Independence; Genuine universal suffrage."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+    "answer": "Navarre",
+    "hints": [
+      "Narrow it down to these possibilities: Navarre; Granada; Catalonia.",
+      "Narrow it further to: Navarre; Granada."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "According to Roman tradition, in which year was Rome founded?",
+    "answer": "753 BCE",
+    "hints": [
+      "Narrow it down to these possibilities: 753 BCE; 902 BCE; 697 BCE.",
+      "Narrow it further to: 753 BCE; 902 BCE."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+    "answer": "Great Pyramid of Giza",
+    "hints": [
+      "Narrow it down to these possibilities: Statue of Zeus at Olympia; Colossus of Rhodes; Great Pyramid of Giza.",
+      "Narrow it further to: Colossus of Rhodes; Great Pyramid of Giza."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+    "answer": "Battle of Midway",
+    "hints": [
+      "Narrow it down to these possibilities: Battle of the Coral Sea; Battle of Midway; Attack on Pearl Harbor.",
+      "Narrow it further to: Battle of the Coral Sea; Battle of Midway."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+    "answer": "January 30, 1933",
+    "hints": [
+      "Narrow it down to these possibilities: February 27, 1933; October 6, 1939; January 30, 1933.",
+      "Narrow it further to: February 27, 1933; January 30, 1933."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+    "answer": "October 27, 1980",
+    "hints": [
+      "Narrow it down to these possibilities: October 27, 1980; October 29, 1969; December 9, 1991.",
+      "Narrow it further to: October 27, 1980; October 29, 1969."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Pianist Frédéric Chopin was a composer of which musical era?",
+    "answer": "Romantic",
+    "hints": [
+      "Narrow it down to these possibilities: Romantic; Renaissance; Baroque.",
+      "Narrow it further to: Romantic; Renaissance."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was Napoleon Bonaparte's name before he changed it?",
+    "answer": "Napoleone di Buonaparte",
+    "hints": [
+      "Narrow it down to these possibilities: Napoleona de Buenoparte; Napoleão do Boaparte; Napoleone di Buonaparte.",
+      "Narrow it further to: Napoleona de Buenoparte; Napoleone di Buonaparte."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "How long did the Warsaw Uprising during World War II last?",
+    "answer": "63 Days",
+    "hints": [
+      "Narrow it down to these possibilities: 55 Days; 224 Days; 63 Days.",
+      "Narrow it further to: 55 Days; 63 Days."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the real name of the Albanian national leader Skanderbeg?",
+    "answer": "Gjergj Kastrioti",
+    "hints": [
+      "Narrow it down to these possibilities: Iskander Bejko; Gjergj Kastrioti; Diturak Zhulati.",
+      "Narrow it further to: Gjergj Kastrioti; Diturak Zhulati."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire took control of Jerusalem from which sultanate?",
+    "answer": "Mamluk",
+    "hints": [
+      "Narrow it down to these possibilities: Seljuq; Mamluk; Ayyubid.",
+      "Narrow it further to: Mamluk; Ayyubid."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the original name of New York City?",
+    "answer": "New Amsterdam",
+    "hints": [
+      "Narrow it down to these possibilities: New Paris; New Rome; New Amsterdam.",
+      "Narrow it further to: New Paris; New Amsterdam."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+    "answer": "Culper Ring",
+    "hints": [
+      "Narrow it down to these possibilities: Unnamed; Culper Ring; Washington's Spies.",
+      "Narrow it further to: Unnamed; Culper Ring."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+    "answer": "Franklin Pierce",
+    "hints": [
+      "Narrow it down to these possibilities: James Polk; Franklin Pierce; Andrew Johnson.",
+      "Narrow it further to: Franklin Pierce; Andrew Johnson."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Ferdinand, who married Isabella of Castile in 1469, became king of which Iberian kingdom?",
+    "answer": "Aragon",
+    "hints": [
+      "Narrow it down to these possibilities: Aragon; Galicia; Navarre.",
+      "Narrow it further to: Aragon; Galicia."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "With which Greek philosopher would you associate the phrase, \"I know that I know nothing\"?",
+    "answer": "Socrates",
+    "hints": [
+      "Narrow it down to these possibilities: Pythagoras; Plato; Socrates.",
+      "Narrow it further to: Pythagoras; Socrates."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+    "answer": "Operation Dragoon",
+    "hints": [
+      "Narrow it down to these possibilities: Operation Overlord; Operation Dragoon; Operation Market Garden.",
+      "Narrow it further to: Operation Overlord; Operation Dragoon."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The main objective of the German operation \"Case Blue\" during World War II was originally to capture what?",
+    "answer": "Caucasus",
+    "hints": [
+      "Narrow it down to these possibilities: Voronezh; Stalingrad; Caucasus.",
+      "Narrow it further to: Stalingrad; Caucasus."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The ontological argument for the proof of God's existence is first attributed to whom?",
+    "answer": "Anselm of Canterbury",
+    "hints": [
+      "Narrow it down to these possibilities: Anselm of Canterbury; Immanuel Kant; Aristotle.",
+      "Narrow it further to: Anselm of Canterbury; Immanuel Kant."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+    "answer": "Justinian I",
+    "hints": [
+      "Narrow it down to these possibilities: Justinian I; Constantine IV; Theodosius the Great.",
+      "Narrow it further to: Justinian I; Constantine IV."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Byzantine emperor ordered the compilation known as the Corpus Juris Civilis?",
+    "answer": "Justinian I",
+    "hints": [
+      "His reign also saw the construction of the present Hagia Sophia.",
+      "The answer has 2 words; the initial letters are J I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 732 battle is associated with Charles Martel's victory in Frankish territory?",
+    "answer": "Battle of Tours",
+    "hints": [
+      "It is also known by the name of nearby Poitiers.",
+      "The answer has 3 words; the initial letters are B O T."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Chinese dynasty ruled immediately before the Ming?",
+    "answer": "Yuan dynasty",
+    "hints": [
+      "It was established by Kublai Khan.",
+      "The answer has 2 words; the initial letters are Y D."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1526 battle helped establish Mughal rule in northern India?",
+    "answer": "First Battle of Panipat",
+    "hints": [
+      "Babur defeated Ibrahim Lodi there.",
+      "The answer has 4 words; the initial letters are F B O P."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the founder of the Maurya Empire?",
+    "answer": "Chandragupta Maurya",
+    "hints": [
+      "He preceded the emperor Ashoka.",
+      "The answer has 2 words; the initial letters are C M."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Ethiopian emperor defeated Italian forces at Adwa in 1896?",
+    "answer": "Menelik II",
+    "hints": [
+      "He ruled from Addis Ababa.",
+      "The answer has 2 words; the initial letters are M I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which empire was ruled by Mansa Musa in the fourteenth century?",
+    "answer": "Mali Empire",
+    "hints": [
+      "It grew wealthy from West African trade.",
+      "The answer has 2 words; the initial letters are M E."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Portuguese navigator reached India by sea in 1498?",
+    "answer": "Vasco da Gama",
+    "hints": [
+      "His route rounded Africa's southern tip.",
+      "The answer has 3 words; the initial letters are V D G."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Chinese admiral led large maritime expeditions during the early Ming dynasty?",
+    "answer": "Zheng He",
+    "hints": [
+      "He sailed through the Indian Ocean.",
+      "The answer has 2 words; the initial letters are Z H."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which city was the capital of the Inca Empire?",
+    "answer": "Cusco",
+    "hints": [
+      "It lies in the Andes in present-day Peru.",
+      "The answer has 1 word; the initial letter is C."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1688 event brought William and Mary to the English throne?",
+    "answer": "Glorious Revolution",
+    "hints": [
+      "James II lost his throne during this event.",
+      "The answer has 2 words; the initial letters are G R."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1713 treaty helped end the War of the Spanish Succession?",
+    "answer": "Treaty of Utrecht",
+    "hints": [
+      "It is named after a Dutch city.",
+      "The answer has 3 words; the initial letters are T O U."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who led the Haitian state after declaring independence in 1804 and became Emperor Jacques I?",
+    "answer": "Jean-Jacques Dessalines",
+    "hints": [
+      "He had fought against French colonial forces.",
+      "The answer has 3 words; the initial letters are J J D."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which city hosted the 1814–1815 congress that reorganised Europe after Napoleon?",
+    "answer": "Vienna",
+    "hints": [
+      "It was the capital of the Habsburg monarchy.",
+      "The answer has 1 word; the initial letter is V."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which French diplomat represented France at the Congress of Vienna?",
+    "answer": "Charles Maurice de Talleyrand",
+    "hints": [
+      "He served several French regimes during his career.",
+      "The answer has 4 words; the initial letters are C M D T."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which treaty concluded the Russo-Japanese War in 1905?",
+    "answer": "Treaty of Portsmouth",
+    "hints": [
+      "It was negotiated in the United States.",
+      "The answer has 3 words; the initial letters are T O P."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which ancient Greek historian wrote an account of the Peloponnesian War?",
+    "answer": "Thucydides",
+    "hints": [
+      "He was an Athenian and a contemporary of the conflict.",
+      "The answer has 1 word; the initial letter is T."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Carthaginian commander was defeated at Zama in 202 BCE?",
+    "answer": "Hannibal",
+    "hints": [
+      "He had previously crossed the Alps.",
+      "The answer has 1 word; the initial letter is H."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Roman commander defeated Hannibal at Zama?",
+    "answer": "Scipio Africanus",
+    "hints": [
+      "His honorific refers to Africa.",
+      "The answer has 2 words; the initial letters are S A."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which English monarch was executed in 1649?",
+    "answer": "Charles I",
+    "hints": [
+      "His son later returned to the throne in the Restoration.",
+      "The answer has 2 words; the initial letters are C I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which dynasty built the palace complex known as the Forbidden City?",
+    "answer": "Ming dynasty",
+    "hints": [
+      "Its Yongle emperor moved the capital to Beijing.",
+      "The answer has 2 words; the initial letters are M D."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1555 agreement recognised Lutheranism within the Holy Roman Empire?",
+    "answer": "Peace of Augsburg",
+    "hints": [
+      "It is named after a German city.",
+      "The answer has 3 words; the initial letters are P O A."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Ottoman sultan conquered Constantinople in 1453?",
+    "answer": "Mehmed II",
+    "hints": [
+      "His epithet is the Conqueror.",
+      "The answer has 2 words; the initial letters are M I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which treaty ended Russia's involvement in World War I in 1918?",
+    "answer": "Treaty of Brest-Litovsk",
+    "hints": [
+      "Its name refers to a city in present-day Belarus.",
+      "The answer has 4 words; the initial letters are T O B L."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which ruler was the final monarch of the Kingdom of Hawaii?",
+    "answer": "Queen Liliuokalani",
+    "hints": [
+      "She was overthrown in 1893.",
+      "The answer has 2 words; the initial letters are Q L."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Korean king is associated with the creation of the Hangul writing system?",
+    "answer": "Sejong the Great",
+    "hints": [
+      "He belonged to the Joseon dynasty.",
+      "The answer has 3 words; the initial letters are S T G."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which English inventor developed the spinning jenny?",
+    "answer": "James Hargreaves",
+    "hints": [
+      "His invention increased the number of threads one worker could spin.",
+      "The answer has 2 words; the initial letters are J H."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1839 agreement guaranteed Belgian neutrality?",
+    "answer": "Treaty of London",
+    "hints": [
+      "It was signed in the British capital.",
+      "The answer has 3 words; the initial letters are T O L."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Persian dynasty was founded by Cyrus the Great?",
+    "answer": "Achaemenid dynasty",
+    "hints": [
+      "Its later rulers included Darius and Xerxes.",
+      "The answer has 2 words; the initial letters are A D."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Indian emperor issued edicts carved on rocks and pillars after embracing Buddhism?",
+    "answer": "Ashoka",
+    "hints": [
+      "He belonged to the Maurya dynasty.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which battle in 1813 is also called the Battle of the Nations?",
+    "answer": "Battle of Leipzig",
+    "hints": [
+      "It was fought in what is now Germany.",
+      "The answer has 3 words; the initial letters are B O L."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which ship carried Charles Darwin on his voyage beginning in 1831?",
+    "answer": "HMS Beagle",
+    "hints": [
+      "Its name is also a breed of dog.",
+      "The answer has 2 words; the initial letters are H B."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which Italian statesman became the first prime minister of the Kingdom of Italy in 1861?",
+    "answer": "Camillo Benso, Count of Cavour",
+    "hints": [
+      "He had previously served the Kingdom of Sardinia.",
+      "The answer has 5 words; the initial letters are C B C O C."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1898 incident involving a French officer became a major diplomatic confrontation with Britain in Sudan?",
+    "answer": "Fashoda Incident",
+    "hints": [
+      "It is named after a settlement on the Upper Nile.",
+      "The answer has 2 words; the initial letters are F I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which king of England was deposed in 1399 by Henry Bolingbroke?",
+    "answer": "Richard II",
+    "hints": [
+      "He had faced the Peasants' Revolt earlier in his reign.",
+      "The answer has 2 words; the initial letters are R I."
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which 1917 declaration expressed British support for a Jewish national home in Palestine?",
+    "answer": "Balfour Declaration",
+    "hints": [
+      "It was named after Britain's foreign secretary.",
+      "The answer has 2 words; the initial letters are B D."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the modernist poem The Waste Land (1922)?",
+    "answer": "T. S. Eliot",
+    "hints": [
+      "He also wrote The Love Song of J. Alfred Prufrock.",
+      "The answer has 3 words; the initial letters are T S E."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created the triptych The Garden of Earthly Delights?",
+    "answer": "Hieronymus Bosch",
+    "hints": [
+      "He was a Netherlandish painter known for fantastic imagery.",
+      "The answer has 2 words; the initial letters are H B."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote In Search of Lost Time (A la recherche du temps perdu)?",
+    "answer": "Marcel Proust",
+    "hints": [
+      "A madeleine cake famously triggers memory in this author's work.",
+      "The answer has 2 words; the initial letters are M P."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Renaissance master painted The School of Athens?",
+    "answer": "Raphael",
+    "hints": [
+      "He was an Italian Renaissance painter who worked in the Vatican.",
+      "The answer has 1 word; the initial letter is R."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the epic poem Paradise Lost?",
+    "answer": "John Milton",
+    "hints": [
+      "He was an English poet who became blind.",
+      "The answer has 2 words; the initial letters are J M."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Japanese noblewoman wrote The Tale of Genji?",
+    "answer": "Murasaki Shikibu",
+    "hints": [
+      "She lived at the Japanese imperial court in the Heian period.",
+      "The answer has 2 words; the initial letters are M S."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel Ulysses?",
+    "answer": "James Joyce",
+    "hints": [
+      "He also wrote Dubliners.",
+      "The answer has 2 words; the initial letters are J J."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who sculpted the Pieta in St. Peter's Basilica?",
+    "answer": "Michelangelo",
+    "hints": [
+      "He also painted the Sistine Chapel ceiling.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name of the town in which Lily and James Potter are buried?",
+    "answer": "Godric's Hollow",
+    "hints": [
+      "Narrow it down to these possibilities: Little Hangleton; Ottery St. Catchpole; Godric's Hollow.",
+      "Narrow it further to: Little Hangleton; Godric's Hollow."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "answer": "Neoplasticism",
+    "hints": [
+      "Narrow it down to these possibilities: Impressionism; Neoplasticism; Precisionism.",
+      "Narrow it further to: Neoplasticism; Precisionism."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What was the punishment for Sysiphus's craftiness?",
+    "answer": "Cursed to roll a boulder up a hill for eternity.",
+    "hints": [
+      "Narrow it down to these possibilities: To fell a tree that regenerated after every axe swing.; Standing in a lake filled with water he could not drink.; Cursed to roll a boulder up a hill for eternity..",
+      "Narrow it further to: To fell a tree that regenerated after every axe swing.; Cursed to roll a boulder up a hill for eternity.."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In what Homestuck Update was [S] Game Over released?",
+    "answer": "October 25th, 2014",
+    "hints": [
+      "Narrow it down to these possibilities: October 25th, 2014; August 28th, 2003; April 8th, 2012.",
+      "Narrow it further to: October 25th, 2014; August 28th, 2003."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is Hermione Granger's middle name?",
+    "answer": "Jean",
+    "hints": [
+      "Narrow it down to these possibilities: Jane; Emma; Jean.",
+      "Narrow it further to: Jane; Jean."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What was the first successful and commercially viable photographic technique?",
+    "answer": "The Daguerreotype",
+    "hints": [
+      "Narrow it down to these possibilities: Kodachrome film; The Daguerreotype; Collodion process.",
+      "Narrow it further to: The Daguerreotype; Collodion process."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Hellboy universe, what was Abe Sapien's birth name?",
+    "answer": "Langdon Everett Caul",
+    "hints": [
+      "Narrow it down to these possibilities: Langdon Everett Caul; Sir Edward Grey; Landis Pope.",
+      "Narrow it further to: Langdon Everett Caul; Sir Edward Grey."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Abel Magwitch is a character from which Charles Dickens novel?",
+    "answer": "Great Expectations",
+    "hints": [
+      "Narrow it down to these possibilities: Great Expectations; Oliver Twist; The Pickwick Papers.",
+      "Narrow it further to: Great Expectations; The Pickwick Papers."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who is a minor god that is protector and creator of various arts, such as cheese making and bee keeping.",
+    "answer": "Aristaeus",
+    "hints": [
+      "Narrow it down to these possibilities: Autonoe; Carme; Aristaeus.",
+      "Narrow it further to: Autonoe; Aristaeus."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In what year did the first \"The Walking Dead\" comic come out?",
+    "answer": "2003",
+    "hints": [
+      "Narrow it down to these possibilities: 1999; 2006; 2003.",
+      "Narrow it further to: 1999; 2003."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In Margaret Atwood's \"The Handmaid's Tale\", what is Offred's real name is implied to be?",
+    "answer": "June",
+    "hints": [
+      "Narrow it down to these possibilities: June; August; May.",
+      "Narrow it further to: June; August."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "The painting \"The Starry Night\" by Vincent van Gogh was part of which art movement?",
+    "answer": "Post-Impressionism",
+    "hints": [
+      "Narrow it down to these possibilities: Neoclassical; Romanticism; Post-Impressionism.",
+      "Narrow it further to: Romanticism; Post-Impressionism."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which daughter of King Minos helped Theseus escape the Labyrinth?",
+    "answer": "Ariadne",
+    "hints": [
+      "Narrow it down to these possibilities: Ariadne; Athena; Alana.",
+      "Narrow it further to: Ariadne; Athena."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "When Batman trolls the online chat rooms, what alias does he use?",
+    "answer": "JonDoe297",
+    "hints": [
+      "Narrow it down to these possibilities: JonDoe297; BWayne13; BW1129.",
+      "Narrow it further to: JonDoe297; BWayne13."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "The novel \"Jane Eyre\" was written by what author?",
+    "answer": "Charlotte Brontë",
+    "hints": [
+      "Narrow it down to these possibilities: Jane Austen; Emily Brontë; Charlotte Brontë.",
+      "Narrow it further to: Emily Brontë; Charlotte Brontë."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Nidhogg is a mythical creature from what mythology?",
+    "answer": "Norse",
+    "hints": [
+      "Narrow it down to these possibilities: Hindu; Norse; Egyptian.",
+      "Narrow it further to: Norse; Egyptian."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Batman comics, by what other name is the villain Dr. Jonathan Crane known?",
+    "answer": "Scarecrow",
+    "hints": [
+      "Narrow it down to these possibilities: Calendar Man; Bane; Scarecrow.",
+      "Narrow it further to: Bane; Scarecrow."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Albrecht Dürer's birthplace and place of death were in...",
+    "answer": "Nürnberg",
+    "hints": [
+      "Narrow it down to these possibilities: Nürnberg; Augsburg; Berlin.",
+      "Narrow it further to: Nürnberg; Augsburg."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who is the Egyptian god of reproduction and lettuce?",
+    "answer": "Min",
+    "hints": [
+      "Narrow it down to these possibilities: Min; Meret; Menu.",
+      "Narrow it further to: Min; Menu."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In 1978, Superman teamed up with what celebrity, to defeat an alien invasion?",
+    "answer": "Muhammad Ali",
+    "hints": [
+      "Narrow it down to these possibilities: Mike Tyson; Muhammad Ali; Arnold Schwarzenegger.",
+      "Narrow it further to: Mike Tyson; Muhammad Ali."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the book \"The Martian\", how long was Mark Watney trapped on Mars (in Sols)?",
+    "answer": "549 Days",
+    "hints": [
+      "Narrow it down to these possibilities: 401 Days; 549 Days; 324 Days.",
+      "Narrow it further to: 401 Days; 549 Days."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What French sculptor designed the Statue of Liberty?",
+    "answer": "Frédéric Auguste Bartholdi",
+    "hints": [
+      "Narrow it down to these possibilities: Frédéric Auguste Bartholdi; Henri Matisse; Auguste Rodin.",
+      "Narrow it further to: Frédéric Auguste Bartholdi; Henri Matisse."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "According to Algonquian folklore, how does one transform into a Wendigo?",
+    "answer": "Participating in cannibalism.",
+    "hints": [
+      "Narrow it down to these possibilities: Participating in cannibalism.; Performing a ritual involving murder.; Drinking the blood of many slain animals..",
+      "Narrow it further to: Participating in cannibalism.; Performing a ritual involving murder.."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?",
+    "answer": "Lobster Johnson",
+    "hints": [
+      "Narrow it down to these possibilities: Roger the Homunculus; Lobster Johnson; The Wendigo.",
+      "Narrow it further to: Roger the Homunculus; Lobster Johnson."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Harry Potter universe, what is Cornelius Fudge's middle name?",
+    "answer": "Oswald",
+    "hints": [
+      "Narrow it down to these possibilities: Oswald; Christopher; James.",
+      "Narrow it further to: Oswald; James."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+    "answer": "1502",
+    "hints": [
+      "Narrow it down to these possibilities: 1602; 1402; 1502.",
+      "Narrow it further to: 1602; 1502."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?",
+    "answer": "Nidhogg",
+    "hints": [
+      "Narrow it down to these possibilities: Odin; Nidhogg; Ymir.",
+      "Narrow it further to: Odin; Nidhogg."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What year was the first San Diego Comic-Con?",
+    "answer": "1970",
+    "hints": [
+      "Narrow it down to these possibilities: 1985; 1990; 1970.",
+      "Narrow it further to: 1985; 1970."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
+    "answer": "Badger",
+    "hints": [
+      "Narrow it down to these possibilities: Frog; Badger; Rabbit.",
+      "Narrow it further to: Frog; Badger."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which decorative form of vaulting, with radiating fan-shaped ribs, is associated with English Perpendicular Gothic?",
+    "answer": "Fan vaulting",
+    "hints": [
+      "Narrow it down to these possibilities: Fan vaulting; Hemispherical Domes; Pinnacles.",
+      "Narrow it further to: Fan vaulting; Pinnacles."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Norse God has a horse named Sleipnir?",
+    "answer": "Odin",
+    "hints": [
+      "Narrow it down to these possibilities: Odin; Balder; Frigg.",
+      "Narrow it further to: Odin; Balder."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What are the names of the two \"Canon fan trolls\" in \"Homestuck\"?",
+    "answer": "Mierfa Durgas and Nektan Whelan",
+    "hints": [
+      "Narrow it down to these possibilities: Mierfa Durgas and Nektan Whelan; Grekei Ceknux and Riya Camacho; Aikter Frekik and Xagrai Ollomu.",
+      "Narrow it further to: Mierfa Durgas and Nektan Whelan; Grekei Ceknux and Riya Camacho."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "According to Bram Stoker's novel, in which British coastal town did Dracula come ashore?",
+    "answer": "Whitby",
+    "hints": [
+      "Narrow it down to these possibilities: Portsmouth; Scarborough; Whitby.",
+      "Narrow it further to: Scarborough; Whitby."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Talos, the mythical giant bronze man, was the protector of which island?",
+    "answer": "Crete",
+    "hints": [
+      "Narrow it down to these possibilities: Crete; Sicily; Cyprus.",
+      "Narrow it further to: Crete; Sicily."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the webcomic \"Ava's Demon\", what sin is \"Nevy Nervine\" based off of?",
+    "answer": "Envy",
+    "hints": [
+      "Narrow it down to these possibilities: Sloth; Envy; Wrath.",
+      "Narrow it further to: Sloth; Envy."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which author co-wrote \"The Communist Manifesto\" alongside Karl Marx?",
+    "answer": "Friedrich Engels",
+    "hints": [
+      "Narrow it down to these possibilities: Friedrich Engels; Paul Lafargue; Robert Owen.",
+      "Narrow it further to: Friedrich Engels; Robert Owen."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who did Hippomenes defeat in a footrace?",
+    "answer": "Atalanta",
+    "hints": [
+      "Narrow it down to these possibilities: Atalanta; Jason; Theseus.",
+      "Narrow it further to: Atalanta; Jason."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
+    "answer": "Dark Elves",
+    "hints": [
+      "Narrow it down to these possibilities: Dark Elves; Kronans; Frost Giants.",
+      "Narrow it further to: Dark Elves; Frost Giants."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What name did Thomas Hardy give to the fictional region in which many of his novels are set?",
+    "answer": "Wessex",
+    "hints": [
+      "Narrow it down to these possibilities: Fulchester; Ambridge; Wessex.",
+      "Narrow it further to: Fulchester; Wessex."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the \"Archie\" comics, who was Jughead's first girlfriend?",
+    "answer": "Joani",
+    "hints": [
+      "Narrow it down to these possibilities: Joani; Margret; Ethel.",
+      "Narrow it further to: Joani; Ethel."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the book series \"Odd Thomas\", Danny Jessup has what genetic disease?",
+    "answer": "Osteogenesis Imperfecta",
+    "hints": [
+      "Narrow it down to these possibilities: Adrenoleukodystrophy; Osteogenesis Imperfecta; Spinocerebellar ataxia.",
+      "Narrow it further to: Osteogenesis Imperfecta; Spinocerebellar ataxia."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In The Lies Of Locke Lamora, what does \"Lamora\" mean in Throne Therin?",
+    "answer": "Shadow",
+    "hints": [
+      "Narrow it down to these possibilities: Justice; Thievery; Shadow.",
+      "Narrow it further to: Thievery; Shadow."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Homestuck Series, what is the alternate name for the Kingdom of Lights?",
+    "answer": "Prospit",
+    "hints": [
+      "Narrow it down to these possibilities: Yellow Moon; No Name; Prospit.",
+      "Narrow it further to: No Name; Prospit."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+    "answer": "Astoria Greengrass",
+    "hints": [
+      "Narrow it down to these possibilities: Hermione Granger; Pansy Parkinson; Astoria Greengrass.",
+      "Narrow it further to: Pansy Parkinson; Astoria Greengrass."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What are the Three Virtues of Bionicle?",
+    "answer": "Unity, Duty, Destiny",
+    "hints": [
+      "Narrow it down to these possibilities: Build, Play, Change; Work, Play, Live; Unity, Duty, Destiny.",
+      "Narrow it further to: Build, Play, Change; Unity, Duty, Destiny."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Where does the book \"The Silence of the Lambs\" get its title from?",
+    "answer": "The main character's trauma in childhood",
+    "hints": [
+      "Narrow it down to these possibilities: The relation it has with killing the innocents; The villain's favourite meal; The main character's trauma in childhood.",
+      "Narrow it further to: The relation it has with killing the innocents; The main character's trauma in childhood."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Better known by his nickname Logan, what is Wolverine's birth name?",
+    "answer": "James Howlett",
+    "hints": [
+      "Narrow it down to these possibilities: James Howlett; Thomas Wilde; Logan Wolf.",
+      "Narrow it further to: James Howlett; Logan Wolf."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+    "answer": "The Prince and the Pauper",
+    "hints": [
+      "Narrow it down to these possibilities: Hamlet; Wealthy Boy and the Schmuck; The Prince and the Pauper.",
+      "Narrow it further to: Hamlet; The Prince and the Pauper."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "When was the Garfield comic first published?",
+    "answer": "1978",
+    "hints": [
+      "Narrow it down to these possibilities: 1988; 1982; 1978.",
+      "Narrow it further to: 1982; 1978."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the \"Harry Potter\" series, what is Headmaster Dumbledore's full name?",
+    "answer": "Albus Percival Wulfric Brian Dumbledore",
+    "hints": [
+      "Narrow it down to these possibilities: Albus Valum Jetta Mobius Dumbledore; Albus Valencium Horatio Kul Dumbledore; Albus Percival Wulfric Brian Dumbledore.",
+      "Narrow it further to: Albus Valum Jetta Mobius Dumbledore; Albus Percival Wulfric Brian Dumbledore."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which author and poet famously wrote the line, \"The female of the species is more deadly than the male\"?",
+    "answer": "Rudyard Kipling",
+    "hints": [
+      "Narrow it down to these possibilities: Rudyard Kipling; Edgar Allan Poe; William Shakespeare.",
+      "Narrow it further to: Rudyard Kipling; Edgar Allan Poe."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In which classic novel is there a character named Homer Simpson?",
+    "answer": "The Day of the Locust",
+    "hints": [
+      "Narrow it down to these possibilities: Of Mice and Men; The Day of the Locust; A Separate Peace.",
+      "Narrow it further to: Of Mice and Men; The Day of the Locust."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is Ron Weasley's middle name?",
+    "answer": "Bilius",
+    "hints": [
+      "Narrow it down to these possibilities: Bilius; John; Dominic.",
+      "Narrow it further to: Bilius; John."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Magic: The Gathering universe, the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+    "answer": "Terisiare",
+    "hints": [
+      "Narrow it down to these possibilities: Shiv; Aerona; Terisiare.",
+      "Narrow it further to: Aerona; Terisiare."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Magic: The Gathering universe, the Fallen Empires expansion takes place on which continent?",
+    "answer": "Sarpadia",
+    "hints": [
+      "Narrow it down to these possibilities: Terisiare; Otaria; Sarpadia.",
+      "Narrow it further to: Otaria; Sarpadia."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+    "answer": "Ulgrotha",
+    "hints": [
+      "Narrow it down to these possibilities: Llanowar; Tazeem; Ulgrotha.",
+      "Narrow it further to: Llanowar; Ulgrotha."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which classic horror character killed Elizabeth Lavenza?",
+    "answer": "Frankenstein's Monster",
+    "hints": [
+      "Narrow it down to these possibilities: Werewolf; Frankenstein's Monster; The Creature from the Black Lagoon.",
+      "Narrow it further to: Werewolf; Frankenstein's Monster."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Master and Margarita?",
+    "answer": "Mikhail Bulgakov",
+    "hints": [
+      "The author was born in Kyiv and wrote in Russian.",
+      "The answer has 2 words; the initial letters are M B."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created Las Meninas?",
+    "answer": "Diego Velazquez",
+    "hints": [
+      "He worked at the Spanish court of Philip IV.",
+      "The answer has 2 words; the initial letters are D V."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel Middlemarch?",
+    "answer": "George Eliot",
+    "hints": [
+      "The author used a male pen name.",
+      "The answer has 2 words; the initial letters are G E."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created The Ambassadors, featuring a distorted skull?",
+    "answer": "Hans Holbein the Younger",
+    "hints": [
+      "He worked at the court of Henry VIII.",
+      "The answer has 4 words; the initial letters are H H T Y."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Leopard?",
+    "answer": "Giuseppe Tomasi di Lampedusa",
+    "hints": [
+      "He was an Italian aristocrat from Sicily.",
+      "The answer has 4 words; the initial letters are G T D L."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which sculptor created the bronze Bird in Space series?",
+    "answer": "Constantin Brancusi",
+    "hints": [
+      "He was born in Romania and worked in Paris.",
+      "The answer has 2 words; the initial letters are C B."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Tin Drum?",
+    "answer": "Gunter Grass",
+    "hints": [
+      "Its narrator is Oskar Matzerath.",
+      "The answer has 2 words; the initial letters are G G."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted A Sunday Afternoon on the Island of La Grande Jatte?",
+    "answer": "Georges Seurat",
+    "hints": [
+      "The work uses many small dots of colour.",
+      "The answer has 2 words; the initial letters are G S."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Name of the Rose?",
+    "answer": "Umberto Eco",
+    "hints": [
+      "He was an Italian scholar of signs and symbols.",
+      "The answer has 2 words; the initial letters are U E."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the poem The Second Coming?",
+    "answer": "W. B. Yeats",
+    "hints": [
+      "He was an Irish poet associated with the Celtic Revival.",
+      "The answer has 3 words; the initial letters are W B Y."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which artist created the print The Great Wave off Kanagawa?",
+    "answer": "Katsushika Hokusai",
+    "hints": [
+      "He was a Japanese ukiyo-e artist.",
+      "The answer has 2 words; the initial letters are K H."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel Beloved?",
+    "answer": "Toni Morrison",
+    "hints": [
+      "She won the Nobel Prize in Literature in 1993.",
+      "The answer has 2 words; the initial letters are T M."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created Nighthawks?",
+    "answer": "Edward Hopper",
+    "hints": [
+      "The painting depicts people in a brightly lit diner at night.",
+      "The answer has 2 words; the initial letters are E H."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Trial?",
+    "answer": "Franz Kafka",
+    "hints": [
+      "Its central character is Josef K.",
+      "The answer has 2 words; the initial letters are F K."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which novelist created the fictional town of Macondo?",
+    "answer": "Gabriel Garcia Marquez",
+    "hints": [
+      "He wrote One Hundred Years of Solitude.",
+      "The answer has 3 words; the initial letters are G G M."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Remains of the Day?",
+    "answer": "Kazuo Ishiguro",
+    "hints": [
+      "Its narrator is an English butler named Stevens.",
+      "The answer has 2 words; the initial letters are K I."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which artist created the installation The Weather Project at Tate Modern in 2003?",
+    "answer": "Olafur Eliasson",
+    "hints": [
+      "It featured a large artificial sun in the Turbine Hall.",
+      "The answer has 2 words; the initial letters are O E."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The God of Small Things?",
+    "answer": "Arundhati Roy",
+    "hints": [
+      "It is set largely in Kerala, India.",
+      "The answer has 2 words; the initial letters are A R."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created The Raft of the Medusa?",
+    "answer": "Theodore Gericault",
+    "hints": [
+      "He was a French Romantic painter.",
+      "The answer has 2 words; the initial letters are T G."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel Pedro Paramo?",
+    "answer": "Juan Rulfo",
+    "hints": [
+      "He was a Mexican writer.",
+      "The answer has 2 words; the initial letters are J R."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the collection of stories titled Dubliners?",
+    "answer": "James Joyce",
+    "hints": [
+      "He also wrote A Portrait of the Artist as a Young Man.",
+      "The answer has 2 words; the initial letters are J J."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created Liberty Leading the People?",
+    "answer": "Eugene Delacroix",
+    "hints": [
+      "It commemorates the July Revolution of 1830.",
+      "The answer has 2 words; the initial letters are E D."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the epic poem The Faerie Queene?",
+    "answer": "Edmund Spenser",
+    "hints": [
+      "He wrote during the reign of Elizabeth I.",
+      "The answer has 2 words; the initial letters are E S."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which artist painted Christina's World?",
+    "answer": "Andrew Wyeth",
+    "hints": [
+      "The picture shows a woman in a field looking toward a distant house.",
+      "The answer has 2 words; the initial letters are A W."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Stranger, also translated as The Outsider?",
+    "answer": "Albert Camus",
+    "hints": [
+      "Its protagonist is Meursault.",
+      "The answer has 2 words; the initial letters are A C."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which sculptor created The Burghers of Calais?",
+    "answer": "Auguste Rodin",
+    "hints": [
+      "He also sculpted The Gates of Hell.",
+      "The answer has 2 words; the initial letters are A R."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel Invisible Man, published in 1952?",
+    "answer": "Ralph Ellison",
+    "hints": [
+      "It concerns an unnamed African American narrator.",
+      "The answer has 2 words; the initial letters are R E."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which artist designed the glass pyramid at the Louvre?",
+    "answer": "I. M. Pei",
+    "hints": [
+      "He was a Chinese-born American architect.",
+      "The answer has 3 words; the initial letters are I M P."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel A Passage to India?",
+    "answer": "E. M. Forster",
+    "hints": [
+      "He also wrote Howards End.",
+      "The answer has 3 words; the initial letters are E M F."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created the Arnolfini Portrait?",
+    "answer": "Jan van Eyck",
+    "hints": [
+      "He was an Early Netherlandish painter.",
+      "The answer has 3 words; the initial letters are J V E."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Magic Mountain?",
+    "answer": "Thomas Mann",
+    "hints": [
+      "It is set largely in a Swiss sanatorium.",
+      "The answer has 2 words; the initial letters are T M."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the play Six Characters in Search of an Author?",
+    "answer": "Luigi Pirandello",
+    "hints": [
+      "He was an Italian dramatist and Nobel laureate.",
+      "The answer has 2 words; the initial letters are L P."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter created The Fighting Temeraire?",
+    "answer": "J. M. W. Turner",
+    "hints": [
+      "He was a British painter renowned for light and seascapes.",
+      "The answer has 4 words; the initial letters are J M W T."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the poetry collection Leaves of Grass?",
+    "answer": "Walt Whitman",
+    "hints": [
+      "He was an American poet known for long free-verse lines.",
+      "The answer has 2 words; the initial letters are W W."
+    ]
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel The Unbearable Lightness of Being?",
+    "answer": "Milan Kundera",
+    "hints": [
+      "He was born in Czechoslovakia and later lived in France.",
+      "The answer has 2 words; the initial letters are M K."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the second most abundant element in the Earth's crust?",
+    "answer": "Silicon",
+    "hints": [
+      "Its symbol is Si.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Who formulated the uncertainty principle?",
+    "answer": "Werner Heisenberg",
+    "hints": [
+      "He was a German pioneer of quantum mechanics.",
+      "The answer has 2 words; the initial letters are W H."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the SI unit of electrical resistance?",
+    "answer": "The ohm",
+    "hints": [
+      "Its symbol is the Greek letter omega.",
+      "The answer has 2 words; the initial letters are T O."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the boundary of a black hole beyond which nothing escapes?",
+    "answer": "The event horizon",
+    "hints": [
+      "It marks a point of no return.",
+      "The answer has 3 words; the initial letters are T E H."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the most electronegative chemical element?",
+    "answer": "Fluorine",
+    "hints": [
+      "It is a halogen with atomic number nine.",
+      "The answer has 1 word; the initial letter is F."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many pairs of chromosomes are normally present in a human somatic cell?",
+    "answer": "23",
+    "hints": [
+      "The total includes twenty-two pairs of autosomes.",
+      "The numerical part of the answer contains 2 digits."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which particle was confirmed at CERN in 2012?",
+    "answer": "The Higgs boson",
+    "hints": [
+      "It is associated with a field that gives elementary particles mass.",
+      "The answer has 3 words; the initial letters are T H B."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "hints": [
+      "He noticed a mould inhibiting bacterial growth in 1928.",
+      "The answer has 2 words; the initial letters are A F."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the field rate in hertz of the traditional 625-line PAL television system?",
+    "answer": "50",
+    "hints": [
+      "Narrow it down to these possibilities: 60; 25; 50.",
+      "Narrow it further to: 60; 50."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+    "answer": "1729",
+    "hints": [
+      "Narrow it down to these possibilities: 561; 4104; 1729.",
+      "Narrow it further to: 561; 1729."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Who built the first laser?",
+    "answer": "Theodore Harold Maiman",
+    "hints": [
+      "Narrow it down to these possibilities: Theodore Harold Maiman; Jack Kilby; Nikola Tesla.",
+      "Narrow it further to: Theodore Harold Maiman; Nikola Tesla."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the unit of electrical inductance?",
+    "answer": "Henry",
+    "hints": [
+      "Narrow it down to these possibilities: Henry; Mho; Coulomb.",
+      "Narrow it further to: Henry; Mho."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the scientific name of the Budgerigar?",
+    "answer": "Melopsittacus undulatus",
+    "hints": [
+      "Narrow it down to these possibilities: Nymphicus hollandicus; Melopsittacus undulatus; Ara macao.",
+      "Narrow it further to: Nymphicus hollandicus; Melopsittacus undulatus."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?",
+    "answer": "Micronesia",
+    "hints": [
+      "Narrow it down to these possibilities: Tuvalu; Fiji; Micronesia.",
+      "Narrow it further to: Fiji; Micronesia."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+    "answer": "33.9",
+    "hints": [
+      "Narrow it down to these possibilities: 33.9; 30.0; 10.6.",
+      "Narrow it further to: 33.9; 30.0."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+    "answer": "Injection",
+    "hints": [
+      "Narrow it down to these possibilities: Injection; Broken Authentication; Cross-Site Scripting.",
+      "Narrow it further to: Injection; Broken Authentication."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many zeptometres are inside one femtometre?",
+    "answer": "1,000,000",
+    "hints": [
+      "Narrow it down to these possibilities: 1,000,000,000; 10; 1,000,000.",
+      "Narrow it further to: 10; 1,000,000."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many protons are in an oxygen atom?",
+    "answer": "Eight",
+    "hints": [
+      "Narrow it down to these possibilities: Six; Four; Eight.",
+      "Narrow it further to: Four; Eight."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What scientific family does the Aardwolf belong to?",
+    "answer": "Hyaenidae",
+    "hints": [
+      "Narrow it down to these possibilities: Felidae; Hyaenidae; Eupleridae.",
+      "Narrow it further to: Felidae; Hyaenidae."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+    "answer": "Coffee Lake",
+    "hints": [
+      "Narrow it down to these possibilities: Coffee Lake; Sandy Bridge; Skylake.",
+      "Narrow it further to: Coffee Lake; Sandy Bridge."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the approximate value of mathematical constant e?",
+    "answer": "2.72",
+    "hints": [
+      "Narrow it down to these possibilities: 1.62; 3.14; 2.72.",
+      "Narrow it further to: 3.14; 2.72."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What was the name of the first Bulgarian personal computer?",
+    "answer": "IMKO-1",
+    "hints": [
+      "Narrow it down to these possibilities: IMKO-1; IZOT 1030; Pravetz 82.",
+      "Narrow it further to: IMKO-1; Pravetz 82."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Finding an antiderivative reverses which calculus operation?",
+    "answer": "Differentiation",
+    "hints": [
+      "Narrow it down to these possibilities: Multiplication; Differentiation; Division.",
+      "Narrow it further to: Differentiation; Division."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What nucleotide pairs with guanine?",
+    "answer": "Cytosine",
+    "hints": [
+      "Narrow it down to these possibilities: Adenine; Thymine; Cytosine.",
+      "Narrow it further to: Thymine; Cytosine."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What binary-prefix unit is equal to 1,024 bytes?",
+    "answer": "Kibibyte",
+    "hints": [
+      "Narrow it down to these possibilities: Kelobyte; Kibibyte; Kilobyte.",
+      "Narrow it further to: Kelobyte; Kibibyte."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What physics principle relates the net electric flux out of a closed surface to the charge enclosed by that surface?",
+    "answer": "Gauss's Law",
+    "hints": [
+      "Narrow it down to these possibilities: Gauss's Law; Biot-Savart Law; Faraday's Law.",
+      "Narrow it further to: Gauss's Law; Faraday's Law."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the scientific name of the cheetah?",
+    "answer": "Acinonyx jubatus",
+    "hints": [
+      "Narrow it down to these possibilities: Felis catus; Acinonyx jubatus; Panthera onca.",
+      "Narrow it further to: Acinonyx jubatus; Panthera onca."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What internet protocol was documented in RFC 1459?",
+    "answer": "IRC",
+    "hints": [
+      "Narrow it down to these possibilities: IRC; HTTP; FTP.",
+      "Narrow it further to: IRC; HTTP."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the derivative of Acceleration with respect to time?",
+    "answer": "Jerk",
+    "hints": [
+      "Narrow it down to these possibilities: Bump; Jerk; Slide.",
+      "Narrow it further to: Bump; Jerk."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the molecular formula of Ozone?",
+    "answer": "O3",
+    "hints": [
+      "Narrow it down to these possibilities: SO4; O3; C6H2O6.",
+      "Narrow it further to: O3; C6H2O6."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "To which biological phylum do all mammals, birds and reptiles belong?",
+    "answer": "Chordata",
+    "hints": [
+      "Narrow it down to these possibilities: Chordata; Echinodermata; Annelida.",
+      "Narrow it further to: Chordata; Echinodermata."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the default TCP port for unencrypted HTTP?",
+    "answer": "80",
+    "hints": [
+      "Narrow it down to these possibilities: 53; 80; 23.",
+      "Narrow it further to: 53; 80."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The decimal number 31 in hexadecimal would be what?",
+    "answer": "1F",
+    "hints": [
+      "Narrow it down to these possibilities: 2E; 1F; 3D.",
+      "Narrow it further to: 1F; 3D."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Approximately how many specified elementary entities are in one mole?",
+    "answer": "6.022 x 10^23",
+    "hints": [
+      "Narrow it down to these possibilities: 6.002 x 10^22; 6.022 x 10^23; 6.022 x 10^22.",
+      "Narrow it further to: 6.002 x 10^22; 6.022 x 10^23."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which species is a \"mountain chicken\"?",
+    "answer": "Frog",
+    "hints": [
+      "Narrow it down to these possibilities: Frog; Horse; Fly.",
+      "Narrow it further to: Frog; Horse."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+    "answer": "Transport",
+    "hints": [
+      "Narrow it down to these possibilities: Transport; Network; Data link.",
+      "Narrow it further to: Transport; Network."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
+    "answer": "Folium of Descartes",
+    "hints": [
+      "Narrow it down to these possibilities: Folium of Descartes; Elliptic Paraboloid of Descartes; Cartesian Coordinates.",
+      "Narrow it further to: Folium of Descartes; Elliptic Paraboloid of Descartes."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the scientific name of the knee cap?",
+    "answer": "Patella",
+    "hints": [
+      "Narrow it down to these possibilities: Foramen Magnum; Patella; Scapula.",
+      "Narrow it further to: Foramen Magnum; Patella."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What scientific suborder does the family Hyaenidae belong to?",
+    "answer": "Feliformia",
+    "hints": [
+      "Narrow it down to these possibilities: Haplorhini; Caniformia; Feliformia.",
+      "Narrow it further to: Haplorhini; Feliformia."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?",
+    "answer": "Cheetah",
+    "hints": [
+      "Narrow it down to these possibilities: Cheetah; Leopard; Puma.",
+      "Narrow it further to: Cheetah; Puma."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
+    "answer": "Sneeze",
+    "hints": [
+      "Narrow it down to these possibilities: Yawn; Hiccup; Sneeze.",
+      "Narrow it further to: Yawn; Sneeze."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What bird is born with claws on its wing digits?",
+    "answer": "Hoatzin",
+    "hints": [
+      "Narrow it down to these possibilities: Cassowary; Hoatzin; Cormorant.",
+      "Narrow it further to: Hoatzin; Cormorant."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What was the name of the security vulnerability found in Bash in 2014?",
+    "answer": "Shellshock",
+    "hints": [
+      "Narrow it down to these possibilities: Bashbug; Stagefright; Shellshock.",
+      "Narrow it further to: Bashbug; Shellshock."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What does the scientific name of the Cambrian-Period sea creature Anomalocaris mean?",
+    "answer": "Abnormal Shrimp",
+    "hints": [
+      "Narrow it down to these possibilities: Abnormal Shrimp; Deformed Fish; Strange Crab.",
+      "Narrow it further to: Abnormal Shrimp; Deformed Fish."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What type of creature is a Bonobo?",
+    "answer": "Ape",
+    "hints": [
+      "Narrow it down to these possibilities: Parrot; Ape; Lion.",
+      "Narrow it further to: Ape; Lion."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The Harvard architecture for micro-controllers added which additional bus?",
+    "answer": "Instruction",
+    "hints": [
+      "Narrow it down to these possibilities: Address; Instruction; Control.",
+      "Narrow it further to: Address; Instruction."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which moon is the only satellite in our solar system to possess a dense atmosphere?",
+    "answer": "Titan",
+    "hints": [
+      "Narrow it down to these possibilities: Europa; Callisto; Titan.",
+      "Narrow it further to: Europa; Titan."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the Gray Wolf's scientific name?",
+    "answer": "Canis Lupus",
+    "hints": [
+      "Narrow it down to these possibilities: Canis Lupus; Canis Latrans; Canis Aureus.",
+      "Narrow it further to: Canis Lupus; Canis Aureus."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+    "answer": "Shin Splints",
+    "hints": [
+      "Narrow it down to these possibilities: Housemaid's Knee; Carpal Tunnel; Shin Splints.",
+      "Narrow it further to: Housemaid's Knee; Shin Splints."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+    "answer": "Hemocyanin",
+    "hints": [
+      "Narrow it down to these possibilities: Iron; Hemocyanin; Methionine.",
+      "Narrow it further to: Iron; Hemocyanin."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Who invented the \"Spanning Tree Protocol\"?",
+    "answer": "Radia Perlman",
+    "hints": [
+      "Narrow it down to these possibilities: Paul Vixie; Vint Cerf; Radia Perlman.",
+      "Narrow it further to: Paul Vixie; Radia Perlman."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the scientific name for the extinct hominin known as \"Lucy\"?",
+    "answer": "Australopithecus Afarensis",
+    "hints": [
+      "Narrow it down to these possibilities: Australopithecus Antaris; Australopithecus Afarensis; Australopithecus Architeuthis.",
+      "Narrow it further to: Australopithecus Antaris; Australopithecus Afarensis."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The Western Lowland Gorilla is scientifically know as?",
+    "answer": "Gorilla Gorilla Gorilla",
+    "hints": [
+      "Narrow it down to these possibilities: Gorilla Beringei Beringei; Gorilla Gorilla Diehli; Gorilla Gorilla Gorilla.",
+      "Narrow it further to: Gorilla Gorilla Diehli; Gorilla Gorilla Gorilla."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which data structure does FILO apply to?",
+    "answer": "Stack",
+    "hints": [
+      "Narrow it down to these possibilities: Heap; Tree; Stack.",
+      "Narrow it further to: Heap; Stack."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The word \"science\" stems from the word \"scire\" meaning what?",
+    "answer": "To know",
+    "hints": [
+      "Narrow it down to these possibilities: To know; To measure; To count.",
+      "Narrow it further to: To know; To measure."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What was the first organic compound to be synthesized from inorganic compounds?",
+    "answer": "Urea",
+    "hints": [
+      "Narrow it down to these possibilities: Urea; Propane; Formaldehyde.",
+      "Narrow it further to: Urea; Propane."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Lenovo acquired IBM's personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+    "answer": "2005",
+    "hints": [
+      "Narrow it down to these possibilities: 2002; 2008; 2005.",
+      "Narrow it further to: 2002; 2005."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The 'Islets of Langerhans' is found in which human organ?",
+    "answer": "Pancreas",
+    "hints": [
+      "Narrow it down to these possibilities: Liver; Pancreas; Kidney.",
+      "Narrow it further to: Pancreas; Kidney."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which RAID array type is associated with data mirroring?",
+    "answer": "RAID 1",
+    "hints": [
+      "Narrow it down to these possibilities: RAID 0; RAID 5; RAID 1.",
+      "Narrow it further to: RAID 0; RAID 1."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the scientific name of the red fox?",
+    "answer": "Vulpes Vulpes",
+    "hints": [
+      "Narrow it down to these possibilities: Vulpes Redus; Red Fox; Vulpes Vulpes.",
+      "Narrow it further to: Vulpes Redus; Vulpes Vulpes."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:",
+    "answer": "A' + B'",
+    "hints": [
+      "Narrow it down to these possibilities: A' + B'; A'B + B'A; AB' + AB.",
+      "Narrow it further to: A' + B'; A'B + B'A."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "A neutral atom of which element contains 92 electrons?",
+    "answer": "Uranium",
+    "hints": [
+      "Narrow it down to these possibilities: Hydrogen; Sulfur; Uranium.",
+      "Narrow it further to: Sulfur; Uranium."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is \"Stenoma\"?",
+    "answer": "A genus of moths",
+    "hints": [
+      "Narrow it down to these possibilities: A combat stimulant from WW2; A genus of moths; A port city in the carribean.",
+      "Narrow it further to: A combat stimulant from WW2; A genus of moths."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the chromosome notation for a person with one X chromosome and two Y chromosomes?",
+    "answer": "47,XYY",
+    "hints": [
+      "Narrow it down to these possibilities: 47,XYY; Turner's Syndrome; Down Syndrome.",
+      "Narrow it further to: 47,XYY; Turner's Syndrome."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+    "answer": "Game Maker",
+    "hints": [
+      "Narrow it down to these possibilities: Game Maker; Stencyl; Torque 2D.",
+      "Narrow it further to: Game Maker; Stencyl."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+    "answer": "ADPCM Sampler",
+    "hints": [
+      "Narrow it down to these possibilities: FM Synthesizer; PCM Sampler; ADPCM Sampler.",
+      "Narrow it further to: FM Synthesizer; ADPCM Sampler."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which constellation contains the center of the Milky Way?",
+    "answer": "Sagittarius",
+    "hints": [
+      "Narrow it down to these possibilities: Ophiuchus; Sagittarius; Scorpius.",
+      "Narrow it further to: Sagittarius; Scorpius."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Australia, Japan, and Southeast Asia are in which ITU Region?",
+    "answer": "Region 3",
+    "hints": [
+      "Narrow it down to these possibilities: Region 3; Region 1; Region 2.",
+      "Narrow it further to: Region 3; Region 1."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Where in the human body is the Pineal Gland located?",
+    "answer": "Brain",
+    "hints": [
+      "Narrow it down to these possibilities: Chest; Brain; Groin.",
+      "Narrow it further to: Brain; Groin."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the name for the auditory illusion of a note that seems to be rising infinitely?",
+    "answer": "Shepard Tone",
+    "hints": [
+      "Narrow it down to these possibilities: Shepard Tone; Glissandro Illusion; Fransen Effect.",
+      "Narrow it further to: Shepard Tone; Glissandro Illusion."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How long is a light-year?",
+    "answer": "9.461 Trillion Kilometres",
+    "hints": [
+      "Narrow it down to these possibilities: 9.461 Trillion Kilometres; 105.40 Earth-years; 1 AU.",
+      "Narrow it further to: 9.461 Trillion Kilometres; 1 AU."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "The core of the Sun can reach which temperature?",
+    "answer": "27° Million F (15° Million C)",
+    "hints": [
+      "Narrow it down to these possibilities: 27° Million F (15° Million C); 938,000° F (521093.3° C); 8° Billion F (°4.4 Billion C).",
+      "Narrow it further to: 27° Million F (15° Million C); 938,000° F (521093.3° C)."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "An organic compound is considered an alcohol if it has what functional group?",
+    "answer": "Hydroxyl",
+    "hints": [
+      "Narrow it down to these possibilities: Hydroxyl; Aldehyde; Carbonyl.",
+      "Narrow it further to: Hydroxyl; Carbonyl."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Where is the Gluteus Maximus muscle located?",
+    "answer": "Butt",
+    "hints": [
+      "Narrow it down to these possibilities: Head; Arm; Butt.",
+      "Narrow it further to: Arm; Butt."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What causes the sound of a heartbeat?",
+    "answer": "Closure of the heart valves",
+    "hints": [
+      "Narrow it down to these possibilities: Relaxation of the heart chambers; Contraction of the heart chambers; Closure of the heart valves.",
+      "Narrow it further to: Contraction of the heart chambers; Closure of the heart valves."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the molecular formula of Glucose?",
+    "answer": "C6H12O6",
+    "hints": [
+      "Narrow it down to these possibilities: K+; C2H4O2; C6H12O6.",
+      "Narrow it further to: C2H4O2; C6H12O6."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which is the chemical name of H2O?",
+    "answer": "Dihydrogen Monoxide",
+    "hints": [
+      "Narrow it down to these possibilities: Dihydrogen Monoxide; Manganese dioxide; Ammonium chloride.",
+      "Narrow it further to: Dihydrogen Monoxide; Ammonium chloride."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many legs is it biologically impossible for a centipede to have?",
+    "answer": "100",
+    "hints": [
+      "Narrow it down to these possibilities: 100; 50; 74.",
+      "Narrow it further to: 100; 50."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is isobutylphenylpropanoic acid more commonly known as?",
+    "answer": "Ibuprofen",
+    "hints": [
+      "Narrow it down to these possibilities: Aspirin; Morphine; Ibuprofen.",
+      "Narrow it further to: Morphine; Ibuprofen."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Muscle fiber is constructed of bundles small long organelles called what?",
+    "answer": "Myofibrils",
+    "hints": [
+      "Narrow it down to these possibilities: Myofiaments; Myofibrils; Epimysium.",
+      "Narrow it further to: Myofibrils; Epimysium."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Coulrophobia is the irrational fear of what?",
+    "answer": "Clowns",
+    "hints": [
+      "Narrow it down to these possibilities: Needles; Cemeteries; Clowns.",
+      "Narrow it further to: Cemeteries; Clowns."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the standard SI unit for luminous intensity?",
+    "answer": "Candela",
+    "hints": [
+      "Narrow it down to these possibilities: Candela; Faraday; Coulomb.",
+      "Narrow it further to: Candela; Faraday."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Quercus robur is the scientific name of which familiar European tree?",
+    "answer": "English oak",
+    "hints": [
+      "Narrow it down to these possibilities: Flowers; English oak; Vegtables.",
+      "Narrow it further to: Flowers; English oak."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "On the Beaufort Scale of wind force, what wind name is given to number 8?",
+    "answer": "Gale",
+    "hints": [
+      "Narrow it down to these possibilities: Breeze; Gale; Hurricane.",
+      "Narrow it further to: Breeze; Gale."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Folic acid is a synthetic form of which numbered B vitamin?",
+    "answer": "Vitamin B9",
+    "hints": [
+      "Narrow it down to these possibilities: Vitamin D; Vitamin A; Vitamin B9.",
+      "Narrow it further to: Vitamin A; Vitamin B9."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "\"The Big Bang Theory\" was first theorized by a priest of what religious ideology?",
+    "answer": "Catholic",
+    "hints": [
+      "Narrow it down to these possibilities: Catholic; Islamic; Jewish.",
+      "Narrow it further to: Catholic; Islamic."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which enzyme synthesises RNA using a DNA template?",
+    "answer": "RNA polymerase",
+    "hints": [
+      "It performs transcription.",
+      "The answer has 2 words; the initial letters are R P."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the SI unit of magnetic flux?",
+    "answer": "Weber",
+    "hints": [
+      "It is equal to one volt-second.",
+      "The answer has 1 word; the initial letter is W."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the SI unit of magnetic flux density?",
+    "answer": "Tesla",
+    "hints": [
+      "It is equal to one weber per square metre.",
+      "The answer has 1 word; the initial letter is T."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which principle states that a system at equilibrium responds to oppose an imposed change?",
+    "answer": "Le Chatelier's principle",
+    "hints": [
+      "It is used to predict shifts in chemical equilibria.",
+      "The answer has 4 words; the initial letters are L C S P."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the term for nuclides with the same mass number but different atomic numbers?",
+    "answer": "Isobars",
+    "hints": [
+      "They have equal totals of protons and neutrons, but belong to different elements.",
+      "The answer has 1 word; the initial letter is I."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which organelle modifies and sorts many proteins before they are transported elsewhere?",
+    "answer": "Golgi apparatus",
+    "hints": [
+      "It consists of stacks of flattened membrane sacs.",
+      "The answer has 2 words; the initial letters are G A."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of the cycle that fixes carbon dioxide in photosynthesis?",
+    "answer": "Calvin cycle",
+    "hints": [
+      "It takes place in the chloroplast stroma.",
+      "The answer has 2 words; the initial letters are C C."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which theorem states that every square matrix satisfies its own characteristic equation?",
+    "answer": "Cayley-Hamilton theorem",
+    "hints": [
+      "It is named after a British mathematician and an Irish mathematician.",
+      "The answer has 3 words; the initial letters are C H T."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the SI unit of absorbed ionising-radiation dose?",
+    "answer": "Gray",
+    "hints": [
+      "It equals one joule per kilogram.",
+      "The answer has 1 word; the initial letter is G."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the SI unit of radioactive activity?",
+    "answer": "Becquerel",
+    "hints": [
+      "It corresponds to one nuclear decay per second.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which law states that the pressure of a fixed amount of gas is inversely proportional to its volume at constant temperature?",
+    "answer": "Boyle's law",
+    "hints": [
+      "It is named after a seventeenth-century scientist.",
+      "The answer has 3 words; the initial letters are B S L."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which dimensionless number compares inertial forces with viscous forces in fluid flow?",
+    "answer": "Reynolds number",
+    "hints": [
+      "It helps distinguish laminar from turbulent flow.",
+      "The answer has 2 words; the initial letters are R N."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which branch of mathematics studies properties preserved under continuous deformation?",
+    "answer": "Topology",
+    "hints": [
+      "A classic example compares a doughnut with a handled mug.",
+      "The answer has 1 word; the initial letter is T."
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the term for a species found naturally only in a particular geographic area?",
+    "answer": "Endemic species",
+    "hints": [
+      "The term is often used for island wildlife.",
+      "The answer has 2 words; the initial letters are E S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country won the first FIFA World Cup in 1930?",
+    "answer": "Uruguay",
+    "hints": [
+      "The tournament was also hosted there.",
+      "The answer has 1 word; the initial letter is U."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In golf, what is a score of three under par on a single hole called?",
+    "answer": "An albatross",
+    "hints": [
+      "It is named after a large seabird.",
+      "The answer has 2 words; the initial letters are A A."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which swimmer finished the 2016 Olympics with a career total of 23 Olympic gold medals?",
+    "answer": "Michael Phelps",
+    "hints": [
+      "He was an American swimmer known for butterfly and medley events.",
+      "The answer has 2 words; the initial letters are M P."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which gymnast scored the first perfect 10 at the Olympics in 1976?",
+    "answer": "Nadia Comaneci",
+    "hints": [
+      "She represented Romania.",
+      "The answer has 2 words; the initial letters are N C."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which nation won its fourth men's Rugby World Cup in 2023?",
+    "answer": "South Africa",
+    "hints": [
+      "The team's nickname is the Springboks.",
+      "The answer has 2 words; the initial letters are S A."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In cricket, what is taking three wickets on three consecutive balls called?",
+    "answer": "A hat-trick",
+    "hints": [
+      "The term also appears in football, for three goals.",
+      "The answer has 3 words; the initial letters are A H T."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which two drivers had each won seven Formula One World Drivers' Championships by the end of 2020?",
+    "answer": "Michael Schumacher and Lewis Hamilton",
+    "hints": [
+      "One driver is German and the other is British.",
+      "The answer has 5 words; the initial letters are M S A L H."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In chess, forcing a draw through endless checks is called what?",
+    "answer": "Perpetual check",
+    "hints": [
+      "It repeatedly threatens the opposing king.",
+      "The answer has 2 words; the initial letters are P C."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which English football team is nicknamed 'The Tigers'?",
+    "answer": "Hull City",
+    "hints": [
+      "Narrow it down to these possibilities: Manchester City; Hull City; Bristol City.",
+      "Narrow it further to: Manchester City; Hull City."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In Magic: The Gathering, what was a tribute card to Jamie Wakefield's late wife Marilyn, who loved horses?",
+    "answer": "Timbermare",
+    "hints": [
+      "Narrow it down to these possibilities: Loyal Pegasus; Timbermare; Vryn Wingmare.",
+      "Narrow it further to: Loyal Pegasus; Timbermare."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What was the development code name for the \"Urza's Destiny\" expansion for \"Magic: The Gathering\", released in 1999?",
+    "answer": "Chimichanga",
+    "hints": [
+      "Narrow it down to these possibilities: Burrito; Taquito; Chimichanga.",
+      "Narrow it further to: Burrito; Chimichanga."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+    "answer": "Nine",
+    "hints": [
+      "Narrow it down to these possibilities: Seven; Nine; Eight.",
+      "Narrow it further to: Seven; Nine."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which card is on the cover of the Beta rulebook of \"Magic: The Gathering\"?",
+    "answer": "Bog Wraith",
+    "hints": [
+      "Narrow it down to these possibilities: Bog Wraith; Elvish Archers; Rock Hydra.",
+      "Narrow it further to: Bog Wraith; Elvish Archers."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+    "answer": "Pelle",
+    "hints": [
+      "Narrow it down to these possibilities: Insigne; Giaccherini; Pelle.",
+      "Narrow it further to: Insigne; Pelle."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "The board game \"Ra\" was designed by which designer?",
+    "answer": "Reiner Knizia",
+    "hints": [
+      "Narrow it down to these possibilities: Reiner Knizia; Allison Kline; Bruno Cathala.",
+      "Narrow it further to: Reiner Knizia; Bruno Cathala."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "With which doubles partner did John McEnroe have most success?",
+    "answer": "Peter Fleming",
+    "hints": [
+      "Narrow it down to these possibilities: Michael Stich; Mary Carillo; Peter Fleming.",
+      "Narrow it further to: Michael Stich; Peter Fleming."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Dungeons & Dragons monster has challenge rating 30 in the 2014 Monster Manual?",
+    "answer": "Tarrasque",
+    "hints": [
+      "Narrow it down to these possibilities: Lich; Beholder; Tarrasque.",
+      "Narrow it further to: Beholder; Tarrasque."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Where was the Games of the XXII Olympiad held?",
+    "answer": "Moscow",
+    "hints": [
+      "Narrow it down to these possibilities: Barcelona; Moscow; Tokyo.",
+      "Narrow it further to: Barcelona; Moscow."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "At which race was the 2018 F1 Drivers Championship won?",
+    "answer": "Mexico",
+    "hints": [
+      "Narrow it down to these possibilities: Mexico; Belgium; Abu Dhabi.",
+      "Narrow it further to: Mexico; Belgium."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What Magic: The Gathering card's flavor text is just 'Ribbit.'?",
+    "answer": "Turn to Frog",
+    "hints": [
+      "Narrow it down to these possibilities: Turn to Frog; Bloated Toad; Spore Frog.",
+      "Narrow it further to: Turn to Frog; Spore Frog."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+    "answer": "1991",
+    "hints": [
+      "Narrow it down to these possibilities: 2000; 1987; 1991.",
+      "Narrow it further to: 2000; 1991."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "On a standard US Monopoly board, what is the purchase price of Tennessee Avenue?",
+    "answer": "$180",
+    "hints": [
+      "Narrow it down to these possibilities: $220; $160; $180.",
+      "Narrow it further to: $220; $180."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "answer": "Ma Long (China)",
+    "hints": [
+      "Narrow it down to these possibilities: Vladimir Samsonov (Belarus); Zhang Jike (China); Ma Long (China).",
+      "Narrow it further to: Zhang Jike (China); Ma Long (China)."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In Magic: The Gathering, what term for blocking was established in the Portal set?",
+    "answer": "Intercepting",
+    "hints": [
+      "Narrow it down to these possibilities: Blocking; Resisting; Intercepting.",
+      "Narrow it further to: Blocking; Intercepting."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+    "answer": "Mazda",
+    "hints": [
+      "Narrow it down to these possibilities: Nissan; Toyota; Mazda.",
+      "Narrow it further to: Toyota; Mazda."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which year was the third Super Bowl held?",
+    "answer": "1969",
+    "hints": [
+      "Narrow it down to these possibilities: 1971; 1969; 1968.",
+      "Narrow it further to: 1969; 1968."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What was the development code name for the \"Weatherlight\" expansion for \"Magic: The Gathering\", released in 1997?",
+    "answer": "Mocha Latte",
+    "hints": [
+      "Narrow it down to these possibilities: Decaf; Mocha Latte; Macchiato.",
+      "Narrow it further to: Decaf; Mocha Latte."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+    "answer": "Ole Gunnar Solskjær",
+    "hints": [
+      "Narrow it down to these possibilities: David Beckham; Ole Gunnar Solskjær; Dwight Yorke.",
+      "Narrow it further to: Ole Gunnar Solskjær; Dwight Yorke."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the total face value of all 100 tiles in a standard English-language Scrabble set?",
+    "answer": "187",
+    "hints": [
+      "Narrow it down to these possibilities: 197; 177; 187.",
+      "Narrow it further to: 197; 187."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In Magic: The Gathering, what card's flavor text is \"Catch!\"?",
+    "answer": "Lava Axe",
+    "hints": [
+      "Narrow it down to these possibilities: Throwing Knife; Ember Shot; Lava Axe.",
+      "Narrow it further to: Throwing Knife; Lava Axe."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+    "answer": "Cristiano Ronaldo dos Santos Aveiro",
+    "hints": [
+      "Narrow it down to these possibilities: Cristiano Ronaldo los Santos Diego; Cristiano Ronaldo dos Santos Aveiro; Cristiano Luis Armando Ronaldo.",
+      "Narrow it further to: Cristiano Ronaldo los Santos Diego; Cristiano Ronaldo dos Santos Aveiro."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which character class in Dungeons and Dragons 5th edition gains it's powers from making a pact with a being of higher power?",
+    "answer": "Warlock",
+    "hints": [
+      "Narrow it down to these possibilities: Sorceror; Cleric; Warlock.",
+      "Narrow it further to: Sorceror; Warlock."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+    "answer": "Hammer",
+    "hints": [
+      "Narrow it down to these possibilities: Hammer; Drill; Wrench.",
+      "Narrow it further to: Hammer; Wrench."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In standard US Monopoly, what is the base rent for unimproved Park Place when its owner does not own the complete colour group?",
+    "answer": "$35",
+    "hints": [
+      "Narrow it down to these possibilities: $35; $50; $45.",
+      "Narrow it further to: $35; $50."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is “The Sport of Kings”?",
+    "answer": "Horse Racing",
+    "hints": [
+      "Narrow it down to these possibilities: Horse Racing; Jousting; Chess.",
+      "Narrow it further to: Horse Racing; Chess."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which ability from the \"Magic: The Gathering\" Scars of Mirrodin expansion involves having at least three artifacts in play?",
+    "answer": "Metalcraft",
+    "hints": [
+      "Narrow it down to these possibilities: Imprint; Living Weapon; Metalcraft.",
+      "Narrow it further to: Imprint; Metalcraft."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who won the 1998 Daytona 500?",
+    "answer": "Dale Earnhardt",
+    "hints": [
+      "Narrow it down to these possibilities: Jeff Gordon; Michael Walltrip; Dale Earnhardt.",
+      "Narrow it further to: Jeff Gordon; Dale Earnhardt."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What do you declare in Rīchi Mahjong when you've drawn your winning tile?",
+    "answer": "Tsumo",
+    "hints": [
+      "Narrow it down to these possibilities: Rīchi; Tsumo; Ron.",
+      "Narrow it further to: Tsumo; Ron."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+    "answer": "Portugal",
+    "hints": [
+      "Narrow it down to these possibilities: Brazil; Portugal; West Germany.",
+      "Narrow it further to: Portugal; West Germany."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Some of the \"Fallen Empires\" cards from \"Magic: The Gathering\" were misprinted on the backs of which other card game?",
+    "answer": "Wyvern",
+    "hints": [
+      "Narrow it down to these possibilities: Pokemon; Wyvern; Yu-Gi-Oh.",
+      "Narrow it further to: Pokemon; Wyvern."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "The board game \"Monopoly\" is a variation of what board game?",
+    "answer": "The Landlord's Game",
+    "hints": [
+      "Narrow it down to these possibilities: Territorial Dispute; The Landlord's Game; The Monopolist's Game.",
+      "Narrow it further to: Territorial Dispute; The Landlord's Game."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which player \"kung-fu kicked\" a Crystal Palace fan in January 1995?",
+    "answer": "Eric Cantona",
+    "hints": [
+      "Narrow it down to these possibilities: Eric Cantona; Mark Hughes; David Seamen.",
+      "Narrow it further to: Eric Cantona; David Seamen."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "answer": "DING Ning (China)",
+    "hints": [
+      "Narrow it down to these possibilities: Song KIM (North Korea); DING Ning (China); LI Xiaoxia (China).",
+      "Narrow it further to: DING Ning (China); LI Xiaoxia (China)."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess opening begins 1.e4 c5?",
+    "answer": "Sicilian Defence",
+    "hints": [
+      "Its name refers to a Mediterranean island.",
+      "The answer has 2 words; the initial letters are S D."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess opening begins 1.d4 d5 2.c4?",
+    "answer": "Queen's Gambit",
+    "hints": [
+      "Its name refers to the most powerful chess piece.",
+      "The answer has 3 words; the initial letters are Q S G."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess opening begins 1.e4 e6?",
+    "answer": "French Defence",
+    "hints": [
+      "Its name refers to a European country.",
+      "The answer has 2 words; the initial letters are F D."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess opening begins 1.e4 c6?",
+    "answer": "Caro-Kann Defence",
+    "hints": [
+      "It is named after two players.",
+      "The answer has 3 words; the initial letters are C K D."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess opening begins 1.e4 e5 2.Nf3 Nc6 3.Bb5?",
+    "answer": "Ruy Lopez",
+    "hints": [
+      "It is named after a Spanish priest.",
+      "The answer has 2 words; the initial letters are R L."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the chess term for a situation in which any legal move worsens a player's position?",
+    "answer": "Zugzwang",
+    "hints": [
+      "The word comes from German.",
+      "The answer has 1 word; the initial letter is Z."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the chess term for a draw when the player to move has no legal moves but is not in check?",
+    "answer": "Stalemate",
+    "hints": [
+      "The king is safe, but nothing can legally move.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which special pawn capture must be made immediately after an opposing pawn advances two squares alongside it?",
+    "answer": "En passant",
+    "hints": [
+      "The name is French for in passing.",
+      "The answer has 2 words; the initial letters are E P."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of the chess tactic in which a piece cannot move without exposing a more valuable piece behind it?",
+    "answer": "A pin",
+    "hints": [
+      "The same word names a small fastener.",
+      "The answer has 2 words; the initial letters are A P."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess tactic attacks a valuable piece so that moving it exposes another piece behind it?",
+    "answer": "A skewer",
+    "hints": [
+      "Its name is also a cooking utensil.",
+      "The answer has 2 words; the initial letters are A S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Cuban player became world chess champion in 1921?",
+    "answer": "Jose Raul Capablanca",
+    "hints": [
+      "He defeated Emanuel Lasker.",
+      "The answer has 3 words; the initial letters are J R C."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who defeated Boris Spassky in the 1972 world chess championship?",
+    "answer": "Bobby Fischer",
+    "hints": [
+      "He was an American player.",
+      "The answer has 2 words; the initial letters are B F."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Soviet chess player was nicknamed the Magician from Riga?",
+    "answer": "Mikhail Tal",
+    "hints": [
+      "He became world champion in 1960.",
+      "The answer has 2 words; the initial letters are M T."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In contract bridge, how many cards does each player receive?",
+    "answer": "13",
+    "hints": [
+      "The deck is divided equally among four players.",
+      "It is a two-digit prime number between ten and twenty."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In contract bridge, what is the highest-ranking suit for bidding?",
+    "answer": "Spades",
+    "hints": [
+      "It is the black suit whose symbol resembles a pointed leaf.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In contract bridge, what is a contract to win all thirteen tricks called?",
+    "answer": "A grand slam",
+    "hints": [
+      "Its name includes a word meaning large or impressive.",
+      "The answer has 3 words; the initial letters are A G S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In contract bridge, what is a contract to win twelve tricks called?",
+    "answer": "A small slam",
+    "hints": [
+      "It is one trick short of taking every trick.",
+      "The answer has 3 words; the initial letters are A S S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In cribbage, what is the highest possible score for a single hand including the starter card?",
+    "answer": "29",
+    "hints": [
+      "It requires three fives and a jack in the hand with a five as the starter.",
+      "It is a prime number just below thirty."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is each narrow triangular space on a backgammon board called?",
+    "answer": "A point",
+    "hints": [
+      "Each board has twenty-four of them.",
+      "The answer has 2 words; the initial letters are A P."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In backgammon, what is the term for removing one's checkers from the board at the end of play?",
+    "answer": "Bearing off",
+    "hints": [
+      "It can begin once all your checkers are in your home board.",
+      "The answer has 2 words; the initial letters are B O."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In backgammon, what is a single checker alone on a point called?",
+    "answer": "A blot",
+    "hints": [
+      "It is vulnerable to being hit.",
+      "The answer has 2 words; the initial letters are A B."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In English draughts, what is a piece called after it reaches the opponent's back rank?",
+    "answer": "A king",
+    "hints": [
+      "It gains the ability to move backward.",
+      "The answer has 2 words; the initial letters are A K."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many tiles are in a standard double-six domino set?",
+    "answer": "28",
+    "hints": [
+      "There is one tile for every unordered pair of values from zero to six.",
+      "It is four times seven."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which card game traditionally uses a thirty-two-card deck and three players, and originated in Germany?",
+    "answer": "Skat",
+    "hints": [
+      "Its name is a four-letter word.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of the Japanese chess variant in which captured pieces may be dropped back onto the board?",
+    "answer": "Shogi",
+    "hints": [
+      "Its name is sometimes translated as the generals' game.",
+      "The answer has 1 word; the initial letter is S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of the Chinese chess variant played on a board divided by a river?",
+    "answer": "Xiangqi",
+    "hints": [
+      "The generals remain inside palaces.",
+      "The answer has 1 word; the initial letter is X."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which abstract strategy game uses rings and markers and was designed by Kris Burm?",
+    "answer": "YINSH",
+    "hints": [
+      "It belongs to the GIPF project.",
+      "The answer has 1 word; the initial letter is Y."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which board game designed by Uwe Rosenberg has players develop a farm and feed their family?",
+    "answer": "Agricola",
+    "hints": [
+      "Its Latin title means farmer.",
+      "The answer has 1 word; the initial letter is A."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which board game by Alan R. Moon has players claim railway routes between cities?",
+    "answer": "Ticket to Ride",
+    "hints": [
+      "Its title sounds like a travel pass.",
+      "The answer has 3 words; the initial letters are T T R."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which cooperative board game has players contain outbreaks and discover cures for four diseases?",
+    "answer": "Pandemic",
+    "hints": [
+      "Its title names a widespread disease outbreak.",
+      "The answer has 1 word; the initial letter is P."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which board game by Klaus Teuber was first published in German as Die Siedler von Catan?",
+    "answer": "Catan",
+    "hints": [
+      "Players gather and trade resources to build settlements.",
+      "The answer has 1 word; the initial letter is C."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which word game uses sixteen letter cubes in a four-by-four grid and a sand timer?",
+    "answer": "Boggle",
+    "hints": [
+      "Players find words by following adjacent letters.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which two-player board game asks players to deduce the identity of the opponent's character by asking yes-or-no questions?",
+    "answer": "Guess Who?",
+    "hints": [
+      "Its title is itself a question.",
+      "The answer has 2 words; the initial letters are G W."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which game designed by Richard Garfield uses collectible cards and five colours of mana?",
+    "answer": "Magic: The Gathering",
+    "hints": [
+      "It was first published in 1993.",
+      "The answer has 3 words; the initial letters are M T G."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name for a badminton shot that drops just beyond the net?",
+    "answer": "A drop shot",
+    "hints": [
+      "It is intended to fall short rather than travel to the back court.",
+      "The answer has 3 words; the initial letters are A D S."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the maximum score for a perfect game of ten-pin bowling?",
+    "answer": "300",
+    "hints": [
+      "It requires twelve consecutive strikes.",
+      "It equals three times one hundred."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the term for taking a wicket with the first ball faced by a cricket batter?",
+    "answer": "A golden duck",
+    "hints": [
+      "It adds a precious-metal adjective to the term for scoring zero.",
+      "The answer has 3 words; the initial letters are A G D."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In cricket, what is an over in which no runs are charged to the bowler called?",
+    "answer": "A maiden over",
+    "hints": [
+      "Its name traditionally suggests an unmarried young woman.",
+      "The answer has 3 words; the initial letters are A M O."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which cricket dismissal is abbreviated LBW?",
+    "answer": "Leg before wicket",
+    "hints": [
+      "The batter's leg can prevent the ball from striking the stumps.",
+      "The answer has 3 words; the initial letters are L B W."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In cricket, what is the term for a ball hit over the boundary without bouncing?",
+    "answer": "A six",
+    "hints": [
+      "It is worth more than a boundary that bounces first.",
+      "It scores two more runs than a four."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In snooker, which colour ball is worth five points?",
+    "answer": "Blue",
+    "hints": [
+      "It is positioned at the centre of the table at the start.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In snooker, which colour ball is worth six points?",
+    "answer": "Pink",
+    "hints": [
+      "It begins near the apex of the red-ball triangle.",
+      "The answer has 1 word; the initial letter is P."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In darts, what is the standard starting score in a professional leg that ends with a double?",
+    "answer": "501",
+    "hints": [
+      "Players subtract the points they score.",
+      "It is one more than five hundred."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country hosted the first Winter Olympic Games in 1924?",
+    "answer": "France",
+    "hints": [
+      "The host town was Chamonix.",
+      "The answer has 1 word; the initial letter is F."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which city hosted the 1952 Summer Olympic Games?",
+    "answer": "Helsinki",
+    "hints": [
+      "It is the capital of Finland.",
+      "The answer has 1 word; the initial letter is H."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which city hosted the 1968 Summer Olympic Games?",
+    "answer": "Mexico City",
+    "hints": [
+      "The Games were held at high altitude in North America.",
+      "The answer has 2 words; the initial letters are M C."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which city hosted the 1976 Summer Olympic Games?",
+    "answer": "Montreal",
+    "hints": [
+      "It is in the Canadian province of Quebec.",
+      "The answer has 1 word; the initial letter is M."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which city hosted the 1992 Summer Olympic Games?",
+    "answer": "Barcelona",
+    "hints": [
+      "It is the capital of Catalonia.",
+      "The answer has 1 word; the initial letter is B."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which city hosted the 1994 Winter Olympic Games?",
+    "answer": "Lillehammer",
+    "hints": [
+      "It is a town in Norway.",
+      "The answer has 1 word; the initial letter is L."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who won the men's marathon at the 1960 Olympics while running barefoot?",
+    "answer": "Abebe Bikila",
+    "hints": [
+      "He represented Ethiopia.",
+      "The answer has 2 words; the initial letters are A B."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which athlete won four gold medals at the 1936 Berlin Olympics?",
+    "answer": "Jesse Owens",
+    "hints": [
+      "He was an American sprinter and long jumper.",
+      "The answer has 2 words; the initial letters are J O."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which gymnast won the all-around women's title at the 1972 Olympics?",
+    "answer": "Lyudmila Turishcheva",
+    "hints": [
+      "She represented the Soviet Union.",
+      "The answer has 2 words; the initial letters are L T."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Romanian tennis player won the men's singles title at the 1972 US Open?",
+    "answer": "Ilie Nastase",
+    "hints": [
+      "He later became the first men's player ranked number one by the ATP computer rankings.",
+      "The answer has 2 words; the initial letters are I N."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Australian tennis player won all four men's Grand Slam singles titles in 1969?",
+    "answer": "Rod Laver",
+    "hints": [
+      "A major arena at the Australian Open is named after him.",
+      "The answer has 2 words; the initial letters are R L."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Swedish tennis player won five consecutive Wimbledon men's singles titles from 1976 to 1980?",
+    "answer": "Bjorn Borg",
+    "hints": [
+      "He was known for his calm manner on court.",
+      "The answer has 2 words; the initial letters are B B."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which French cyclist won five Tours de France between 1957 and 1964?",
+    "answer": "Jacques Anquetil",
+    "hints": [
+      "He was particularly strong in time trials.",
+      "The answer has 2 words; the initial letters are J A."
+    ]
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Belgian cyclist was nicknamed the Cannibal?",
+    "answer": "Eddy Merckx",
+    "hints": [
+      "He won the Tour de France five times.",
+      "The answer has 2 words; the initial letters are E M."
+    ]
+  }
 ]

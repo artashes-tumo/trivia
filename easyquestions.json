@@ -1,187 +1,3602 @@
 [
-  { "category": "Geography", "question": "What is the capital of Australia?", "answer": "Canberra" },
-  { "category": "Geography", "question": "What is the largest country in the world by area?", "answer": "Russia" },
-  { "category": "Geography", "question": "Which is the largest hot desert on Earth?", "answer": "The Sahara" },
-  { "category": "Geography", "question": "What is the tallest mountain above sea level?", "answer": "Mount Everest" },
-  { "category": "Geography", "question": "What is the capital of Canada?", "answer": "Ottawa" },
-  { "category": "Geography", "question": "Which is the largest ocean on Earth?", "answer": "The Pacific Ocean" },
-  { "category": "Geography", "question": "What is the capital of Japan?", "answer": "Tokyo" },
-  { "category": "Geography", "question": "Which European country is shaped like a boot?", "answer": "Italy" },
-  { "category": "Geography", "question": "What is the capital of Egypt?", "answer": "Cairo" },
-  { "category": "Geography", "question": "What is the largest island in the world?", "answer": "Greenland" },
-  { "category": "Geography", "question": "Which is the largest U.S. state by area?", "answer": "Alaska" },
-  { "category": "Geography", "question": "What is the capital of Brazil?", "answer": "Brasilia" },
-  { "category": "Geography", "question": "Which river flows through London?", "answer": "The Thames" },
-  { "category": "Geography", "question": "What is the smallest country in the world?", "answer": "Vatican City" },
-  { "category": "Geography", "question": "What is the capital of South Korea?", "answer": "Seoul" },
-  { "category": "Geography", "question": "Which mountain range separates Europe and Asia?", "answer": "The Ural Mountains" },
-  { "category": "Geography", "question": "What is the largest lake in the world by area?", "answer": "The Caspian Sea" },
-  { "category": "Geography", "question": "What is the capital of Spain?", "answer": "Madrid" },
-  { "category": "Geography", "question": "The Great Barrier Reef lies off the coast of which country?", "answer": "Australia" },
-  { "category": "Geography", "question": "What is the capital of Russia?", "answer": "Moscow" },
-  { "category": "Geography", "question": "Which African country was formerly known as Abyssinia?", "answer": "Ethiopia" },
-  { "category": "Geography", "question": "Which strait separates Spain from Morocco?", "answer": "The Strait of Gibraltar" },
-  { "category": "Geography", "question": "What is the capital of Argentina?", "answer": "Buenos Aires" },
-  { "category": "Geography", "question": "What is the highest waterfall in the world?", "answer": "Angel Falls" },
-  { "category": "Geography", "question": "Which body of water is the lowest point on land?", "answer": "The Dead Sea" },
-  { "category": "Geography", "question": "Which continent is the least populated?", "answer": "Antarctica" },
-  { "category": "Geography", "question": "What is the capital of Germany?", "answer": "Berlin" },
-  { "category": "Geography", "question": "Which country has the most natural lakes?", "answer": "Canada" },
-  { "category": "Geography", "question": "What is the longest river in the world?", "answer": "The Nile" },
-  { "category": "Geography", "question": "Mount Kilimanjaro is located in which country?", "answer": "Tanzania" },
-
-  { "category": "Entertainment", "question": "Who played Jack in the 1997 film Titanic?", "answer": "Leonardo DiCaprio" },
-  { "category": "Entertainment", "question": "What is the wizarding school in Harry Potter called?", "answer": "Hogwarts" },
-  { "category": "Entertainment", "question": "Which band released Bohemian Rhapsody?", "answer": "Queen" },
-  { "category": "Entertainment", "question": "Which 2009 film became the highest-grossing of all time?", "answer": "Avatar" },
-  { "category": "Entertainment", "question": "Who directed Jaws and E.T.?", "answer": "Steven Spielberg" },
-  { "category": "Entertainment", "question": "Which singer is known as the King of Pop?", "answer": "Michael Jackson" },
-  { "category": "Entertainment", "question": "What is Joey's catchphrase in Friends?", "answer": "How you doin'?" },
-  { "category": "Entertainment", "question": "Who voices Woody in the Toy Story films?", "answer": "Tom Hanks" },
-  { "category": "Entertainment", "question": "Which Netflix show features the Upside Down?", "answer": "Stranger Things" },
-  { "category": "Entertainment", "question": "Who sang Rolling in the Deep?", "answer": "Adele" },
-  { "category": "Entertainment", "question": "Who played Iron Man in the Marvel films?", "answer": "Robert Downey Jr." },
-  { "category": "Entertainment", "question": "What is the name of the kingdom in Frozen?", "answer": "Arendelle" },
-  { "category": "Entertainment", "question": "Which animated TV family lives in Springfield?", "answer": "The Simpsons" },
-  { "category": "Entertainment", "question": "Who wrote and performed Shake It Off?", "answer": "Taylor Swift" },
-  { "category": "Entertainment", "question": "Which movie features the catchphrase I will be back?", "answer": "The Terminator" },
-  { "category": "Entertainment", "question": "Who is the lead singer of U2?", "answer": "Bono" },
-  { "category": "Entertainment", "question": "What is Walter White's alias in Breaking Bad?", "answer": "Heisenberg" },
-  { "category": "Entertainment", "question": "Which animated film features a lion cub named Simba?", "answer": "The Lion King" },
-  { "category": "Entertainment", "question": "Which hobbit carries the One Ring in The Lord of the Rings?", "answer": "Frodo Baggins" },
-  { "category": "Entertainment", "question": "Which pop star is nicknamed Queen B?", "answer": "Beyonce" },
-  { "category": "Entertainment", "question": "Which dance move is Michael Jackson famous for?", "answer": "The Moonwalk" },
-  { "category": "Entertainment", "question": "Which film won Best Picture at the 2020 Oscars?", "answer": "Parasite" },
-  { "category": "Entertainment", "question": "Who wrote the novels behind Game of Thrones?", "answer": "George R. R. Martin" },
-  { "category": "Entertainment", "question": "What is the name of the lost clownfish in the Pixar film?", "answer": "Nemo" },
-  { "category": "Entertainment", "question": "Which band performed Hey Jude?", "answer": "The Beatles" },
-  { "category": "Entertainment", "question": "Who played Captain Jack Sparrow in Pirates of the Caribbean?", "answer": "Johnny Depp" },
-  { "category": "Entertainment", "question": "Which superhero is also known as the Dark Knight?", "answer": "Batman" },
-  { "category": "Entertainment", "question": "Who sang Bad Guy and Ocean Eyes?", "answer": "Billie Eilish" },
-  { "category": "Entertainment", "question": "What is the name of the coffee shop in Friends?", "answer": "Central Perk" },
-  { "category": "Entertainment", "question": "Which film studio produces the Toy Story films?", "answer": "Pixar" },
-
-  { "category": "History", "question": "Who was the first President of the United States?", "answer": "George Washington" },
-  { "category": "History", "question": "In what year did World War II end?", "answer": "1945" },
-  { "category": "History", "question": "Which civilization built the pyramids at Giza?", "answer": "The Ancient Egyptians" },
-  { "category": "History", "question": "Who was the British Prime Minister for most of World War II?", "answer": "Winston Churchill" },
-  { "category": "History", "question": "In what year did the Berlin Wall fall?", "answer": "1989" },
-  { "category": "History", "question": "Who reached the Caribbean in 1492 while sailing for Spain?", "answer": "Christopher Columbus" },
-  { "category": "History", "question": "Who was the first person to walk on the Moon?", "answer": "Neil Armstrong" },
-  { "category": "History", "question": "In what year did the Titanic sink?", "answer": "1912" },
-  { "category": "History", "question": "Who led India to independence through nonviolent resistance?", "answer": "Mahatma Gandhi" },
-  { "category": "History", "question": "Which war was fought between the Northern and Southern U.S. states?", "answer": "The American Civil War" },
-  { "category": "History", "question": "Which Egyptian queen was linked to Caesar and Mark Antony?", "answer": "Cleopatra" },
-  { "category": "History", "question": "In what year did the French Revolution begin?", "answer": "1789" },
-  { "category": "History", "question": "Who was the primary author of the U.S. Declaration of Independence?", "answer": "Thomas Jefferson" },
-  { "category": "History", "question": "Which ship carried the Pilgrims to America in 1620?", "answer": "The Mayflower" },
-  { "category": "History", "question": "Which U.S. president was assassinated in Dallas in 1963?", "answer": "John F. Kennedy" },
-  { "category": "History", "question": "Who was the leader of Nazi Germany?", "answer": "Adolf Hitler" },
-  { "category": "History", "question": "In what year did the Great Fire of London occur?", "answer": "1666" },
-  { "category": "History", "question": "Which ancient city-state is considered the birthplace of democracy?", "answer": "Athens" },
-  { "category": "History", "question": "Who was the first female Prime Minister of the United Kingdom?", "answer": "Margaret Thatcher" },
-  { "category": "History", "question": "In what year was the U.S. Declaration of Independence signed?", "answer": "1776" },
-  { "category": "History", "question": "Who was known as the Maid of Orleans?", "answer": "Joan of Arc" },
-  { "category": "History", "question": "Which empire did Genghis Khan found?", "answer": "The Mongol Empire" },
-  { "category": "History", "question": "In what year did World War I begin?", "answer": "1914" },
-  { "category": "History", "question": "Which U.S. president issued the Emancipation Proclamation?", "answer": "Abraham Lincoln" },
-  { "category": "History", "question": "Which pandemic devastated 14th-century Europe?", "answer": "The Black Death" },
-  { "category": "History", "question": "Who was the first Roman emperor?", "answer": "Augustus" },
-  { "category": "History", "question": "The Cold War was mainly between the United States and which country?", "answer": "The Soviet Union" },
-  { "category": "History", "question": "Which queen ruled Britain from 1837 to 1901?", "answer": "Queen Victoria" },
-  { "category": "History", "question": "Which wall divided a German city during the Cold War?", "answer": "The Berlin Wall" },
-  { "category": "History", "question": "Which explorer first circumnavigated the globe's expedition in 1519-1522?", "answer": "Ferdinand Magellan" },
-
-  { "category": "Art & Literature", "question": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci" },
-  { "category": "Art & Literature", "question": "Who wrote Romeo and Juliet?", "answer": "William Shakespeare" },
-  { "category": "Art & Literature", "question": "Who painted The Starry Night?", "answer": "Vincent van Gogh" },
-  { "category": "Art & Literature", "question": "Who wrote Pride and Prejudice?", "answer": "Jane Austen" },
-  { "category": "Art & Literature", "question": "Which Spanish artist co-founded Cubism?", "answer": "Pablo Picasso" },
-  { "category": "Art & Literature", "question": "Who wrote the novel 1984?", "answer": "George Orwell" },
-  { "category": "Art & Literature", "question": "Who sculpted the statue of David?", "answer": "Michelangelo" },
-  { "category": "Art & Literature", "question": "Who wrote The Great Gatsby?", "answer": "F. Scott Fitzgerald" },
-  { "category": "Art & Literature", "question": "Which artist is famous for painting Campbell's soup cans?", "answer": "Andy Warhol" },
-  { "category": "Art & Literature", "question": "Who wrote War and Peace?", "answer": "Leo Tolstoy" },
-  { "category": "Art & Literature", "question": "Who painted the ceiling of the Sistine Chapel?", "answer": "Michelangelo" },
-  { "category": "Art & Literature", "question": "Who wrote Hamlet?", "answer": "William Shakespeare" },
-  { "category": "Art & Literature", "question": "Which Dutch master painted The Night Watch?", "answer": "Rembrandt" },
-  { "category": "Art & Literature", "question": "Who wrote the Harry Potter series?", "answer": "J. K. Rowling" },
-  { "category": "Art & Literature", "question": "Which art movement is Claude Monet associated with?", "answer": "Impressionism" },
-  { "category": "Art & Literature", "question": "Who wrote Moby-Dick?", "answer": "Herman Melville" },
-  { "category": "Art & Literature", "question": "Who painted The Persistence of Memory with its melting clocks?", "answer": "Salvador Dali" },
-  { "category": "Art & Literature", "question": "Who wrote Crime and Punishment?", "answer": "Fyodor Dostoevsky" },
-  { "category": "Art & Literature", "question": "Who wrote the epic poem The Odyssey?", "answer": "Homer" },
-  { "category": "Art & Literature", "question": "Who painted Guernica?", "answer": "Pablo Picasso" },
-  { "category": "Art & Literature", "question": "Who wrote To Kill a Mockingbird?", "answer": "Harper Lee" },
-  { "category": "Art & Literature", "question": "Which Italian artist painted The Birth of Venus?", "answer": "Sandro Botticelli" },
-  { "category": "Art & Literature", "question": "Who wrote The Adventures of Huckleberry Finn?", "answer": "Mark Twain" },
-  { "category": "Art & Literature", "question": "Who created the sculpture The Thinker?", "answer": "Auguste Rodin" },
-  { "category": "Art & Literature", "question": "Who wrote The Lord of the Rings?", "answer": "J. R. R. Tolkien" },
-  { "category": "Art & Literature", "question": "Who wrote Don Quixote?", "answer": "Miguel de Cervantes" },
-  { "category": "Art & Literature", "question": "Who painted The Scream?", "answer": "Edvard Munch" },
-  { "category": "Art & Literature", "question": "Who wrote A Christmas Carol?", "answer": "Charles Dickens" },
-  { "category": "Art & Literature", "question": "Which painter is known for dripping and splattering paint onto canvas?", "answer": "Jackson Pollock" },
-  { "category": "Art & Literature", "question": "Who wrote the play A Doll's House?", "answer": "Henrik Ibsen" },
-
-  { "category": "Science", "question": "What is the chemical formula for water?", "answer": "H2O" },
-  { "category": "Science", "question": "Which planet is known as the Red Planet?", "answer": "Mars" },
-  { "category": "Science", "question": "What gas do plants absorb from the air?", "answer": "Carbon dioxide" },
-  { "category": "Science", "question": "How many bones are in the adult human body?", "answer": "206" },
-  { "category": "Science", "question": "What is the hardest natural substance on Earth?", "answer": "Diamond" },
-  { "category": "Science", "question": "What is the chemical symbol for gold?", "answer": "Au" },
-  { "category": "Science", "question": "What force pulls objects toward the Earth?", "answer": "Gravity" },
-  { "category": "Science", "question": "Which organelle is known as the powerhouse of the cell?", "answer": "The mitochondria" },
-  { "category": "Science", "question": "Which is the largest planet in our solar system?", "answer": "Jupiter" },
-  { "category": "Science", "question": "What is the most abundant gas in Earth's atmosphere?", "answer": "Nitrogen" },
-  { "category": "Science", "question": "Which blood cells help fight infection?", "answer": "White blood cells" },
-  { "category": "Science", "question": "What is the central part of an atom called?", "answer": "The nucleus" },
-  { "category": "Science", "question": "Who developed the theory of general relativity?", "answer": "Albert Einstein" },
-  { "category": "Science", "question": "What is the freezing point of water in Celsius?", "answer": "0 degrees" },
-  { "category": "Science", "question": "Which organ pumps blood around the body?", "answer": "The heart" },
-  { "category": "Science", "question": "What is the chemical symbol for sodium?", "answer": "Na" },
-  { "category": "Science", "question": "Which planet is closest to the Sun?", "answer": "Mercury" },
-  { "category": "Science", "question": "Which gas do humans need to breathe to survive?", "answer": "Oxygen" },
-  { "category": "Science", "question": "What is the study of living organisms called?", "answer": "Biology" },
-  { "category": "Science", "question": "How many chambers does the human heart have?", "answer": "Four" },
-  { "category": "Science", "question": "What is the name of our galaxy?", "answer": "The Milky Way" },
-  { "category": "Science", "question": "Which subatomic particle carries a negative charge?", "answer": "The electron" },
-  { "category": "Science", "question": "What is the boiling point of water in Celsius at sea level?", "answer": "100 degrees" },
-  { "category": "Science", "question": "Who proposed the theory of evolution by natural selection?", "answer": "Charles Darwin" },
-  { "category": "Science", "question": "What is the chemical symbol for iron?", "answer": "Fe" },
-  { "category": "Science", "question": "What is the largest organ of the human body?", "answer": "The skin" },
-  { "category": "Science", "question": "What is the pH value of a neutral solution?", "answer": "7" },
-  { "category": "Science", "question": "Which vitamin is produced when skin is exposed to sunlight?", "answer": "Vitamin D" },
-  { "category": "Science", "question": "What is the speed of light in a vacuum, approximately?", "answer": "About 300,000 km per second" },
-  { "category": "Science", "question": "Which planet is famous for its prominent rings?", "answer": "Saturn" },
-
-  { "category": "Sports & Leisure", "question": "How many players from one team are on a soccer field at kickoff?", "answer": "11" },
-  { "category": "Sports & Leisure", "question": "In which sport would you perform a slam dunk?", "answer": "Basketball" },
-  { "category": "Sports & Leisure", "question": "How many rings are on the Olympic flag?", "answer": "Five" },
-  { "category": "Sports & Leisure", "question": "Which country has won the most FIFA World Cups?", "answer": "Brazil" },
-  { "category": "Sports & Leisure", "question": "In tennis, what term describes a score of zero?", "answer": "Love" },
-  { "category": "Sports & Leisure", "question": "How many holes are played in a standard round of golf?", "answer": "18" },
-  { "category": "Sports & Leisure", "question": "Which sport is played with a shuttlecock?", "answer": "Badminton" },
-  { "category": "Sports & Leisure", "question": "How many points is a touchdown worth in American football?", "answer": "Six" },
-  { "category": "Sports & Leisure", "question": "Which sport is Michael Jordan famous for?", "answer": "Basketball" },
-  { "category": "Sports & Leisure", "question": "How often are the Summer Olympic Games held?", "answer": "Every four years" },
-  { "category": "Sports & Leisure", "question": "Which Grand Slam tennis tournament is played on grass?", "answer": "Wimbledon" },
-  { "category": "Sports & Leisure", "question": "How many players from one team are on a basketball court?", "answer": "Five" },
-  { "category": "Sports & Leisure", "question": "What is Japan's traditional form of heavyweight wrestling?", "answer": "Sumo" },
-  { "category": "Sports & Leisure", "question": "In which sport is the Stanley Cup awarded?", "answer": "Ice hockey" },
-  { "category": "Sports & Leisure", "question": "What is the length of a marathon in kilometres?", "answer": "42.195 km" },
-  { "category": "Sports & Leisure", "question": "Which boxer called himself The Greatest?", "answer": "Muhammad Ali" },
-  { "category": "Sports & Leisure", "question": "How many strikes make an out in baseball?", "answer": "Three" },
-  { "category": "Sports & Leisure", "question": "What colour jersey does the Tour de France leader wear?", "answer": "Yellow" },
-  { "category": "Sports & Leisure", "question": "In darts, how many points is the inner bullseye worth?", "answer": "50" },
-  { "category": "Sports & Leisure", "question": "In which sport do teams compete for the America's Cup?", "answer": "Sailing" },
-  { "category": "Sports & Leisure", "question": "How many Grand Slam tournaments are there in tennis each year?", "answer": "Four" },
-  { "category": "Sports & Leisure", "question": "Which chess piece moves only diagonally?", "answer": "The bishop" },
-  { "category": "Sports & Leisure", "question": "Which card sends a soccer player off the field?", "answer": "A red card" },
-  { "category": "Sports & Leisure", "question": "How many players from one team are on a volleyball court?", "answer": "Six" },
-  { "category": "Sports & Leisure", "question": "Usain Bolt holds world records in which two sprint events?", "answer": "The 100m and 200m" },
-  { "category": "Sports & Leisure", "question": "In which sport are the terms birdie and bogey used?", "answer": "Golf" },
-  { "category": "Sports & Leisure", "question": "How many minutes are in a standard professional soccer match?", "answer": "90" },
-  { "category": "Sports & Leisure", "question": "Which country originated the sport of table tennis?", "answer": "England" },
-  { "category": "Sports & Leisure", "question": "In rugby union, how many players are on each team on the field?", "answer": "15" },
-  { "category": "Sports & Leisure", "question": "Which annual race is nicknamed The Greatest Spectacle in Racing?", "answer": "The Indianapolis 500" }
+  {
+    "category": "Geography",
+    "question": "What is the capital of Australia?",
+    "answer": "Canberra",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest country in the world by area?",
+    "answer": "Russia",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which is the largest hot desert on Earth?",
+    "answer": "The Sahara",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the tallest mountain above sea level?",
+    "answer": "Mount Everest",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Canada?",
+    "answer": "Ottawa",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which is the largest ocean on Earth?",
+    "answer": "The Pacific Ocean",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Japan?",
+    "answer": "Tokyo",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which European country is shaped like a boot?",
+    "answer": "Italy",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Egypt?",
+    "answer": "Cairo",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest island in the world?",
+    "answer": "Greenland",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which is the largest U.S. state by area?",
+    "answer": "Alaska",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Brazil?",
+    "answer": "Brasilia",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through London?",
+    "answer": "The Thames",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the smallest country in the world?",
+    "answer": "Vatican City",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of South Korea?",
+    "answer": "Seoul",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which mountain range separates Europe and Asia?",
+    "answer": "The Ural Mountains",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest lake in the world by area?",
+    "answer": "The Caspian Sea",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Spain?",
+    "answer": "Madrid",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "The Great Barrier Reef lies off the coast of which country?",
+    "answer": "Australia",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Russia?",
+    "answer": "Moscow",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which African country was formerly known as Abyssinia?",
+    "answer": "Ethiopia",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which strait separates Spain from Morocco?",
+    "answer": "The Strait of Gibraltar",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Argentina?",
+    "answer": "Buenos Aires",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the highest waterfall in the world?",
+    "answer": "Angel Falls",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which body of water is the lowest point on land?",
+    "answer": "The Dead Sea",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent is the least populated?",
+    "answer": "Antarctica",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Germany?",
+    "answer": "Berlin",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country has the most natural lakes?",
+    "answer": "Canada",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which river flows through Cairo before reaching the Mediterranean Sea?",
+    "answer": "The Nile",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Mount Kilimanjaro is located in which country?",
+    "answer": "Tanzania",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest country, by area, that has only one time zone?",
+    "answer": "China",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the name of the ocean that Hawaii is located in?",
+    "answer": "Pacific",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which ocean borders the west coast of the United States?",
+    "answer": "Pacific",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the Capital of the United States?",
+    "answer": "Washington, D.C.",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "In which country is the city of Rio de Janeiro?",
+    "answer": "Brazil",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the Polish city known to Germans as Danzig?",
+    "answer": "Gdańsk",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Denmark?",
+    "answer": "Copenhagen",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of India?",
+    "answer": "New Delhi",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Scotland?",
+    "answer": "Edinburgh",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which area of Eastern Europe is famous for its association with vampires?",
+    "answer": "Transylvania",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "The longest shared border in the world can be found between which two nations?",
+    "answer": "Canada and the United States",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is Canada's smallest province?",
+    "answer": "Prince Edward Island",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the nickname for the US state Delaware?",
+    "answer": "The First State",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which UK country features a dragon on their flag?",
+    "answer": "Wales",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What colour is the circle on the Japanese flag?",
+    "answer": "Red",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Where would you find the \"Spanish Steps\"?",
+    "answer": "Rome, Italy",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the name of the peninsula containing Spain and Portugal?",
+    "answer": "Iberian Peninsula",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Jamaica?",
+    "answer": "Kingston",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Vatican City, the smallest country in the world, is fully enclosed by which country?",
+    "answer": "Italy",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of the US State of New York?",
+    "answer": "Albany",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "How many US states start with the letter K?",
+    "answer": "Two",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What country is the second largest in the world by area?",
+    "answer": "Canada",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Greenland is a part of which kingdom?",
+    "answer": "Denmark",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "The Alps are a mountain range on which continent?",
+    "answer": "Europe",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the name of New Zealand's indigenous people?",
+    "answer": "Maori",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country features a maple leaf on its flag?",
+    "answer": "Canada",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the official language of Costa Rica?",
+    "answer": "Spanish",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which US state is nicknamed \"The Golden State\"?",
+    "answer": "California",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "In which Indian city can the Taj Mahal be found?",
+    "answer": "Agra",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "The body of the Egyptian Sphinx was based on which animal?",
+    "answer": "Lion",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which Russian oblast forms a border with Poland?",
+    "answer": "Kaliningrad",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Harvard University is located in which city?",
+    "answer": "Cambridge",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of the American state of Arizona?",
+    "answer": "Phoenix",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "How many federal states does Germany have?",
+    "answer": "16",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "The Space Needle is located in which city?",
+    "answer": "Seattle",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which small country is located between the borders of France and Spain?",
+    "answer": "Andorra",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Italy?",
+    "answer": "Rome",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent contains Kenya?",
+    "answer": "Africa",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which ocean lies between Africa and Australia?",
+    "answer": "Indian Ocean",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the cities of Lisbon and Porto?",
+    "answer": "Portugal",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Austria?",
+    "answer": "Vienna",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Greece?",
+    "answer": "Athens",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Barcelona?",
+    "answer": "Spain",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent contains Argentina?",
+    "answer": "South America",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which ocean lies between Europe and North America?",
+    "answer": "Atlantic Ocean",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is home to the city of Amsterdam?",
+    "answer": "The Netherlands",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Dublin?",
+    "answer": "Ireland",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Norway?",
+    "answer": "Oslo",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Sweden?",
+    "answer": "Stockholm",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Helsinki?",
+    "answer": "Finland",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Poland?",
+    "answer": "Warsaw",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Thailand?",
+    "answer": "Bangkok",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the ancient city of Petra?",
+    "answer": "Jordan",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is home to the pyramids at Giza?",
+    "answer": "Egypt",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which city is home to the Eiffel Tower?",
+    "answer": "Paris",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of China?",
+    "answer": "Beijing",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent contains the Andes mountain range?",
+    "answer": "South America",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent contains the South Pole?",
+    "answer": "Antarctica",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the imaginary line at zero degrees latitude called?",
+    "answer": "The Equator",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What direction is opposite to north on a compass?",
+    "answer": "South",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What direction is opposite to east on a compass?",
+    "answer": "West",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What do we call land surrounded by water on all sides?",
+    "answer": "An island",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the name for a book of maps?",
+    "answer": "An atlas",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Mumbai?",
+    "answer": "India",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which large island nation lies to the east of Mozambique?",
+    "answer": "Madagascar",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains the city of Marrakesh?",
+    "answer": "Morocco",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Mexico?",
+    "answer": "Mexico City",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which country contains Machu Picchu?",
+    "answer": "Peru",
+    "hints": []
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent contains the Sahara Desert?",
+    "answer": "Africa",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played Jack in the 1997 film Titanic?",
+    "answer": "Leonardo DiCaprio",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the wizarding school in Harry Potter called?",
+    "answer": "Hogwarts",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which band released Bohemian Rhapsody?",
+    "answer": "Queen",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which 2009 film became the highest-grossing of all time?",
+    "answer": "Avatar",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who directed Jaws and E.T.?",
+    "answer": "Steven Spielberg",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which singer is known as the King of Pop?",
+    "answer": "Michael Jackson",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is Joey's catchphrase in Friends?",
+    "answer": "How you doin'?",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who voices Woody in the Toy Story films?",
+    "answer": "Tom Hanks",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Netflix show features the Upside Down?",
+    "answer": "Stranger Things",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who sang Rolling in the Deep?",
+    "answer": "Adele",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played Iron Man in the Marvel films?",
+    "answer": "Robert Downey Jr.",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the kingdom in Frozen?",
+    "answer": "Arendelle",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which animated TV family lives in Springfield?",
+    "answer": "The Simpsons",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who wrote and performed Shake It Off?",
+    "answer": "Taylor Swift",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which movie features the catchphrase I will be back?",
+    "answer": "The Terminator",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is the lead singer of U2?",
+    "answer": "Bono",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is Walter White's alias in Breaking Bad?",
+    "answer": "Heisenberg",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which animated film features a lion cub named Simba?",
+    "answer": "The Lion King",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which hobbit carries the One Ring in The Lord of the Rings?",
+    "answer": "Frodo Baggins",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which pop star is nicknamed Queen B?",
+    "answer": "Beyonce",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which dance move is Michael Jackson famous for?",
+    "answer": "The Moonwalk",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which film won Best Picture at the 2020 Oscars?",
+    "answer": "Parasite",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who wrote the novels behind Game of Thrones?",
+    "answer": "George R. R. Martin",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the lost clownfish in the Pixar film?",
+    "answer": "Nemo",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which band performed Hey Jude?",
+    "answer": "The Beatles",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who played Captain Jack Sparrow in Pirates of the Caribbean?",
+    "answer": "Johnny Depp",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which superhero is also known as the Dark Knight?",
+    "answer": "Batman",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who sang Bad Guy and Ocean Eyes?",
+    "answer": "Billie Eilish",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the coffee shop in Friends?",
+    "answer": "Central Perk",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which film studio produces the Toy Story films?",
+    "answer": "Pixar",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the Super Mario Bros. Movie (2023), who plays Toad?",
+    "answer": "Keegan-Michael Key",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which group performs the song \"Crash into Me\"?",
+    "answer": "Dave Matthews Band",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What TV show is about a grandfather dragging his grandson around on adventures?",
+    "answer": "Rick & Morty",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Call Of Duty: Zombies\", what is the name of the machine that upgrades weapons?",
+    "answer": "Pack-A-Punch",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?",
+    "answer": "Michelangelo",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who wrote the musical \"Hamilton\"?",
+    "answer": "Lin-Manuel Miranda",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie \"Batman\"?",
+    "answer": "Michael Keaton",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Brian May was the guitarist for which band?",
+    "answer": "Queen",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+    "answer": "Sabrina",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+    "answer": "Elric",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the title of the first Bond movie, released in 1962?",
+    "answer": "Dr. No",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "The band Muse released their first album, Showbiz, in what year?",
+    "answer": "1999",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In which state of America was the Fresh Prince of Bel-Air born and raised in?",
+    "answer": "Pennsylvania",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is the main protagonist of Dead Space?",
+    "answer": "Isaac Clarke",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What type of animal is Disney's Bambi?",
+    "answer": "Deer",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "\"Doctor Who\" star David Tennant performed in a rendition of which Shakespearean play?",
+    "answer": "Hamlet",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In \"Fairy Tail\", what is the nickname of Natsu Dragneel?",
+    "answer": "The Salamander",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "When does \"Rogue One: A Star Wars Story\" take place chronologically in the series?",
+    "answer": "Between Episode 3 and 4",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who was featured in the song \"Words\" by Feint?",
+    "answer": "Laura Brehm",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the show \"Futurama\" what is Fry's full name?",
+    "answer": "Philip J. Fry",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is the protagonist in the game \"The Walking Dead: Season One\"?",
+    "answer": "Lee Everett",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is Winnie the Pooh's gloomy donkey friend?",
+    "answer": "Eeyore",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who wrote the play 'Angels in America'?",
+    "answer": "Tony Kushner",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which anime heavily features music from the genre \"Eurobeat\"?",
+    "answer": "Initial D",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "The 2016 Disney animated film 'Moana' is based on which culture?",
+    "answer": "Polynesian",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "The Rush song \"YYZ\" derives its name from the IATA aiport identification code for which city?",
+    "answer": "Toronto",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "How many seasons did \"Stargate SG-1\" have?",
+    "answer": "10",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is able to grab the survivors with his tongue in Left 4 Dead?",
+    "answer": "Smoker",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+    "answer": "Et tu, Brute?",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "The two main characters of \"No Game No Life\", Sora and Shiro, together go by what name?",
+    "answer": "Blank",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who starred in the film 1973 movie \"Enter The Dragon\"?",
+    "answer": "Bruce Lee",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What album did Bon Iver release in 2016?",
+    "answer": "22, A Million",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In AMC's TV Series \"The Walking Dead\" what are \"Zombies\" referred to as?",
+    "answer": "Walkers",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "League of Legends, DOTA 2, Smite and Heroes of the Storm are all part of which game genre?",
+    "answer": "Multiplayer Online Battle Arena (MOBA)",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of the city that The Flintstones is based in?",
+    "answer": "Bedrock",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is Jean ValJean's first prisoner number?",
+    "answer": "24601",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the anime Black Butler, who is betrothed to be married to Ciel Phantomhive?",
+    "answer": "Elizabeth Midford",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+    "answer": "Kaltag, Nikki, and Star",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Disney character sings the song \"A Dream is a Wish Your Heart Makes\"?",
+    "answer": "Cinderella",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What was the name of the the first episode of Doctor Who to air in 1963?",
+    "answer": "An Unearthly Child",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the game \"DELTARUNE\", what is Ralsei's special ability?",
+    "answer": "Pacify",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the show \"Foster's Home For Imaginary Friends\", which character had an obsession with basketball?",
+    "answer": "Wilt",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
+    "answer": "Being run over by a truck",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "This movie contains the quote, \"Houston, we have a problem.\"",
+    "answer": "Apollo 13",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who is the lead singer of the British pop rock band Coldplay?",
+    "answer": "Chris Martin",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What country is Cory in the House set in?",
+    "answer": "The United States of America",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the boss round featured in the \"Call Of Duty: Zombies\" map \"Five\"?",
+    "answer": "The Pentagon Thief",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "The song 'Little April Shower' features in which Disney cartoon film?",
+    "answer": "Bambi",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+    "answer": "Romeo & Juliet",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Pokémon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+    "answer": "The Porygon Line",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+    "answer": "Highlander",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
+    "answer": "Time And Relative Dimension In Space",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the Assassin's Creed series,what was the name of Desmond Miles given by Abstergo?",
+    "answer": "Subject 17",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who voiced the Genie in Disney's \"Aladdin\"?",
+    "answer": "Robin Williams",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
+    "answer": "10",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the TV show \"Cheers\", Sam Malone was a former relief pitcher for which baseball team?",
+    "answer": "Boston Red Sox",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Gordon Freeman is said to have burnt and destroyed what food in the break room microwave?",
+    "answer": "Casserole",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In South Park, what is Stan's surname?",
+    "answer": "Marsh",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the 2012 animated film \"Wolf Children\", what are the names of the wolf children?",
+    "answer": "Ame & Yuki",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Who plays Alice in the Resident Evil movies?",
+    "answer": "Milla Jovovich",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "\"Grande Valse\" is a phrase from the song \"Gran Vals\". What is that song segment known as?",
+    "answer": "Nokia Tune",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?",
+    "answer": "Radar",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What kind of animal is Shrek's companion Donkey?",
+    "answer": "A donkey",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which Disney princess loses a glass slipper?",
+    "answer": "Cinderella",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of Mickey Mouse's dog?",
+    "answer": "Pluto",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which animated film features the snowman Olaf?",
+    "answer": "Frozen",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which superhero carries a shield with a star on it?",
+    "answer": "Captain America",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What is the name of Mario's brother in Nintendo games?",
+    "answer": "Luigi",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "Which yellow video game character eats dots in a maze?",
+    "answer": "Pac-Man",
+    "hints": []
+  },
+  {
+    "category": "Entertainment",
+    "question": "What type of animal is Sonic the Hedgehog?",
+    "answer": "A hedgehog",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first President of the United States?",
+    "answer": "George Washington",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did World War II end?",
+    "answer": "1945",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which civilization built the pyramids at Giza?",
+    "answer": "The Ancient Egyptians",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the British Prime Minister for most of World War II?",
+    "answer": "Winston Churchill",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Berlin Wall fall?",
+    "answer": "1989",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who reached the Caribbean in 1492 while sailing for Spain?",
+    "answer": "Christopher Columbus",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Titanic sink?",
+    "answer": "1912",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who led India to independence through nonviolent resistance?",
+    "answer": "Mahatma Gandhi",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which war was fought between the Northern and Southern U.S. states?",
+    "answer": "The American Civil War",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which Egyptian queen was linked to Caesar and Mark Antony?",
+    "answer": "Cleopatra",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the French Revolution begin?",
+    "answer": "1789",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the primary author of the U.S. Declaration of Independence?",
+    "answer": "Thomas Jefferson",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which ship carried the Pilgrims to America in 1620?",
+    "answer": "The Mayflower",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which U.S. president was assassinated in Dallas in 1963?",
+    "answer": "John F. Kennedy",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the leader of Nazi Germany?",
+    "answer": "Adolf Hitler",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Great Fire of London occur?",
+    "answer": "1666",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which ancient city-state is considered the birthplace of democracy?",
+    "answer": "Athens",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first female Prime Minister of the United Kingdom?",
+    "answer": "Margaret Thatcher",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year was the U.S. Declaration of Independence signed?",
+    "answer": "1776",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was known as the Maid of Orleans?",
+    "answer": "Joan of Arc",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which empire did Genghis Khan found?",
+    "answer": "The Mongol Empire",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did World War I begin?",
+    "answer": "1914",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which U.S. president issued the Emancipation Proclamation?",
+    "answer": "Abraham Lincoln",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which pandemic devastated 14th-century Europe?",
+    "answer": "The Black Death",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first Roman emperor?",
+    "answer": "Augustus",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "The Cold War was mainly between the United States and which country?",
+    "answer": "The Soviet Union",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which queen ruled Britain from 1837 to 1901?",
+    "answer": "Queen Victoria",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which wall divided a German city during the Cold War?",
+    "answer": "The Berlin Wall",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which explorer led the expedition that began the first circumnavigation of Earth in 1519, but died before it was completed?",
+    "answer": "Ferdinand Magellan",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "How was Socrates executed?",
+    "answer": "Poison",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the nuclear power plant in Chernobyl melt down?",
+    "answer": "1986",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "The Ottoman Empire was dissolved after their loss in which war?",
+    "answer": "World War I",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+    "answer": "Hannibal",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "The RMS Titanic sunk during her maiden voyage from Southampton, England to which American city?",
+    "answer": "New York City",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What country joined the EU in 2013?",
+    "answer": "Croatia",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first prime minister of Canada?",
+    "answer": "John Macdonald",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+    "answer": "The Polish President",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+    "answer": "Nagasaki",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which German field marshal was known as the `Desert Fox`?",
+    "answer": "Erwin Rommel",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In which country was the Statue of Liberty built and exported to the United States of America?",
+    "answer": "France",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+    "answer": "Poland",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "When did the Byzantine Empire collapse?",
+    "answer": "1453",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which famous world leader is famed for the saying, \"Let them eat cake\", yet is rumored that he/she never said it at all?",
+    "answer": "Marie Antoinette",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country was Josef Stalin born in?",
+    "answer": "Georgia",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which modern country is known as \"The Graveyard of Empires\"?",
+    "answer": "Afghanistan",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What is the historical name of Sri Lanka?",
+    "answer": "Ceylon",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "King Henry VIII was the second monarch of which European royal house?",
+    "answer": "Tudor",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+    "answer": "1990",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+    "answer": "Silk Road",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+    "answer": "Turkey",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "The \"Trail of Tears\" was a result of which United States President's Indian Removal Policy?",
+    "answer": "Andrew Jackson",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+    "answer": "Paul Revere",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was William Frederick Cody better known as?",
+    "answer": "Buffalo Bill",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+    "answer": "Republican",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "When did the Battle of the Somme begin?",
+    "answer": "July 1st, 1916",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "How old was Adolf Hitler when he died?",
+    "answer": "56",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Pol Pot was the former dictator of which country?",
+    "answer": "Cambodia",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who led the Communist Revolution of Russia?",
+    "answer": "Vladimir Lenin",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "How long did World War II last?",
+    "answer": "6 years",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was the first sport to have been played on the moon?",
+    "answer": "Golf",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first American in space?",
+    "answer": "Alan Shepard",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+    "answer": "Hideki Tojo",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In 1720, England was in massive debt and became involved in the South Sea Bubble. Who was the main mastermind behind it?",
+    "answer": "John Blunt",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first ruler of Haiti after the country had gained its independence?",
+    "answer": "Jean-Jacques Dessalines",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In which war did the atomic bombings of Hiroshima and Nagasaki occur?",
+    "answer": "World War II",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+    "answer": "Hinduism",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was Manfred von Richthofen's nickname?",
+    "answer": "The Red Baron",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "On what street did the 1666 Great Fire of London start?",
+    "answer": "Pudding Lane",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Wall Street Crash take place?",
+    "answer": "1929",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+    "answer": "Harper's Ferry",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+    "answer": "1721",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "When was Google founded?",
+    "answer": "September 4, 1998",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which ancient civilization built the Colosseum?",
+    "answer": "The Romans",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country was ruled by pharaohs in ancient times?",
+    "answer": "Egypt",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which ancient people sailed longships from Scandinavia?",
+    "answer": "The Vikings",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country did Napoleon Bonaparte rule as emperor?",
+    "answer": "France",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which US president's home was called Mount Vernon?",
+    "answer": "George Washington",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was the name of the first successful powered airplane's inventors?",
+    "answer": "The Wright brothers",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country launched the first human into space in 1961?",
+    "answer": "The Soviet Union",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "answer": "Amelia Earhart",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country presented the Statue of Liberty to the United States?",
+    "answer": "France",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which city was buried by Mount Vesuvius in AD 79?",
+    "answer": "Pompeii",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which ancient civilization built Machu Picchu?",
+    "answer": "The Inca",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which war ended with an armistice on 11 November 1918?",
+    "answer": "World War I",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country did Nelson Mandela become president of in 1994?",
+    "answer": "South Africa",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was the name of the system of racial segregation in South Africa?",
+    "answer": "Apartheid",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who delivered the I Have a Dream speech in 1963?",
+    "answer": "Martin Luther King Jr.",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country was divided into East and West after World War II?",
+    "answer": "Germany",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country sold Alaska to the United States in 1867?",
+    "answer": "Russia",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which French military leader was defeated at Waterloo?",
+    "answer": "Napoleon Bonaparte",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "answer": "Marie Curie",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which civilization used the Latin language in ancient Italy?",
+    "answer": "The Romans",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country built the Great Wall?",
+    "answer": "China",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which country was ruled by the samurai warrior class?",
+    "answer": "Japan",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Who was the first human to travel into space?",
+    "answer": "Yuri Gagarin",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which US city hosted the Boston Tea Party?",
+    "answer": "Boston",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "What was the name of the British passenger ship sunk by an iceberg in 1912?",
+    "answer": "Titanic",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which ancient writing material was made from a reed plant in Egypt?",
+    "answer": "Papyrus",
+    "hints": []
+  },
+  {
+    "category": "History",
+    "question": "Which British king had six wives?",
+    "answer": "Henry VIII",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Romeo and Juliet?",
+    "answer": "William Shakespeare",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted The Starry Night?",
+    "answer": "Vincent van Gogh",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Pride and Prejudice?",
+    "answer": "Jane Austen",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Spanish artist co-founded Cubism?",
+    "answer": "Pablo Picasso",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel 1984?",
+    "answer": "George Orwell",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who sculpted the statue of David?",
+    "answer": "Michelangelo",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote The Great Gatsby?",
+    "answer": "F. Scott Fitzgerald",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which artist is famous for painting Campbell's soup cans?",
+    "answer": "Andy Warhol",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote War and Peace?",
+    "answer": "Leo Tolstoy",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted the ceiling of the Sistine Chapel?",
+    "answer": "Michelangelo",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Dutch master painted The Night Watch?",
+    "answer": "Rembrandt",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the Harry Potter series?",
+    "answer": "J. K. Rowling",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which art movement is Claude Monet associated with?",
+    "answer": "Impressionism",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Moby-Dick?",
+    "answer": "Herman Melville",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted The Persistence of Memory with its melting clocks?",
+    "answer": "Salvador Dali",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Crime and Punishment?",
+    "answer": "Fyodor Dostoevsky",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the epic poem The Odyssey?",
+    "answer": "Homer",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted Guernica?",
+    "answer": "Pablo Picasso",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote To Kill a Mockingbird?",
+    "answer": "Harper Lee",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Italian artist painted The Birth of Venus?",
+    "answer": "Sandro Botticelli",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote The Adventures of Huckleberry Finn?",
+    "answer": "Mark Twain",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who created the sculpture The Thinker?",
+    "answer": "Auguste Rodin",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote The Lord of the Rings?",
+    "answer": "J. R. R. Tolkien",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Don Quixote?",
+    "answer": "Miguel de Cervantes",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted The Scream?",
+    "answer": "Edvard Munch",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote A Christmas Carol?",
+    "answer": "Charles Dickens",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which painter is known for dripping and splattering paint onto canvas?",
+    "answer": "Jackson Pollock",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the play A Doll's House?",
+    "answer": "Henrik Ibsen",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What's Harry Potter's dad's name?",
+    "answer": "James Potter",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In Greek mythology, which creatures have women's heads and birds' bodies?",
+    "answer": "Harpies",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "When was Marvel Comics founded?",
+    "answer": "1939",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+    "answer": "A Study in Scarlet",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+    "answer": "Jason",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the young adult novel \"The Fault in Our Stars\"?",
+    "answer": "John Green",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is a fundamental element of the Gothic style of architecture?",
+    "answer": "pointed arch",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In most traditions, who was the wife of Zeus?",
+    "answer": "Hera",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which planet did Superman come from?",
+    "answer": "Krypton",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote \"A Tale of Two Cities\"?",
+    "answer": "Charles Dickens",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "answer": "Origami",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "The Nike apparel and footwear brand takes it's name from the Greek goddess of what?",
+    "answer": "Victory",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which universe crossover was introduced in the \"Sonic the Hedgehog\" comic issue #247?",
+    "answer": "Mega Man",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What was the name of Captain Nemo's submarine in \"20,000 Leagues Under the Sea\"?",
+    "answer": "The Nautilus",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who painted the biblical fresco The Creation of Adam?",
+    "answer": "Michelangelo",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "The greek god Poseidon was the god of what?",
+    "answer": "The Sea",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "The main six year old protagonist in Calvin and Hobbes is named after what theologian?",
+    "answer": "John Calvin",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
+    "answer": "Fluffy",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What mythology did the god \"Apollo\" come from?",
+    "answer": "Greek and Roman",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the alter-ego of the DC comics character \"Superman\"?",
+    "answer": "Clark Kent",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who was the original author of Frankenstein?",
+    "answer": "Mary Shelley",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Van Gogh painting depicts the view from his asylum in Saint-Rémy-de-Provence in southern France?",
+    "answer": "The Starry Night",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In Greek mythology, who is the god of wine?",
+    "answer": "Dionysus",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who is Batman?",
+    "answer": "Bruce Wayne",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
+    "answer": "Hunter S. Thompson",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which Greek & Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
+    "answer": "Apollo",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "This Marvel superhero is often called \"The man without fear\".",
+    "answer": "Daredevil",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In the novel 1984, written by George Orwell, what is the name of the totalitarian regime that controls Oceania?",
+    "answer": "INGSOC",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which artist painted the late 15th century mural 'The Last Supper'?",
+    "answer": "Leonardo da Vinci",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who was the King of Gods in Ancient Greek mythology?",
+    "answer": "Zeus",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "According to their longtime nickname, what kind of \"duo\" are Batman & Robin?",
+    "answer": "Dynamic",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name of Sherlock Holmes's brother?",
+    "answer": "Mycroft Holmes",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
+    "answer": "Eris",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What's the race of Invincible's father?",
+    "answer": "Viltrumite",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote \"The Scarlet Letter\", published in 1850?",
+    "answer": "Nathaniel Hawthorne",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which figure from Greek mythology traveled to the underworld to return his wife Eurydice to the land of the living?",
+    "answer": "Orpheus",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In \"Homestuck\" what is Dave Strider's guardian?",
+    "answer": "Bro",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?",
+    "answer": "A Clash of Kings",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In Black Hammer, what city did the heroes save from the Anti-God?",
+    "answer": "Spiral City",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which famous book is sub-titled 'The Modern Prometheus'?",
+    "answer": "Frankenstein",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What color is produced by mixing black and white?",
+    "answer": "Grey",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In \"Homestuck\" the \"Kingdom of Darkness\" is also known as?",
+    "answer": "Derse",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "This play is generally considered to be the most adaptable of Shakespeare’s works, and follows two “star-crossed lovers”.",
+    "answer": "Romeo and Juliet",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who was the author of the 1954 novel, \"Lord of the Flies\"?",
+    "answer": "William Golding",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "In what Harry Potter book was a Horcrux first encountered?",
+    "answer": "The Chamber of Secrets",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?",
+    "answer": "Holden Caulfield",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which famous spy novelist wrote the childrens' story \"Chitty-Chitty-Bang-Bang\"?",
+    "answer": "Ian Fleming",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which classic book opens with the line \"Call me Ishmael\"?",
+    "answer": "Moby Dick",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+    "answer": "Falcon",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+    "answer": "SCP-173",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "American illustrator and writer Maurice Sendak is most well-known for writing which children's book?",
+    "answer": "Where The Wild Things Are",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "\"Green Eggs And Ham\" is a book by which author?",
+    "answer": "Dr. Seuss",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+    "answer": "Richard Bachman",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Alice's Adventures in Wonderland?",
+    "answer": "Lewis Carroll",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What kind of animal is Peter in Beatrix Potter's The Tale of Peter Rabbit?",
+    "answer": "A rabbit",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which fictional detective lives at 221B Baker Street?",
+    "answer": "Sherlock Holmes",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote Charlie and the Chocolate Factory?",
+    "answer": "Roald Dahl",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which bear loves honey in A. A. Milne's stories?",
+    "answer": "Winnie-the-Pooh",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What colour do red and yellow paint make when mixed?",
+    "answer": "Orange",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What colour do blue and yellow paint make when mixed?",
+    "answer": "Green",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is a painting of a person's face and figure called?",
+    "answer": "A portrait",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is a painting of countryside or other outdoor scenery called?",
+    "answer": "A landscape",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What do we call the person who writes a book?",
+    "answer": "An author",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What do we call a person who draws pictures for books?",
+    "answer": "An illustrator",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name for words spoken by characters in a story?",
+    "answer": "Dialogue",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name for the main character in a story?",
+    "answer": "The protagonist",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which wooden puppet's nose grows when he lies?",
+    "answer": "Pinocchio",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which fairy-tale girl visits a house belonging to three bears?",
+    "answer": "Goldilocks",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Who wrote The Cat in the Hat?",
+    "answer": "Dr. Seuss",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "Which fictional nanny arrives carrying a carpetbag and umbrella?",
+    "answer": "Mary Poppins",
+    "hints": []
+  },
+  {
+    "category": "Art & Literature",
+    "question": "What is the name of the lion in The Lion, the Witch and the Wardrobe?",
+    "answer": "Aslan",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the chemical formula for water?",
+    "answer": "H2O",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which gas do plants absorb from the air for photosynthesis?",
+    "answer": "Carbon dioxide",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many bones are in the adult human body?",
+    "answer": "206",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the hardest natural substance on Earth?",
+    "answer": "Diamond",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What force pulls objects toward the Earth?",
+    "answer": "Gravity",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which organelle is known as the powerhouse of the cell?",
+    "answer": "The mitochondria",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which is the largest planet in our solar system?",
+    "answer": "Jupiter",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "answer": "Nitrogen",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which blood cells help fight infection?",
+    "answer": "White blood cells",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the central part of an atom called?",
+    "answer": "The nucleus",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Who developed the theory of general relativity?",
+    "answer": "Albert Einstein",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the freezing point of water in Celsius?",
+    "answer": "0 degrees",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which organ pumps blood around the body?",
+    "answer": "The heart",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the chemical symbol for sodium?",
+    "answer": "Na",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which planet is closest to the Sun?",
+    "answer": "Mercury",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which gas do humans need to breathe to survive?",
+    "answer": "Oxygen",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the study of living organisms called?",
+    "answer": "Biology",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many chambers does the human heart have?",
+    "answer": "Four",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of our galaxy?",
+    "answer": "The Milky Way",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which subatomic particle carries a negative charge?",
+    "answer": "The electron",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the boiling point of water in Celsius at sea level?",
+    "answer": "100 degrees",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which naturalist published On the Origin of Species in 1859?",
+    "answer": "Charles Darwin",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the chemical symbol for iron?",
+    "answer": "Fe",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the largest organ of the human body?",
+    "answer": "The skin",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "At 25°C, what is the pH of a neutral aqueous solution?",
+    "answer": "7",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which vitamin is produced when skin is exposed to sunlight?",
+    "answer": "Vitamin D",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the speed of light in a vacuum, approximately?",
+    "answer": "About 300,000 km per second",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which planet is famous for its prominent rings?",
+    "answer": "Saturn",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+    "answer": "Sputnik 1",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the collective noun for a group of crows?",
+    "answer": "Murder",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Using decimal prefixes, how many bytes are in one kilobyte?",
+    "answer": "1000",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does GPS stand for?",
+    "answer": "Global Positioning System",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does the letter 'S' stand for in 'NASA'?",
+    "answer": "Space",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What colour is the female blackbird?",
+    "answer": "Brown",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "In computing, what does LAN stand for?",
+    "answer": "Local Area Network",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "The metric prefix \"atto-\" makes a measurement how much smaller than the base unit?",
+    "answer": "One Quintillionth",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which virtual assistant is developed by Amazon?",
+    "answer": "Alexa",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does DNA stand for?",
+    "answer": "Deoxyribonucleic Acid",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the scientific name for modern day humans?",
+    "answer": "Homo Sapiens",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which SQL keyword is used to fetch data from a database?",
+    "answer": "SELECT",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "When was the iPhone released?",
+    "answer": "2007",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Hippocampus is the Latin name for which marine creature?",
+    "answer": "Seahorse",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does LTS stand for in the software market?",
+    "answer": "Long Term Support",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "In Roman Numerals, what does XL equate to?",
+    "answer": "40",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "When was the Tamagotchi digital pet released?",
+    "answer": "1996",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the standard SI unit for distance?",
+    "answer": "Metre",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which class of animals are newts members of?",
+    "answer": "Amphibian",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "The term \"battery\" to describe an electrical storage device was coined by?",
+    "answer": "Benjamin Franklin",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Alzheimer's disease primarily affects which part of the human body?",
+    "answer": "Brain",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of a rabbit's abode?",
+    "answer": "Burrow",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "If you were to code software in this language you'd only be able to type 0's and 1's.",
+    "answer": "Binary",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What prime number comes next after 19?",
+    "answer": "23",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of a simple machine that is made up of a stiff arm that can move freely around a fixed point?",
+    "answer": "Lever",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
+    "answer": "New Zealand",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does CPU stand for?",
+    "answer": "Central Processing Unit",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many degrees make a full circle?",
+    "answer": "360",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone jack?",
+    "answer": "Courage",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Who discovered the Law of Gravity?",
+    "answer": "Sir Isaac Newton",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What do you call a baby bat?",
+    "answer": "Pup",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "In computing, what does MIDI stand for?",
+    "answer": "Musical Instrument Digital Interface",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "When did the CD begin to appear on the consumer market?",
+    "answer": "1982",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the hottest planet in the Solar System?",
+    "answer": "Venus",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "An abyssopelagic animal lives in which broad environment?",
+    "answer": "Deep ocean waters",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does the computer software acronym JVM stand for?",
+    "answer": "Java Virtual Machine",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What type of angle is greater than 90° but less than 180°?",
+    "answer": "Obtuse",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which gaming console is developed by Sony?",
+    "answer": "PlayStation",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What produces the green colour of most plant leaves?",
+    "answer": "Chlorophyll",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the fastest land animal?",
+    "answer": "Cheetah",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the formula for the volume of a sphere of radius r?",
+    "answer": "(4/3)πr^3",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is Grumpy Cat's real name?",
+    "answer": "Tardar Sauce",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "On Twitter, what was the original character limit for a Tweet?",
+    "answer": "140",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does SSD stand for in the context of computer storage?",
+    "answer": "Solid State Drive",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What does LASER stand for?",
+    "answer": "Light amplification by stimulated emission of radiation",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many teeth does an adult rabbit have?",
+    "answer": "28",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "When was the DVD invented?",
+    "answer": "1995",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which Apollo mission was the first one to land on the Moon?",
+    "answer": "Apollo 11",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "The numbering system with a radix of 16 is more commonly referred to as",
+    "answer": "Hexadecimal",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the primary addictive substance found in tobacco?",
+    "answer": "Nicotine",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+    "answer": "Capture scent particles",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many kilobytes in one gigabyte (in decimal)?",
+    "answer": "1000000",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Rhinoplasty is a surgical procedure on what part of the human body?",
+    "answer": "Nose",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the domain name for the country Tuvalu?",
+    "answer": ".tv",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which computer language would you associate Django framework with?",
+    "answer": "Python",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the mass number of the carbon isotope used to define the atomic mass unit?",
+    "answer": "12",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of Layer 7 of the OSI model?",
+    "answer": "Application",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which type of rock is created by intense heat AND pressure?",
+    "answer": "Metamorphic",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Dry ice is the solid form of what substance?",
+    "answer": "Carbon dioxide",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which natural satellite orbits Earth?",
+    "answer": "The Moon",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What do caterpillars become after metamorphosis in the butterfly life cycle?",
+    "answer": "Butterflies",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many legs does an adult insect have?",
+    "answer": "Six",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "How many legs does a spider have?",
+    "answer": "Eight",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name for water falling from clouds as liquid drops?",
+    "answer": "Rain",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What instrument is used to measure temperature?",
+    "answer": "A thermometer",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name of the star at the centre of our solar system?",
+    "answer": "The Sun",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which human organs are primarily used for breathing?",
+    "answer": "The lungs",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What is the name for a young frog before it grows legs?",
+    "answer": "A tadpole",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "What do we call an animal that eats only plants?",
+    "answer": "A herbivore",
+    "hints": []
+  },
+  {
+    "category": "Science",
+    "question": "Which sense do the ears provide?",
+    "answer": "Hearing",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many players from one team are on a soccer field at kickoff?",
+    "answer": "11",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which sport would you perform a slam dunk?",
+    "answer": "Basketball",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many rings are on the Olympic flag?",
+    "answer": "Five",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country won its fifth men's FIFA World Cup in 2002?",
+    "answer": "Brazil",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In tennis, what term describes a score of zero?",
+    "answer": "Love",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many holes are played in a standard round of golf?",
+    "answer": "18",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which sport is played with a shuttlecock?",
+    "answer": "Badminton",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many points is a touchdown worth in American football?",
+    "answer": "Six",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which sport is Michael Jordan famous for?",
+    "answer": "Basketball",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How often are the Summer Olympic Games held?",
+    "answer": "Every four years",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which Grand Slam tennis tournament is played on grass?",
+    "answer": "Wimbledon",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many players from one team are on a basketball court?",
+    "answer": "Five",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is Japan's traditional form of heavyweight wrestling?",
+    "answer": "Sumo",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which sport is the Stanley Cup awarded?",
+    "answer": "Ice hockey",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the length of a marathon in kilometres?",
+    "answer": "42.195 km",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which boxer called himself The Greatest?",
+    "answer": "Muhammad Ali",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many strikes make an out in baseball?",
+    "answer": "Three",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What colour jersey does the Tour de France leader wear?",
+    "answer": "Yellow",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In darts, how many points is the inner bullseye worth?",
+    "answer": "50",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which sport do teams compete for the America's Cup?",
+    "answer": "Sailing",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many Grand Slam tournaments are there in tennis each year?",
+    "answer": "Four",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess piece moves only diagonally?",
+    "answer": "The bishop",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which card sends a soccer player off the field?",
+    "answer": "A red card",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many players from one team are on a volleyball court?",
+    "answer": "Six",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "At the 2009 World Championships, Usain Bolt set world records in which two sprint events?",
+    "answer": "The 100m and 200m",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which sport are the terms birdie and bogey used?",
+    "answer": "Golf",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many minutes are in a standard professional soccer match?",
+    "answer": "90",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country originated the sport of table tennis?",
+    "answer": "England",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In rugby union, how many players are on each team on the field?",
+    "answer": "15",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which annual race is nicknamed The Greatest Spectacle in Racing?",
+    "answer": "The Indianapolis 500",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which wrestler won the 2019 Men’s Royal Rumble?",
+    "answer": "Seth Rollins",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "When was the board game Twister, released to the public?",
+    "answer": "April 1966",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the maximum level you can have in a single class in Dungeons and Dragons (5e)?",
+    "answer": "20",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In Dungeons and Dragons (5th edition), what stat do you normally add onto your initiative die roll?",
+    "answer": "Dexterity",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which two teams played in Super Bowl XLII?",
+    "answer": "The New York Giants & The New England Patriots",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In board games, an additional or ammended rule that applies to a certain group or place is informally known as a \"what\" rule?",
+    "answer": "House",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Carcassonne is based on which French town?",
+    "answer": "Carcassonne",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
+    "answer": "August 21",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "On a standard Monopoly board, which square is diagonally opposite 'Go'?",
+    "answer": "Free Parking",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who won the UEFA Champions League in 2016?",
+    "answer": "Real Madrid C.F.",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many dice are used in the game of Yahtzee?",
+    "answer": "Five",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What team did England beat to win in the 1966 World Cup final?",
+    "answer": "West Germany",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many spaces are there on a standard Monopoly board?",
+    "answer": "40",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What sport features the terms love, deuce, match and volley?",
+    "answer": "Tennis",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "The standard US edition of Monopoly uses street names from which New Jersey city?",
+    "answer": "Atlantic City, New Jersey",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+    "answer": "Europe",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many dots are on all six faces of a standard six-sided die?",
+    "answer": "21",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which NFL team plays for New England?",
+    "answer": "Patriots",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many pieces are there on the board at the start of a game of chess?",
+    "answer": "32",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "answer": "Nico Rosberg",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "On a modern standard UK Monopoly board, what colour are Old Kent Road and Whitechapel Road?",
+    "answer": "Brown",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country won the 2018 FIFA World Cup hosted in Russia?",
+    "answer": "France",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which year was the pen and paper RPG \"Deadlands\" released?",
+    "answer": "1996",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "When was the FC Schalke 04 founded?",
+    "answer": "1904",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In chess, which is a characteristic of the King's Gambit?",
+    "answer": "Sacrificing a pawn",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who won the 2017 Formula One World Drivers' Championship?",
+    "answer": "Lewis Hamilton",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
+    "answer": "2009",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+    "answer": "7 - 1",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which English football club has the nickname 'The Foxes'?",
+    "answer": "Leicester City",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country hosted the 2020 Summer Olympics?",
+    "answer": "Japan",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which year did Scotland and England play the first officially recognised international association football match?",
+    "answer": "1872",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Who did Steven Gerrard win the Champions League with?",
+    "answer": "Liverpool",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What team won the 2016 MLS Cup?",
+    "answer": "Seattle Sounders",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What year did the New Orleans Saints win the Super Bowl?",
+    "answer": "2010",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "answer": "Qatar",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which team won the 2015-16 English Premier League?",
+    "answer": "Leicester City",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of Manchester United's home stadium?",
+    "answer": "Old Trafford",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which African American is in part responsible for integrating Major League baseball?",
+    "answer": "Jackie Robinson",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In golf, what name is given to a hole score of two under par?",
+    "answer": "Eagle",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+    "answer": "Quebec City",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What was the year of estabilishment of the Bari Italian Football Club?",
+    "answer": "1908",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of the \"tool\" used to hit the white ball in snooker or billiards?",
+    "answer": "Cue",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
+    "answer": "Mike Tyson",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which team won 2014 FIFA World Cup in Brazil?",
+    "answer": "Germany",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "\"Stadium of Light\" is the home stadium for which soccer team?",
+    "answer": "Sunderland FC",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which country hosted the 2018 FIFA World Cup?",
+    "answer": "Russia",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In which New York City borough were the Dodgers based before moving to Los Angeles?",
+    "answer": "Brooklyn",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "In bowling, what is the term used for getting three consecutive strikes?",
+    "answer": "Turkey",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many points did LeBron James score in his first NBA game?",
+    "answer": "25",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which sport uses a bat, wickets and a ball?",
+    "answer": "Cricket",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What do cyclists wear on their heads for protection?",
+    "answer": "A helmet",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which sport involves riding ocean waves on a board?",
+    "answer": "Surfing",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which chess piece is shaped like a horse?",
+    "answer": "The knight",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What colour moves first in a standard chess game?",
+    "answer": "White",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "How many squares are on a standard chessboard?",
+    "answer": "64",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which game uses cards marked with numbers and the letters B, I, N, G and O?",
+    "answer": "Bingo",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of the object passed between runners in a relay race?",
+    "answer": "A baton",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which winter sport involves travelling downhill on two long narrow runners?",
+    "answer": "Skiing",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What do you call a person who controls a football match and enforces its rules?",
+    "answer": "A referee",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which sport uses a net, rackets and a small yellow ball on a court?",
+    "answer": "Tennis",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which leisure activity involves assembling interlocking pieces into a picture?",
+    "answer": "A jigsaw puzzle",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which sport involves throwing a heavy ball to knock down pins?",
+    "answer": "Bowling",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name for an extra player who can replace a teammate during a match?",
+    "answer": "A substitute",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which activity uses a rod, a line and a hook to catch fish?",
+    "answer": "Fishing",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is a person who climbs mountains called?",
+    "answer": "A mountaineer",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which winter sport uses a single wide board instead of two skis?",
+    "answer": "Snowboarding",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What is the name of the sport of running, swimming and cycling in one race?",
+    "answer": "Triathlon",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "What do you call the protective hand coverings worn by boxers?",
+    "answer": "Boxing gloves",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which board game involves finding words using letter tiles on a grid?",
+    "answer": "Scrabble",
+    "hints": []
+  },
+  {
+    "category": "Sports & Leisure",
+    "question": "Which leisure activity involves growing flowers or vegetables?",
+    "answer": "Gardening",
+    "hints": []
+  }
 ]
